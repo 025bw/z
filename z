@@ -244,6 +244,7 @@ LABEL : net check
 IF PIXEL COLOR EQUALS : 225 : 105 : 16745299 : 1
 GOTO : net check
 ENDIF
+DELAY : 10000
 IF PIXEL COLOR EQUALS : 56 : 811 : 1580829 : 0
 Mouse : 25 : 818 : LeftButtonDown : 0 : 0 : 0
 Mouse : 25 : 818 : LeftButtonUp : 0 : 0 : 0

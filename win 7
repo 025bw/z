@@ -320,7 +320,7 @@ IF PIXEL COLOR EQUALS : 761 : 748 : 6461126 : 0
 Mouse : 761 : 748 : LeftButtonDown : 0 : 0 : 0
 DELAY : 50
 Mouse : 761 : 748 : LeftButtonUp : 0 : 0 : 0
-DELAY : 50
+DELAY : 100
 Mouse : 1 : 72 : Move : 0 : 0 : 0
 ENDIF
 REPEAT : 100 : 0 : 0 : Enter the number of iterations: : 0 : 0
@@ -336,6 +336,7 @@ DELAY : 50
 Mouse : 1 : 839 : Move : 0 : 0 : 0
 DELAY : 50
 Mouse : 1 : 839 : LeftButtonUp : 0 : 0 : 0
+DELAY : 300
 DELAY : 100
 ENDIF
 IF PIXEL COLOR EQUALS : 8 : 839 : 591104 : 0
@@ -356,6 +357,7 @@ Mouse : C0 : C0 : LeftButtonDown : 0 : 0 : 0
 Mouse : 1 : 800 : Move : 0 : 0 : 0
 DELAY : 50
 Mouse : 1 : 800 : LeftButtonUp : 0 : 0 : 0
+DELAY : 300
 Mouse : 1 : 800 : RightButtonDown : 0 : 0 : 0
 Mouse : 1 : 800 : RightButtonUp : 0 : 0 : 0
 DELAY : 100
@@ -367,6 +369,7 @@ Mouse : C0 : C0 : LeftButtonDown : 0 : 0 : 0
 Mouse : 1 : 800 : Move : 0 : 0 : 0
 DELAY : 50
 Mouse : 1 : 800 : LeftButtonUp : 0 : 0 : 0
+DELAY : 300
 Mouse : 1 : 800 : RightButtonDown : 0 : 0 : 0
 Mouse : 1 : 800 : RightButtonUp : 0 : 0 : 0
 DELAY : 100

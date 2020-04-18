@@ -422,6 +422,7 @@ GOTO : delete sack
 ENDIF
 IF PIXEL COLOR EQUALS : 300 : 563 : 2310751 : 0
 Mouse : 370 : 553 : LeftButtonDown : 0 : 0 : 0
+DELAY : 50
 Mouse : 370 : 553 : LeftButtonUp : 0 : 0 : 0
 DELAY : 50
 Mouse : 1 : 73 : RightButtonDown : 0 : 0 : 0
@@ -431,6 +432,7 @@ GOTO : on sale
 ENDIF
 IF PIXEL COLOR EQUALS : 843 : 802 : 10779936 : 0
 Mouse : 843 : 802 : LeftButtonDown : 0 : 0 : 0
+DELAY : 50
 Mouse : 843 : 802 : LeftButtonUp : 0 : 0 : 0
 DELAY : 50
 ENDIF
@@ -438,12 +440,14 @@ REPEAT : 100 : 0 : 0 : Enter the number of iterations: : 0 : 0
 DELAY : 100
 IF PIXEL COLOR EQUALS : 395 : 548 : 16580093 : 0
 Mouse : 419 : 131 : LeftButtonDown : 0 : 0 : 0
+DELAY : 50
 Mouse : 419 : 131 : LeftButtonUp : 0 : 0 : 0
 DELAY : 100
 GOTO : delete sack
 ENDIF
 IF PIXEL COLOR EQUALS : 300 : 563 : 2310751 : 0
 Mouse : 370 : 553 : LeftButtonDown : 0 : 0 : 0
+DELAY : 50
 Mouse : 370 : 553 : LeftButtonUp : 0 : 0 : 0
 DELAY : 50
 Mouse : 1 : 73 : RightButtonDown : 0 : 0 : 0
@@ -457,6 +461,7 @@ REPEAT : 100 : 0 : 0 : Enter the number of iterations: : 0 : 0
 DELAY : 100
 IF PIXEL COLOR EQUALS : 395 : 548 : 16580093 : 0
 Mouse : 419 : 131 : LeftButtonDown : 0 : 0 : 0
+DELAY : 50
 Mouse : 419 : 131 : LeftButtonUp : 0 : 0 : 0
 DELAY : 100
 GOTO : delete sack

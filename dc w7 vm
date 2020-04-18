@@ -1,0 +1,30 @@
+LABEL : a
+IF PIXEL COLOR EQUALS : 565 : 455 : 3816080 : 0
+Mouse : 590 : 15 : LeftButtonDown : 0 : 0 : 0
+Mouse : 590 : 15 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 0 : 0 : Move : 0 : 0 : 0
+ENDIF
+IF PIXEL COLOR EQUALS : 589 : 14 : 15066339 : 0
+Mouse : 595 : 410 : LeftButtonDown : 0 : 0 : 0
+Mouse : 595 : 410 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 595 : 410 : LeftButtonDown : 0 : 0 : 0
+Mouse : 595 : 410 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 595 : 410 : LeftButtonDown : 0 : 0 : 0
+Mouse : 595 : 410 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 595 : 410 : LeftButtonDown : 0 : 0 : 0
+Mouse : 595 : 410 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+DELAY : 5000
+Mouse : 1120 : 60 : LeftButtonDown : 0 : 0 : 0
+Mouse : 1120 : 60 : LeftButtonUp : 0 : 0 : 0
+DELAY : 5000
+Mouse : 555 : 15 : LeftButtonDown : 0 : 0 : 0
+Mouse : 555 : 15 : LeftButtonUp : 0 : 0 : 0
+DELAY : 1111
+ENDIF
+DELAY : 500
+GOTO : a

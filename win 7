@@ -1550,7 +1550,7 @@ Mouse : 475 : 500 : LeftButtonDown : 0 : 0 : 0
 Mouse : 475 : 500 : LeftButtonUp : 0 : 0 : 0
 DELAY : 333
 ENDIF
-IF PIXEL COLOR EQUALS : 240 : 195 : 15778560 : 0
+IF PIXEL COLOR EQUALS : 697 : 714 : 15778560 : 0
 DELAY : 1000
 Mouse : 290 : 720 : LeftButtonDown : 0 : 0 : 0
 Mouse : 290 : 720 : LeftButtonUp : 0 : 0 : 0

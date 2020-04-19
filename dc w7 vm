@@ -1,9 +1,12 @@
 LABEL : a
 IF PIXEL COLOR EQUALS : 565 : 455 : 3816080 : 0
+Mouse : 590 : 15 : RightButtonDown : 0 : 0 : 0
+Mouse : 590 : 15 : RightButtonUp : 0 : 0 : 0
 Mouse : 590 : 15 : LeftButtonDown : 0 : 0 : 0
 Mouse : 590 : 15 : LeftButtonUp : 0 : 0 : 0
 DELAY : 50
 Mouse : 0 : 0 : Move : 0 : 0 : 0
+GOTO : a
 ENDIF
 IF PIXEL COLOR EQUALS : 589 : 14 : 15066339 : 0
 Mouse : 595 : 410 : LeftButtonDown : 0 : 0 : 0

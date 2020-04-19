@@ -1545,6 +1545,19 @@ Mouse : 475 : 500 : LeftButtonDown : 0 : 0 : 0
 Mouse : 475 : 500 : LeftButtonUp : 0 : 0 : 0
 DELAY : 333
 ENDIF
+IF PIXEL COLOR EQUALS : 427 : 424 : 10067871 : 0
+Mouse : 475 : 500 : LeftButtonDown : 0 : 0 : 0
+Mouse : 475 : 500 : LeftButtonUp : 0 : 0 : 0
+DELAY : 333
+ENDIF
+IF PIXEL COLOR EQUALS : 240 : 195 : 15778560 : 0
+DELAY : 1000
+Mouse : 290 : 720 : LeftButtonDown : 0 : 0 : 0
+Mouse : 290 : 720 : LeftButtonUp : 0 : 0 : 0
+DELAY : 100
+Mouse : 290 : 720 : LeftButtonDown : 0 : 0 : 0
+Mouse : 290 : 720 : LeftButtonUp : 0 : 0 : 0
+ENDIF
 IF PIXEL COLOR EQUALS : 560 : 425 : 6188146 : 0
 Mouse : 475 : 500 : LeftButtonDown : 0 : 0 : 0
 Mouse : 475 : 500 : LeftButtonUp : 0 : 0 : 0

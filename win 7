@@ -1567,6 +1567,10 @@ IF PIXEL COLOR EQUALS : 497 : 477 : 13487565 : 0
 Mouse : 510 : 565 : LeftButtonDown : 0 : 0 : 0
 Mouse : 510 : 565 : LeftButtonUp : 0 : 0 : 0
 ENDIF
+IF PIXEL COLOR EQUALS : 469 : 424 : 16777215 : 0
+Mouse : 510 : 500 : LeftButtonDown : 0 : 0 : 0
+Mouse : 510 : 500 : LeftButtonUp : 0 : 0 : 0
+ENDIF
 IF PIXEL COLOR EQUALS : 566 : 448 : 7173481 : 0
 DELAY : 100
 GOTO : ring

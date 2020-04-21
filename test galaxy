@@ -1,0 +1,24 @@
+LABEL : a
+IF PIXEL COLOR EQUALS : 495 : 283 : 4074867 : 0
+DELAY : 10000
+GOTO : check
+ENDIF
+IF PIXEL COLOR EQUALS : 466 : 684 : 16777215 : 0
+Mouse : 466 : 684 : LeftButtonDown : 0 : 0 : 0
+Mouse : 466 : 684 : LeftButtonUp : 0 : 0 : 0
+DELAY : 10000
+ENDIF
+IF PIXEL COLOR EQUALS : 481 : 321 : 16177051 : 0
+Mouse : 505 : 378 : Click : 0 : 0 : 0
+ENDIF
+IF PIXEL COLOR EQUALS : 164 : 81 : 16177051 : 0
+Mouse : 186 : 143 : Click : 0 : 0 : 0
+ENDIF
+GOTO : a
+LABEL : check
+IF PIXEL COLOR EQUALS : 495 : 283 : 4074867 : 0
+CLOSE WINDOW : League of Legends : 1
+CLOSE WINDOW : League of Legends : 1
+SWITCH TO WINDOW : Garena - Game Center : 0
+ENDIF
+GOTO : a

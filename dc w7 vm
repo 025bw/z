@@ -1,33 +1,22 @@
 LABEL : a
-IF PIXEL COLOR EQUALS : 565 : 455 : 3816080 : 0
-Mouse : 590 : 15 : RightButtonDown : 0 : 0 : 0
-Mouse : 590 : 15 : RightButtonUp : 0 : 0 : 0
-Mouse : 590 : 15 : LeftButtonDown : 0 : 0 : 0
-Mouse : 590 : 15 : LeftButtonUp : 0 : 0 : 0
+IF PIXEL COLOR EQUALS : 566 : 442 : 14992 : 0
+Mouse : 595 : 15 : Click : 0 : 0 : 0
+Mouse : 595 : 15 : RightClick : 0 : 0 : 0
+Mouse : 595 : 15 : Click : 0 : 0 : 0
 DELAY : 50
-Mouse : 0 : 0 : Move : 0 : 0 : 0
-GOTO : a
 ENDIF
-IF PIXEL COLOR EQUALS : 589 : 14 : 15066339 : 0
-Mouse : 595 : 410 : LeftButtonDown : 0 : 0 : 0
-Mouse : 595 : 410 : LeftButtonUp : 0 : 0 : 0
-DELAY : 50
-Mouse : 595 : 410 : LeftButtonDown : 0 : 0 : 0
-Mouse : 595 : 410 : LeftButtonUp : 0 : 0 : 0
-DELAY : 50
-Mouse : 595 : 410 : LeftButtonDown : 0 : 0 : 0
-Mouse : 595 : 410 : LeftButtonUp : 0 : 0 : 0
-DELAY : 50
-Mouse : 595 : 410 : LeftButtonDown : 0 : 0 : 0
-Mouse : 595 : 410 : LeftButtonUp : 0 : 0 : 0
-DELAY : 50
+IF PIXEL COLOR EQUALS : 595 : 15 : 15066339 : 0
+Mouse : 599 : 403 : Click : 0 : 0 : 0
+Mouse : 599 : 403 : RightClick : 0 : 0 : 0
+Mouse : 599 : 403 : Click : 0 : 0 : 0
 DELAY : 5000
-Mouse : 1120 : 60 : LeftButtonDown : 0 : 0 : 0
-Mouse : 1120 : 60 : LeftButtonUp : 0 : 0 : 0
+Keyboard : LWindows : KeyDown
+Keyboard : ShiftLeft : KeyDown
+Keyboard : D1 : KeyDown
+Keyboard : D1 : KeyUp
+Keyboard : ShiftLeft : KeyUp
+Keyboard : LWindows : KeyUp
 DELAY : 5000
-Mouse : 555 : 15 : LeftButtonDown : 0 : 0 : 0
-Mouse : 555 : 15 : LeftButtonUp : 0 : 0 : 0
-DELAY : 1111
+Mouse : 560 : 15 : Click : 0 : 0 : 0
 ENDIF
-DELAY : 500
 GOTO : a

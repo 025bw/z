@@ -1,14 +1,14 @@
 LABEL : a
-IF PIXEL COLOR EQUALS : 566 : 442 : 14992 : 0
+IF PIXEL COLOR EQUALS : 562 : 442 : 14992 : 0
 Mouse : 595 : 15 : Click : 0 : 0 : 0
 Mouse : 595 : 15 : RightClick : 0 : 0 : 0
 Mouse : 595 : 15 : Click : 0 : 0 : 0
 DELAY : 50
 ENDIF
-IF PIXEL COLOR EQUALS : 595 : 15 : 15066339 : 0
-Mouse : 599 : 403 : Click : 0 : 0 : 0
-Mouse : 599 : 403 : RightClick : 0 : 0 : 0
-Mouse : 599 : 403 : Click : 0 : 0 : 0
+IF PIXEL COLOR EQUALS : 591 : 15 : 15066339 : 0
+Mouse : 595 : 403 : Click : 0 : 0 : 0
+Mouse : 595 : 403 : RightClick : 0 : 0 : 0
+Mouse : 595 : 403 : Click : 0 : 0 : 0
 DELAY : 5000
 Keyboard : LWindows : KeyDown
 Keyboard : ShiftLeft : KeyDown
@@ -19,4 +19,5 @@ Keyboard : LWindows : KeyUp
 DELAY : 5000
 Mouse : 560 : 15 : Click : 0 : 0 : 0
 ENDIF
+DELAY : 50
 GOTO : a

@@ -1535,6 +1535,7 @@ Mouse : 515 : 565 : LeftButtonUp : 0 : 0 : 0
 DELAY : 100
 GOTO : enter
 ENDIF
+GOTO : account
 LABEL : enter
 IF PIXEL COLOR EQUALS : 573 : 422 : 16448251 : 0
 Mouse : 512 : 498 : LeftButtonDown : 0 : 0 : 0

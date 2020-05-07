@@ -1,68 +1,87 @@
 LABEL : a
 LABEL : 2
-IF PIXEL COLOR EQUALS : 509 : 461 : 0 : 0
-DELAY : 2000
+IF PIXEL COLOR EQUALS : 499 : 461 : 0 : 0
+DELAY : 10
 GOTO : test
 ENDIF
 LABEL : 19
 IF PIXEL COLOR EQUALS : 505 : 460 : 0 : 0
-DELAY : 2000
+DELAY : 10
 GOTO : test
 ENDIF
+LABEL : 16
 IF PIXEL COLOR EQUALS : 495 : 460 : 0 : 0
-DELAY : 2000
+DELAY : 10
 GOTO : test
 ENDIF
+LABEL : 1
 IF PIXEL COLOR EQUALS : 515 : 460 : 0 : 0
-DELAY : 2000
+DELAY : 10
 GOTO : test
 ENDIF
+LABEL : 20
+IF PIXEL COLOR EQUALS : 445 : 460 : 0 : 0
+DELAY : 10
+GOTO : test
+ENDIF
+LABEL : 3
 IF PIXEL COLOR EQUALS : 358 : 460 : 0 : 0
-DELAY : 2000
+DELAY : 10
 GOTO : test
 ENDIF
-IF PIXEL COLOR EQUALS : 419 : 460 : 0 : 0
-DELAY : 2000
+LABEL : 4
+IF PIXEL COLOR EQUALS : 522 : 460 : 0 : 0
+DELAY : 10
 GOTO : test
 ENDIF
+LABEL : 5 - 12
 IF PIXEL COLOR EQUALS : 459 : 460 : 0 : 0
-DELAY : 2000
+DELAY : 10
 GOTO : test
 ENDIF
+LABEL : 6
 IF PIXEL COLOR EQUALS : 455 : 460 : 0 : 0
-DELAY : 2000
+DELAY : 10
 GOTO : test
 ENDIF
+LABEL : 7
 IF PIXEL COLOR EQUALS : 411 : 460 : 0 : 0
-DELAY : 2000
+DELAY : 10
 GOTO : test
 ENDIF
+LABEL : 15
 IF PIXEL COLOR EQUALS : 437 : 460 : 0 : 0
-DELAY : 2000
+DELAY : 10
 GOTO : test
 ENDIF
+LABEL : 8
 IF PIXEL COLOR EQUALS : 397 : 460 : 0 : 0
-DELAY : 2000
+DELAY : 10
 GOTO : test
 ENDIF
+LABEL : 9
 IF PIXEL COLOR EQUALS : 440 : 460 : 0 : 0
-DELAY : 2000
+DELAY : 10
 GOTO : test
 ENDIF
+LABEL : 10
 IF PIXEL COLOR EQUALS : 442 : 460 : 0 : 0
-DELAY : 2000
+DELAY : 10
 GOTO : test
 ENDIF
-IF PIXEL COLOR EQUALS : 443 : 461 : 0 : 0
-DELAY : 2000
+LABEL : 18
+IF PIXEL COLOR EQUALS : 469 : 461 : 0 : 0
+DELAY : 10
 GOTO : test
 ENDIF
+LABEL : 13
 IF PIXEL COLOR EQUALS : 512 : 460 : 0 : 0
-DELAY : 2000
+DELAY : 10
 GOTO : test
 ENDIF
+LABEL : 14
 IF PIXEL COLOR EQUALS : 418 : 460 : 0 : 0
-DELAY : 2000
+DELAY : 10
 GOTO : test
 ENDIF
 IF PIXEL COLOR EQUALS : 1019 : 98 : 11913050 : 0
@@ -74,76 +93,73 @@ ENDIF
 DELAY : 100
 GOTO : a
 LABEL : test
-IF PIXEL COLOR EQUALS : 866 : 114 : 9726249 : 0
-Mouse : 450 : 411 : Move : 0 : 0 : 0
-DELAY : 50
-Mouse : 450 : 411 : LeftButtonDown : 0 : 0 : 0
-Mouse : 450 : 411 : LeftButtonUp : 0 : 0 : 0
+LABEL : t2
+IF PIXEL COLOR EQUALS : 499 : 461 : 0 : 0
+Mouse : 424 : 476 : Click : 0 : 0 : 0
 ENDIF
-IF PIXEL COLOR EQUALS : 495 : 460 : 0 : 0
-Mouse : 465 : 476 : LeftButtonDown : 0 : 0 : 0
-Mouse : C0 : C0 : LeftButtonUp : 0 : 0 : 0
-ENDIF
-IF PIXEL COLOR EQUALS : 509 : 461 : 0 : 0
-DELAY : 2000
-Mouse : 423 : 476 : LeftButtonDown : 0 : 0 : 0
-Mouse : C0 : C0 : LeftButtonUp : 0 : 0 : 0
-ENDIF
-IF PIXEL COLOR EQUALS : 515 : 460 : 0 : 0
-Mouse : 403 : 476 : LeftButtonDown : 0 : 0 : 0
-Mouse : C0 : C0 : LeftButtonUp : 0 : 0 : 0
-ENDIF
-IF PIXEL COLOR EQUALS : 358 : 460 : 0 : 0
-Mouse : 422 : 476 : LeftButtonDown : 0 : 0 : 0
-Mouse : C0 : C0 : LeftButtonUp : 0 : 0 : 0
-ENDIF
-IF PIXEL COLOR EQUALS : 419 : 460 : 0 : 0
-Mouse : 479 : 476 : LeftButtonDown : 0 : 0 : 0
-Mouse : C0 : C0 : LeftButtonUp : 0 : 0 : 0
-ENDIF
-IF PIXEL COLOR EQUALS : 459 : 460 : 0 : 0
-Mouse : 463 : 478 : LeftButtonDown : 0 : 0 : 0
-Mouse : C0 : C0 : LeftButtonUp : 0 : 0 : 0
-ENDIF
-IF PIXEL COLOR EQUALS : 455 : 460 : 0 : 0
-Mouse : 483 : 478 : LeftButtonDown : 0 : 0 : 0
-Mouse : C0 : C0 : LeftButtonUp : 0 : 0 : 0
-ENDIF
-IF PIXEL COLOR EQUALS : 411 : 460 : 0 : 0
-Mouse : 413 : 478 : LeftButtonDown : 0 : 0 : 0
-Mouse : C0 : C0 : LeftButtonUp : 0 : 0 : 0
-ENDIF
-IF PIXEL COLOR EQUALS : 397 : 460 : 0 : 0
-Mouse : 433 : 478 : LeftButtonDown : 0 : 0 : 0
-Mouse : C0 : C0 : LeftButtonUp : 0 : 0 : 0
-ENDIF
-IF PIXEL COLOR EQUALS : 440 : 460 : 0 : 0
-Mouse : 519 : 478 : LeftButtonDown : 0 : 0 : 0
-Mouse : C0 : C0 : LeftButtonUp : 0 : 0 : 0
-ENDIF
-IF PIXEL COLOR EQUALS : 442 : 460 : 0 : 0
-Mouse : 422 : 478 : LeftButtonDown : 0 : 0 : 0
-Mouse : C0 : C0 : LeftButtonUp : 0 : 0 : 0
-ENDIF
-IF PIXEL COLOR EQUALS : 512 : 460 : 0 : 0
-Mouse : 457 : 477 : LeftButtonDown : 0 : 0 : 0
-Mouse : C0 : C0 : LeftButtonUp : 0 : 0 : 0
-ENDIF
-IF PIXEL COLOR EQUALS : 443 : 461 : 0 : 0
-Mouse : 532 : 476 : LeftButtonDown : 0 : 0 : 0
-Mouse : C0 : C0 : LeftButtonUp : 0 : 0 : 0
-ENDIF
-IF PIXEL COLOR EQUALS : 418 : 460 : 0 : 0
-Mouse : 365 : 477 : LeftButtonDown : 0 : 0 : 0
-Mouse : C0 : C0 : LeftButtonUp : 0 : 0 : 0
-ENDIF
-IF PIXEL COLOR EQUALS : 437 : 460 : 0 : 0
-Mouse : 485 : 478 : LeftButtonDown : 0 : 0 : 0
-Mouse : C0 : C0 : LeftButtonUp : 0 : 0 : 0
-ENDIF
+LABEL : t19
 IF PIXEL COLOR EQUALS : 505 : 460 : 0 : 0
-Mouse : 485 : 478 : LeftButtonDown : 0 : 0 : 0
-Mouse : C0 : C0 : LeftButtonUp : 0 : 0 : 0
+Mouse : 505 : 479 : Click : 0 : 0 : 0
+ENDIF
+LABEL : t16
+IF PIXEL COLOR EQUALS : 495 : 460 : 0 : 0
+Mouse : 463 : 479 : Click : 0 : 0 : 0
+ENDIF
+LABEL : t1
+IF PIXEL COLOR EQUALS : 515 : 460 : 0 : 0
+Mouse : 403 : 479 : Click : 0 : 0 : 0
+ENDIF
+LABEL : t20
+IF PIXEL COLOR EQUALS : 445 : 460 : 0 : 0
+Mouse : 421 : 475 : Click : 0 : 0 : 0
+ENDIF
+LABEL : t3
+IF PIXEL COLOR EQUALS : 358 : 460 : 0 : 0
+Mouse : 421 : 476 : Click : 0 : 0 : 0
+ENDIF
+LABEL : t4
+IF PIXEL COLOR EQUALS : 522 : 460 : 0 : 0
+Mouse : 477 : 476 : Click : 0 : 0 : 0
+ENDIF
+LABEL : t5 - 12
+IF PIXEL COLOR EQUALS : 459 : 460 : 0 : 0
+Mouse : 463 : 476 : Click : 0 : 0 : 0
+ENDIF
+LABEL : t6
+IF PIXEL COLOR EQUALS : 455 : 460 : 0 : 0
+Mouse : 481 : 476 : Click : 0 : 0 : 0
+ENDIF
+LABEL : t7
+IF PIXEL COLOR EQUALS : 411 : 460 : 0 : 0
+Mouse : 415 : 472 : Click : 0 : 0 : 0
+ENDIF
+LABEL : t15
+IF PIXEL COLOR EQUALS : 437 : 460 : 0 : 0
+Mouse : 484 : 475 : Click : 0 : 0 : 0
+ENDIF
+LABEL : t8
+IF PIXEL COLOR EQUALS : 397 : 460 : 0 : 0
+Mouse : 432 : 476 : Click : 0 : 0 : 0
+ENDIF
+LABEL : t9
+IF PIXEL COLOR EQUALS : 440 : 460 : 0 : 0
+Mouse : 520 : 479 : Click : 0 : 0 : 0
+ENDIF
+LABEL : t10
+IF PIXEL COLOR EQUALS : 442 : 460 : 0 : 0
+Mouse : 422 : 479 : Click : 0 : 0 : 0
+ENDIF
+LABEL : t18
+IF PIXEL COLOR EQUALS : 469 : 461 : 0 : 0
+Mouse : 533 : 479 : Click : 0 : 0 : 0
+ENDIF
+LABEL : t13
+IF PIXEL COLOR EQUALS : 512 : 460 : 0 : 0
+Mouse : 457 : 476 : Click : 0 : 0 : 0
+ENDIF
+LABEL : t14
+IF PIXEL COLOR EQUALS : 418 : 460 : 0 : 0
+Mouse : 366 : 479 : Click : 0 : 0 : 0
 ENDIF
 IF PIXEL COLOR EQUALS : 861 : 252 : 12828025 : 0
 Mouse : 450 : 411 : Move : 0 : 0 : 0

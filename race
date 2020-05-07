@@ -1,0 +1,154 @@
+LABEL : a
+LABEL : 2
+IF PIXEL COLOR EQUALS : 509 : 461 : 0 : 0
+DELAY : 2000
+GOTO : test
+ENDIF
+LABEL : 19
+IF PIXEL COLOR EQUALS : 505 : 460 : 0 : 0
+DELAY : 2000
+GOTO : test
+ENDIF
+IF PIXEL COLOR EQUALS : 495 : 460 : 0 : 0
+DELAY : 2000
+GOTO : test
+ENDIF
+IF PIXEL COLOR EQUALS : 515 : 460 : 0 : 0
+DELAY : 2000
+GOTO : test
+ENDIF
+IF PIXEL COLOR EQUALS : 358 : 460 : 0 : 0
+DELAY : 2000
+GOTO : test
+ENDIF
+IF PIXEL COLOR EQUALS : 419 : 460 : 0 : 0
+DELAY : 2000
+GOTO : test
+ENDIF
+IF PIXEL COLOR EQUALS : 459 : 460 : 0 : 0
+DELAY : 2000
+GOTO : test
+ENDIF
+IF PIXEL COLOR EQUALS : 455 : 460 : 0 : 0
+DELAY : 2000
+GOTO : test
+ENDIF
+IF PIXEL COLOR EQUALS : 411 : 460 : 0 : 0
+DELAY : 2000
+GOTO : test
+ENDIF
+IF PIXEL COLOR EQUALS : 437 : 460 : 0 : 0
+DELAY : 2000
+GOTO : test
+ENDIF
+IF PIXEL COLOR EQUALS : 397 : 460 : 0 : 0
+DELAY : 2000
+GOTO : test
+ENDIF
+IF PIXEL COLOR EQUALS : 440 : 460 : 0 : 0
+DELAY : 2000
+GOTO : test
+ENDIF
+IF PIXEL COLOR EQUALS : 442 : 460 : 0 : 0
+DELAY : 2000
+GOTO : test
+ENDIF
+IF PIXEL COLOR EQUALS : 443 : 461 : 0 : 0
+DELAY : 2000
+GOTO : test
+ENDIF
+IF PIXEL COLOR EQUALS : 512 : 460 : 0 : 0
+DELAY : 2000
+GOTO : test
+ENDIF
+IF PIXEL COLOR EQUALS : 418 : 460 : 0 : 0
+DELAY : 2000
+GOTO : test
+ENDIF
+IF PIXEL COLOR EQUALS : 1019 : 98 : 11913050 : 0
+GOTO : test
+ENDIF
+IF PIXEL COLOR EQUALS : 999 : 100 : 14605229 : 0
+GOTO : test
+ENDIF
+DELAY : 100
+GOTO : a
+LABEL : test
+IF PIXEL COLOR EQUALS : 866 : 114 : 9726249 : 0
+Mouse : 450 : 411 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 450 : 411 : LeftButtonDown : 0 : 0 : 0
+Mouse : 450 : 411 : LeftButtonUp : 0 : 0 : 0
+ENDIF
+IF PIXEL COLOR EQUALS : 495 : 460 : 0 : 0
+Mouse : 465 : 476 : LeftButtonDown : 0 : 0 : 0
+Mouse : C0 : C0 : LeftButtonUp : 0 : 0 : 0
+ENDIF
+IF PIXEL COLOR EQUALS : 509 : 461 : 0 : 0
+DELAY : 2000
+Mouse : 423 : 476 : LeftButtonDown : 0 : 0 : 0
+Mouse : C0 : C0 : LeftButtonUp : 0 : 0 : 0
+ENDIF
+IF PIXEL COLOR EQUALS : 515 : 460 : 0 : 0
+Mouse : 403 : 476 : LeftButtonDown : 0 : 0 : 0
+Mouse : C0 : C0 : LeftButtonUp : 0 : 0 : 0
+ENDIF
+IF PIXEL COLOR EQUALS : 358 : 460 : 0 : 0
+Mouse : 422 : 476 : LeftButtonDown : 0 : 0 : 0
+Mouse : C0 : C0 : LeftButtonUp : 0 : 0 : 0
+ENDIF
+IF PIXEL COLOR EQUALS : 419 : 460 : 0 : 0
+Mouse : 479 : 476 : LeftButtonDown : 0 : 0 : 0
+Mouse : C0 : C0 : LeftButtonUp : 0 : 0 : 0
+ENDIF
+IF PIXEL COLOR EQUALS : 459 : 460 : 0 : 0
+Mouse : 463 : 478 : LeftButtonDown : 0 : 0 : 0
+Mouse : C0 : C0 : LeftButtonUp : 0 : 0 : 0
+ENDIF
+IF PIXEL COLOR EQUALS : 455 : 460 : 0 : 0
+Mouse : 483 : 478 : LeftButtonDown : 0 : 0 : 0
+Mouse : C0 : C0 : LeftButtonUp : 0 : 0 : 0
+ENDIF
+IF PIXEL COLOR EQUALS : 411 : 460 : 0 : 0
+Mouse : 413 : 478 : LeftButtonDown : 0 : 0 : 0
+Mouse : C0 : C0 : LeftButtonUp : 0 : 0 : 0
+ENDIF
+IF PIXEL COLOR EQUALS : 397 : 460 : 0 : 0
+Mouse : 433 : 478 : LeftButtonDown : 0 : 0 : 0
+Mouse : C0 : C0 : LeftButtonUp : 0 : 0 : 0
+ENDIF
+IF PIXEL COLOR EQUALS : 440 : 460 : 0 : 0
+Mouse : 519 : 478 : LeftButtonDown : 0 : 0 : 0
+Mouse : C0 : C0 : LeftButtonUp : 0 : 0 : 0
+ENDIF
+IF PIXEL COLOR EQUALS : 442 : 460 : 0 : 0
+Mouse : 422 : 478 : LeftButtonDown : 0 : 0 : 0
+Mouse : C0 : C0 : LeftButtonUp : 0 : 0 : 0
+ENDIF
+IF PIXEL COLOR EQUALS : 512 : 460 : 0 : 0
+Mouse : 457 : 477 : LeftButtonDown : 0 : 0 : 0
+Mouse : C0 : C0 : LeftButtonUp : 0 : 0 : 0
+ENDIF
+IF PIXEL COLOR EQUALS : 443 : 461 : 0 : 0
+Mouse : 532 : 476 : LeftButtonDown : 0 : 0 : 0
+Mouse : C0 : C0 : LeftButtonUp : 0 : 0 : 0
+ENDIF
+IF PIXEL COLOR EQUALS : 418 : 460 : 0 : 0
+Mouse : 365 : 477 : LeftButtonDown : 0 : 0 : 0
+Mouse : C0 : C0 : LeftButtonUp : 0 : 0 : 0
+ENDIF
+IF PIXEL COLOR EQUALS : 437 : 460 : 0 : 0
+Mouse : 485 : 478 : LeftButtonDown : 0 : 0 : 0
+Mouse : C0 : C0 : LeftButtonUp : 0 : 0 : 0
+ENDIF
+IF PIXEL COLOR EQUALS : 505 : 460 : 0 : 0
+Mouse : 485 : 478 : LeftButtonDown : 0 : 0 : 0
+Mouse : C0 : C0 : LeftButtonUp : 0 : 0 : 0
+ENDIF
+IF PIXEL COLOR EQUALS : 861 : 252 : 12828025 : 0
+Mouse : 450 : 411 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 450 : 411 : LeftButtonDown : 0 : 0 : 0
+Mouse : 450 : 411 : LeftButtonUp : 0 : 0 : 0
+ENDIF
+GOTO : a

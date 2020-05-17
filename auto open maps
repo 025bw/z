@@ -1,4 +1,4 @@
-SET CLIPBOARD :  : 1 : Please enter the text to store in clipboard:
+SET CLIPBOARD : 32 : 1 : Please enter the text to store in clipboard:
 LABEL : y
 IF CLIPBOARD EQUALS : o : 0 : 0
 GOTO : o
@@ -8,6 +8,9 @@ Mouse : 965 : 260 : Click : 0 : 0 : 0
 ENDIF
 IF CLIPBOARD EQUALS : m : 0 : 1
 GOTO : move
+ENDIF
+IF CLIPBOARD EQUALS : 0 : 0 : 0
+GOTO : x
 ENDIF
 IF CLIPBOARD EQUALS : 1 : 0 : 0
 GOTO : 1
@@ -224,7 +227,7 @@ Mouse : 0 : 0 : LeftButtonUp : 0 : 1 : 0
 GOTO : move
 ENDIF
 LABEL : x
-REPEAT : 18 : 0 : 0 : Enter the number of iterations: : 0 : 0
+REPEAT : 36 : 0 : 0 : Enter the number of iterations: : 0 : 0
 IF PIXEL FOUND : 13238784 : 0 : 1 : 167 : 935 : 172 : 941
 GOTO : 0.0
 ELSE
@@ -525,7 +528,7 @@ DELAY : 1
 Mouse : 253 : 810 : RightButtonDown : 0 : 0 : 0
 DELAY : 1
 Mouse : 253 : 810 : RightButtonUp : 0 : 0 : 0
-DELAY : 1
+DELAY : 100
 IF PIXEL COLOR EQUALS : 937 : 172 : 0 : 0
 GOTO : z
 ENDIF
@@ -536,6 +539,7 @@ LABEL : zz
 IF PIXEL COLOR EQUALS : 937 : 172 : 0 : 0
 GOTO : zz
 ENDIF
+LABEL : swap
 GOTO : y
 LABEL : 1
 Mouse : 490 : 613 : LeftButtonDown : 0 : 0 : 0
@@ -858,6 +862,10 @@ Mouse : 635 : 515 : LeftButtonDown : 0 : 0 : 0
 Mouse : 635 : 515 : LeftButtonUp : 0 : 0 : 0
 DELAY : 50
 Mouse : 479 : 367 : Click : 0 : 0 : 0
+IF PIXEL COLOR EQUALS : 914 : 80 : 16645887 : 0
+DELAY : 1000
+GOTO : 35
+ENDIF
 DELAY : 50
 GOTO : 0.0
 LABEL : 36
@@ -1069,6 +1077,9 @@ Mouse : 605 : 520 : LeftButtonDown : 0 : 0 : 0
 Mouse : 605 : 520 : LeftButtonUp : 0 : 0 : 0
 DELAY : 50
 Mouse : 528 : 627 : Click : 0 : 0 : 0
+IF PIXEL COLOR EQUALS : 928 : 80 : 15200249 : 0
+GOTO : 55
+ENDIF
 DELAY : 50
 GOTO : 0.0
 LABEL : 56
@@ -1189,10 +1200,10 @@ IF PIXEL COLOR EQUALS : 610 : 715 : 8551784 : 0
 GOTO : 0.0
 ENDIF
 IF PIXEL COLOR EQUALS : 849 : 254 : 0 : 0
-GOTO : y
+GOTO : x
 ENDIF
 IF PIXEL COLOR EQUALS : 827 : 226 : 11445904 : 0
-GOTO : y
+GOTO : x
 ELSE
 GOTO : x
 ENDIF

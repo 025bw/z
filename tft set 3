@@ -1,0 +1,197 @@
+LABEL : accept
+IF WINDOW EXISTS : League of Legends (TM) Client : 0
+GOTO : claim
+ENDIF
+IF PIXEL COLOR EQUALS : 0 : 0 : 1976365 : 1
+Keyboard : F10 : KeyDown
+Keyboard : F10 : KeyUp
+ENDIF
+LABEL : claim
+IF PIXEL COLOR EQUALS : 462 : 530 : 13150829 : 0
+Mouse : 512 : 540 : LeftButtonDown : 0 : 0 : 0
+DELAY : 50
+Mouse : 512 : 540 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+ENDIF
+LABEL : requeue
+DELAY : 50
+IF PIXEL COLOR EQUALS : 355 : 545 : 8485475 : 0
+Mouse : 400 : 540 : LeftButtonDown : 0 : 0 : 0
+DELAY : 50
+Mouse : 400 : 540 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 400 : 500 : Move : 0 : 0 : 0
+DELAY : 50
+ENDIF
+LABEL : queue
+IF PIXEL COLOR EQUALS : 355 : 540 : 8485475 : 0
+Mouse : 400 : 540 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 400 : 540 : LeftButtonDown : 0 : 0 : 0
+DELAY : 50
+Mouse : 400 : 540 : LeftButtonUp : 0 : 0 : 0
+DELAY : 1111
+Mouse : 400 : 500 : Move : 0 : 0 : 0
+ENDIF
+IF PIXEL COLOR EQUALS : 429 : 544 : 6517135 : 0
+Mouse : 436 : 548 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 436 : 548 : LeftButtonDown : 0 : 0 : 0
+DELAY : 50
+Mouse : 436 : 548 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 555 : 35 : Move : 0 : 0 : 0
+ENDIF
+IF PIXEL COLOR EQUALS : 510 : 429 : 11067624 : 0
+Mouse : 510 : 430 : LeftButtonDown : 0 : 0 : 0
+DELAY : 50
+Mouse : 510 : 430 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+ENDIF
+IF PIXEL COLOR EQUALS : 80 : 40 : 1975080 : 0
+Mouse : 80 : 40 : Click : 0 : 0 : 0
+ENDIF
+IF PIXEL COLOR EQUALS : 699 : 148 : 11707774 : 0
+Mouse : 434 : 553 : Click : 0 : 0 : 0
+ENDIF
+IF PIXEL COLOR EQUALS : 89 : 165 : 291978 : 0
+Mouse : 700 : 171 : Click : 0 : 0 : 0
+ENDIF
+IF PIXEL COLOR EQUALS : 429 : 539 : 8747319 : 0
+Mouse : 428 : 539 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 428 : 539 : LeftButtonDown : 0 : 0 : 0
+DELAY : 50
+Mouse : 428 : 539 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 555 : 35 : Move : 0 : 0 : 0
+ENDIF
+IF PIXEL COLOR EQUALS : 512 : 429 : 703663 : 0
+Mouse : 512 : 440 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 512 : 440 : LeftButtonDown : 0 : 0 : 0
+DELAY : 50
+Mouse : 512 : 440 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 555 : 35 : Move : 0 : 0 : 0
+ENDIF
+IF PIXEL COLOR EQUALS : 515 : 537 : 7565404 : 0
+Mouse : 515 : 537 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 515 : 537 : LeftButtonDown : 0 : 0 : 0
+DELAY : 50
+Mouse : 515 : 537 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 555 : 35 : Move : 0 : 0 : 0
+ENDIF
+IF PIXEL COLOR EQUALS : 822 : 591 : 4605750 : 0
+Mouse : 866 : 606 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 866 : 606 : LeftButtonDown : 0 : 0 : 0
+DELAY : 50
+Mouse : 866 : 606 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 555 : 35 : Move : 0 : 0 : 0
+ENDIF
+IF PIXEL COLOR EQUALS : 535 : 417 : 13018731 : 0
+Mouse : 635 : 437 : LeftButtonDown : 0 : 0 : 0
+DELAY : 50
+Mouse : 635 : 437 : LeftButtonUp : 0 : 0 : 0
+DELAY : 1111
+ENDIF
+IF PIXEL COLOR EQUALS : 542 : 424 : 539722 : 0
+Mouse : 635 : 437 : LeftButtonDown : 0 : 0 : 0
+DELAY : 50
+Mouse : 635 : 437 : LeftButtonUp : 0 : 0 : 0
+DELAY : 1111
+ENDIF
+IF PIXEL COLOR EQUALS : 721 : 510 : 9338714 : 0
+Mouse : 830 : 533 : LeftButtonDown : 0 : 0 : 0
+DELAY : 50
+Mouse : 830 : 533 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 555 : 35 : Move : 0 : 0 : 0
+ENDIF
+IF PIXEL COLOR EQUALS : 725 : 514 : 3241381 : 0
+Mouse : 830 : 533 : LeftButtonDown : 0 : 0 : 0
+DELAY : 50
+Mouse : 830 : 533 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 555 : 35 : Move : 0 : 0 : 0
+ENDIF
+IF PIXEL COLOR EQUALS : 444 : 535 : 366250 : 0
+Mouse : 444 : 544 : Click : 0 : 0 : 0
+DELAY : 50
+Mouse : 555 : 35 : Move : 0 : 0 : 0
+ENDIF
+IF PIXEL COLOR EQUALS : 444 : 530 : 366250 : 0
+Mouse : 444 : 544 : Click : 0 : 0 : 0
+DELAY : 50
+Mouse : 555 : 35 : Move : 0 : 0 : 0
+ENDIF
+IF PIXEL COLOR EQUALS : 444 : 530 : 9891303 : 0
+Mouse : 444 : 544 : Click : 0 : 0 : 0
+DELAY : 50
+Mouse : 555 : 35 : Move : 0 : 0 : 0
+ENDIF
+LABEL : buy
+IF IMAGE : Qk1OAQAAAAAAADYAAAAoAAAACgAAAAcAAAABACAAAAAAAAAAAADEDgAAxA4AAAAAAAAAAAAAODg4/zg4OP84ODj/ODg4/21tbf/Y2Nj/fn5+/35+fv/Y2Nj/bW1t/zg4OP84ODj/ODg4/5OTk/9PT0//2NjY/9jY2P/Y2Nj/2NjY/1BQUP84ODj/ODg4/6enp/94eHj/wsLC/9jY2P/Y2Nj/2NjY/9jY2P/BwcH/ODg4/6Ghof/U1NT/U1NT/9jY2P/Y2Nj/2NjY/9jY2P/Y2Nj/2NjY/zg4OP8/Pz//OTk5/3V1df9CQkL/dXV1/9jY2P/Y2Nj/dXV1/0NDQ/84ODj/ODg4/zw8PP/Y2Nj/1dXV/z8/P/+kpKT/pKSk/0BAQP/Y2Nj/ODg4/zg4OP9qamr/1NTU/0hISP84ODj/ODg4/zg4OP85OTn/SkpK/w== : 1 : 30 : 0 : 487;984;825;50
+Mouse : 0 : 0 : LeftButtonDown : 0 : 1 : 0
+DELAY : 111
+Mouse : 0 : 0 : LeftButtonUp : 0 : 1 : 0
+DELAY : 111
+Mouse : 0 : 0 : LeftButtonDown : 0 : 1 : 0
+DELAY : 111
+Mouse : 0 : 0 : LeftButtonUp : 0 : 1 : 0
+DELAY : 222
+Mouse : 887 : 894 : Move : 0 : 0 : 0
+SET CLIPBOARD : 1 : 0 : Please enter the text to store in clipboard:
+ENDIF
+LABEL : 7
+IF PIXEL COLOR EQUALS : 876 : 890 : 14011836 : 0
+GOTO : roll
+ENDIF
+IF PIXEL COLOR EQUALS : 876 : 898 : 15064265 : 0
+GOTO : roll
+ENDIF
+GOTO : accept
+LABEL : roll
+LABEL : lvl 5
+IF PIXEL COLOR EQUALS : 324 : 889 : 12301476 : 0
+Mouse : 380 : 965 : LeftButtonDown : 0 : 0 : 0
+DELAY : 50
+Mouse : 380 : 965 : LeftButtonUp : 0 : 0 : 0
+DELAY : 111
+GOTO : buy
+ENDIF
+LABEL : lvl 4
+IF PIXEL COLOR EQUALS : 326 : 889 : 14866886 : 0
+Mouse : 380 : 965 : LeftButtonDown : 0 : 0 : 0
+DELAY : 50
+Mouse : 380 : 965 : LeftButtonUp : 0 : 0 : 0
+DELAY : 111
+GOTO : buy
+ENDIF
+LABEL : lvl 6
+IF PIXEL COLOR EQUALS : 326 : 889 : 13748664 : 0
+Mouse : 380 : 965 : LeftButtonDown : 0 : 0 : 0
+DELAY : 50
+Mouse : 380 : 965 : LeftButtonUp : 0 : 0 : 0
+DELAY : 111
+GOTO : buy
+ENDIF
+IF PIXEL COLOR EQUALS : 321 : 894 : 5066827 : 0
+Mouse : 321 : 960 : LeftButtonDown : 0 : 0 : 0
+Mouse : 321 : 960 : LeftButtonUp : 0 : 0 : 0
+GOTO : buy
+ENDIF
+IF CLIPBOARD EQUALS : 3 : 0 : 2
+SET CLIPBOARD : 1 : 0 : Please enter the text to store in clipboard:
+Mouse : 375 : 1035 : LeftButtonDown : 0 : 0 : 0
+DELAY : 50
+Mouse : 375 : 1035 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+GOTO : buy
+ENDIF
+INCREMENT CLIPBOARD : 1
+GOTO : buy

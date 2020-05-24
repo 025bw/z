@@ -59,6 +59,9 @@ LABEL : reconnect
 IF PIXEL COLOR EQUALS : 365 : 274 : 68115 : 0
 Mouse : 420 : 285 : Click : 0 : 0 : 0
 ENDIF
+IF PIXEL COLOR EQUALS : 684 : 360 : 3553074 : 0
+Mouse : 415 : 380 : Click : 0 : 0 : 0
+ENDIF
 IF PIXEL COLOR EQUALS : 429 : 544 : 6517135 : 0
 Mouse : 436 : 548 : Move : 0 : 0 : 0
 DELAY : 50
@@ -190,11 +193,6 @@ GOTO : roll
 ENDIF
 GOTO : accept
 LABEL : roll
-LABEL : lvl 5
-IF PIXEL COLOR EQUALS : 57 : 638 : 5460812 : 0
-GOTO : rollc
-GOTO : buy
-ENDIF
 LABEL : lvl 7
 IF PIXEL COLOR EQUALS : 56 : 628 : 4211775 : 1
 Keyboard : F : KeyPress

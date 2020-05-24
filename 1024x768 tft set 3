@@ -53,9 +53,10 @@ IF PIXEL COLOR EQUALS : 89 : 165 : 291978 : 0
 Mouse : 700 : 171 : Click : 0 : 0 : 0
 ENDIF
 LABEL : reconnect
-IF PIXEL COLOR EQUALS : 366 : 275 : 13150828 : 0
+IF PIXEL COLOR EQUALS : 365 : 274 : 68115 : 0
 Mouse : 420 : 285 : Click : 0 : 0 : 0
 ENDIF
+
 IF PIXEL COLOR EQUALS : 429 : 544 : 6517135 : 0
 Mouse : 436 : 548 : Move : 0 : 0 : 0
 DELAY : 50

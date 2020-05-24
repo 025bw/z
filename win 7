@@ -255,32 +255,7 @@ IF PIXEL COLOR EQUALS : 225 : 105 : 16745299 : 1
 DELAY : 100
 GOTO : net check
 ENDIF
-IF PIXEL COLOR EQUALS : 56 : 811 : 1580829 : 0
-Mouse : 25 : 818 : LeftButtonDown : 0 : 0 : 0
-Mouse : 25 : 818 : LeftButtonUp : 0 : 0 : 0
-DELAY : 500
-DELAY : 100
-GOTO : chat off
-ENDIF
-DELAY : 100
-GOTO : open bag
-LABEL : chat off
-IF PIXEL COLOR EQUALS : 33 : 791 : 16711680 : 0
-Mouse : 33 : 788 : LeftButtonDown : 0 : 0 : 0
-Mouse : 33 : 788 : LeftButtonUp : 0 : 0 : 0
-DELAY : 10
-Mouse : 33 : 766 : LeftButtonDown : 0 : 0 : 0
-Mouse : 33 : 766 : LeftButtonUp : 0 : 0 : 0
-DELAY : 10
-Mouse : 33 : 744 : LeftButtonDown : 0 : 0 : 0
-Mouse : 33 : 744 : LeftButtonUp : 0 : 0 : 0
-DELAY : 10
-Mouse : 33 : 722 : LeftButtonDown : 0 : 0 : 0
-Mouse : 33 : 722 : LeftButtonUp : 0 : 0 : 0
-DELAY : 10
-Mouse : 33 : 700 : LeftButtonDown : 0 : 0 : 0
-Mouse : 33 : 700 : LeftButtonUp : 0 : 0 : 0
-ENDIF
+Mouse : 320 : 765 : Click : 0 : 0 : 0
 LABEL : open bag
 IF PIXEL COLOR EQUALS : 798 : 807 : 10057258 : 0
 Mouse : 790 : 810 : LeftButtonDown : 0 : 0 : 0

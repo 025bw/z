@@ -1,10 +1,17 @@
 LABEL : accept
+IF WINDOW EXISTS : Woops! Something broke. : 0
+CLOSE WINDOW : Woops! Something broke. : 0
+ENDIF
 IF WINDOW EXISTS : League of Legends (TM) Client : 0
 GOTO : claim
 ENDIF
 IF PIXEL COLOR EQUALS : 0 : 0 : 1976365 : 1
 Keyboard : F10 : KeyDown
 Keyboard : F10 : KeyUp
+ENDIF
+LABEL : lock
+IF PIXEL COLOR EQUALS : 512 : 470 : 571572 : 0
+Mouse : 512 : 475 : Click : 0 : 0 : 0
 ENDIF
 LABEL : claim
 IF PIXEL COLOR EQUALS : 462 : 530 : 13150829 : 0
@@ -33,6 +40,22 @@ Mouse : 400 : 540 : LeftButtonUp : 0 : 0 : 0
 DELAY : 1111
 Mouse : 400 : 500 : Move : 0 : 0 : 0
 ENDIF
+LABEL : create
+IF PIXEL COLOR EQUALS : 55 : 44 : 92042 : 0
+Mouse : 80 : 40 : Click : 0 : 0 : 0
+ENDIF
+LABEL : create tft
+IF PIXEL COLOR EQUALS : 699 : 148 : 11707774 : 0
+Mouse : 434 : 553 : Click : 0 : 0 : 0
+ENDIF
+LABEL : select tft
+IF PIXEL COLOR EQUALS : 89 : 165 : 291978 : 0
+Mouse : 700 : 171 : Click : 0 : 0 : 0
+ENDIF
+LABEL : reconnect
+IF PIXEL COLOR EQUALS : 365 : 274 : 68115 : 0
+Mouse : 420 : 285 : Click : 0 : 0 : 0
+ENDIF
 IF PIXEL COLOR EQUALS : 429 : 544 : 6517135 : 0
 Mouse : 436 : 548 : Move : 0 : 0 : 0
 DELAY : 50
@@ -47,15 +70,6 @@ Mouse : 510 : 430 : LeftButtonDown : 0 : 0 : 0
 DELAY : 50
 Mouse : 510 : 430 : LeftButtonUp : 0 : 0 : 0
 DELAY : 50
-ENDIF
-IF PIXEL COLOR EQUALS : 80 : 40 : 1975080 : 0
-Mouse : 80 : 40 : Click : 0 : 0 : 0
-ENDIF
-IF PIXEL COLOR EQUALS : 699 : 148 : 11707774 : 0
-Mouse : 434 : 553 : Click : 0 : 0 : 0
-ENDIF
-IF PIXEL COLOR EQUALS : 89 : 165 : 291978 : 0
-Mouse : 700 : 171 : Click : 0 : 0 : 0
 ENDIF
 IF PIXEL COLOR EQUALS : 429 : 539 : 8747319 : 0
 Mouse : 428 : 539 : Move : 0 : 0 : 0

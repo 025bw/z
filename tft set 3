@@ -60,6 +60,10 @@ LABEL : recreate
 IF PIXEL COLOR EQUALS : 347 : 497 : 11445658 : 0
 Mouse : 350 : 545 : Click : 0 : 0 : 0
 ENDIF
+LABEL : close ads
+IF PIXEL COLOR EQUALS : 818 : 61 : 13023373 : 0
+Mouse : 818 : 61 : Click : 0 : 0 : 0
+ENDIF
 IF PIXEL COLOR EQUALS : 429 : 544 : 6517135 : 0
 Mouse : 436 : 548 : Move : 0 : 0 : 0
 DELAY : 50

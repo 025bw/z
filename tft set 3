@@ -173,6 +173,7 @@ LABEL : 7
 IF PIXEL COLOR EQUALS : 876 : 890 : 14011836 : 0
 GOTO : roll
 ENDIF
+LABEL : 6
 IF PIXEL COLOR EQUALS : 876 : 898 : 15064265 : 0
 GOTO : roll
 ENDIF
@@ -180,26 +181,17 @@ GOTO : accept
 LABEL : roll
 LABEL : lvl 5
 IF PIXEL COLOR EQUALS : 324 : 889 : 12301476 : 0
-Mouse : 380 : 965 : LeftButtonDown : 0 : 0 : 0
-DELAY : 50
-Mouse : 380 : 965 : LeftButtonUp : 0 : 0 : 0
-DELAY : 111
+Keyboard : F : KeyPress
 GOTO : buy
 ENDIF
 LABEL : lvl 4
 IF PIXEL COLOR EQUALS : 326 : 889 : 14866886 : 0
-Mouse : 380 : 965 : LeftButtonDown : 0 : 0 : 0
-DELAY : 50
-Mouse : 380 : 965 : LeftButtonUp : 0 : 0 : 0
-DELAY : 111
+Keyboard : F : KeyPress
 GOTO : buy
 ENDIF
 LABEL : lvl 6
 IF PIXEL COLOR EQUALS : 326 : 889 : 13748664 : 0
-Mouse : 380 : 965 : LeftButtonDown : 0 : 0 : 0
-DELAY : 50
-Mouse : 380 : 965 : LeftButtonUp : 0 : 0 : 0
-DELAY : 111
+Keyboard : F : KeyPress
 GOTO : buy
 ENDIF
 IF PIXEL COLOR EQUALS : 321 : 894 : 5066827 : 0
@@ -209,10 +201,7 @@ GOTO : buy
 ENDIF
 IF CLIPBOARD EQUALS : 3 : 0 : 2
 SET CLIPBOARD : 1 : 0 : Please enter the text to store in clipboard:
-Mouse : 375 : 1035 : LeftButtonDown : 0 : 0 : 0
-DELAY : 50
-Mouse : 375 : 1035 : LeftButtonUp : 0 : 0 : 0
-DELAY : 50
+Keyboard : D : KeyPress
 GOTO : buy
 ENDIF
 INCREMENT CLIPBOARD : 1

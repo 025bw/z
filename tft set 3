@@ -169,6 +169,15 @@ DELAY : 222
 Mouse : 887 : 894 : Move : 0 : 0 : 0
 SET CLIPBOARD : 1 : 0 : Please enter the text to store in clipboard:
 ENDIF
+IF CLIPBOARD EQUALS : 3 : 0 : 2
+SET CLIPBOARD : 1 : 0 : Please enter the text to store in clipboard:
+Keyboard : D : KeyPress
+GOTO : buy
+ENDIF
+IF PIXEL COLOR EQUALS : 444 : 1033 : 16777212 : 0
+INCREMENT CLIPBOARD : 1
+GOTO : buy
+ENDIF
 LABEL : 7
 IF PIXEL COLOR EQUALS : 876 : 890 : 14011836 : 0
 GOTO : roll

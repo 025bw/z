@@ -59,6 +59,10 @@ LABEL : reconnect
 IF PIXEL COLOR EQUALS : 365 : 274 : 68115 : 0
 Mouse : 420 : 285 : Click : 0 : 0 : 0
 ENDIF
+LABEL : end
+IF PIXEL COLOR EQUALS : 681 : 364 : 1579032 : 0
+Mouse : 420 : 380 : Click : 0 : 0 : 0
+ENDIF
 IF PIXEL COLOR EQUALS : 684 : 360 : 3553074 : 0
 Mouse : 415 : 380 : Click : 0 : 0 : 0
 ENDIF

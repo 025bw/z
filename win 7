@@ -1512,7 +1512,7 @@ GOTO : enter
 ENDIF
 GOTO : account
 LABEL : enter
-IF PIXEL COLOR EQUALS : 586 : 430 : 0 : 0
+IF PIXEL COLOR EQUALS : 586 : 430 : 16185079 : 0
 Mouse : 512 : 498 : LeftButtonDown : 0 : 0 : 0
 Mouse : 512 : 498 : LeftButtonUp : 0 : 0 : 0
 ENDIF

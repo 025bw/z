@@ -10,20 +10,24 @@ Keyboard : ShiftLeft : KeyUp
 Keyboard : LWindows : KeyUp
 OPEN FILE : C:\Users\z\Documents\AutoRacer.exe :  : 0
 DELAY : 19000
+Keyboard : D : KeyDown
+Keyboard : D : KeyUp
+Keyboard : R : KeyDown
+Keyboard : R : KeyUp
+Keyboard : S : KeyDown
+Keyboard : S : KeyUp
+Keyboard : N : KeyDown
+Keyboard : N : KeyUp
 Keyboard : O : KeyDown
 Keyboard : O : KeyUp
-Keyboard : M : KeyDown
-Keyboard : M : KeyUp
-Keyboard : G : KeyDown
-Keyboard : G : KeyUp
-Keyboard : J : KeyDown
-Keyboard : I : KeyDown
-Keyboard : J : KeyUp
-Keyboard : G : KeyDown
-Keyboard : I : KeyUp
-Keyboard : G : KeyUp
-Keyboard : G : KeyDown
-Keyboard : G : KeyUp
+Keyboard : R : KeyDown
+Keyboard : R : KeyUp
+Keyboard : L : KeyDown
+Keyboard : L : KeyUp
+Keyboard : A : KeyDown
+Keyboard : A : KeyUp
+Keyboard : X : KeyDown
+Keyboard : X : KeyUp
 Keyboard : Tab : KeyDown
 Keyboard : Tab : KeyUp
 Keyboard : D : KeyDown
@@ -57,20 +61,24 @@ Keyboard : ShiftLeft : KeyUp
 Keyboard : LWindows : KeyUp
 OPEN FILE : C:\Users\z\Documents\AutoRacer.exe :  : 0
 DELAY : 19000
+Keyboard : D : KeyDown
+Keyboard : D : KeyUp
+Keyboard : R : KeyDown
+Keyboard : R : KeyUp
+Keyboard : S : KeyDown
+Keyboard : S : KeyUp
+Keyboard : N : KeyDown
+Keyboard : N : KeyUp
 Keyboard : O : KeyDown
 Keyboard : O : KeyUp
-Keyboard : M : KeyDown
-Keyboard : M : KeyUp
-Keyboard : G : KeyDown
-Keyboard : G : KeyUp
-Keyboard : J : KeyDown
-Keyboard : I : KeyDown
-Keyboard : J : KeyUp
-Keyboard : G : KeyDown
-Keyboard : I : KeyUp
-Keyboard : G : KeyUp
-Keyboard : G : KeyDown
-Keyboard : G : KeyUp
+Keyboard : R : KeyDown
+Keyboard : R : KeyUp
+Keyboard : L : KeyDown
+Keyboard : L : KeyUp
+Keyboard : A : KeyDown
+Keyboard : A : KeyUp
+Keyboard : X : KeyDown
+Keyboard : X : KeyUp
 Keyboard : Tab : KeyDown
 Keyboard : Tab : KeyUp
 Keyboard : D : KeyDown
@@ -123,7 +131,7 @@ Mouse : 939 : 179 : LeftButtonUp : 0 : 0 : 0
 DELAY : 2500
 ENDIF
 LABEL : test
-DELAY : 2500
+DELAY : 5000
 LABEL : z1
 IF PIXEL COLOR EQUALS : 353 : 569 : 0 : 0
 GOTO : 1
@@ -759,6 +767,10 @@ GOTO : start
 DELAY : 50
 GOTO : start
 LABEL : login
+IF PIXEL COLOR EQUALS : 586 : 430 : 16185079 : 0
+Mouse : 512 : 498 : LeftButtonDown : 0 : 0 : 0
+Mouse : 512 : 498 : LeftButtonUp : 0 : 0 : 0
+ENDIF
 IF PIXEL COLOR EQUALS : 573 : 422 : 16448251 : 0
 Mouse : 512 : 498 : LeftButtonDown : 0 : 0 : 0
 Mouse : 512 : 498 : LeftButtonUp : 0 : 0 : 0
@@ -841,3 +853,4 @@ GOTO : start
 ENDIF
 DELAY : 50
 GOTO : start race
+Keyboard : Q : KeyUp

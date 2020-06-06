@@ -265,6 +265,14 @@ DELAY : 100
 Mouse : 0 : 0 : Move : 0 : 0 : 0
 ENDIF
 REPEAT : 100 : 0 : 0 : Enter the number of iterations: : 0 : 0
+IF WINDOW EXISTS : GodsWar Online [USA] : 0
+ELSE
+GOTO : open gw
+ENDIF
+IF WINDOW EXISTS : Prompt : 0
+CLOSE WINDOW : Prompt : 0
+GOTO : open gw
+ENDIF
 DELAY : 100
 IF PIXEL COLOR EQUALS : 906 : 416 : 3670001 : 0
 Mouse : 906 : 416 : LeftButtonDown : 0 : 0 : 0
@@ -299,6 +307,14 @@ DELAY : 100
 Mouse : 1 : 72 : Move : 0 : 0 : 0
 ENDIF
 REPEAT : 100 : 0 : 0 : Enter the number of iterations: : 0 : 0
+IF WINDOW EXISTS : GodsWar Online [USA] : 0
+ELSE
+GOTO : open gw
+ENDIF
+IF WINDOW EXISTS : Prompt : 0
+CLOSE WINDOW : Prompt : 0
+GOTO : open gw
+ENDIF
 DELAY : 100
 IF PIXEL COLOR EQUALS : 906 : 416 : 3670001 : 0
 Mouse : 906 : 416 : LeftButtonDown : 0 : 0 : 0
@@ -415,6 +431,14 @@ Mouse : 843 : 802 : LeftButtonUp : 0 : 0 : 0
 DELAY : 50
 ENDIF
 REPEAT : 100 : 0 : 0 : Enter the number of iterations: : 0 : 0
+IF WINDOW EXISTS : GodsWar Online [USA] : 0
+ELSE
+GOTO : open gw
+ENDIF
+IF WINDOW EXISTS : Prompt : 0
+CLOSE WINDOW : Prompt : 0
+GOTO : open gw
+ENDIF
 DELAY : 100
 IF PIXEL COLOR EQUALS : 395 : 548 : 16580093 : 0
 Mouse : 419 : 131 : LeftButtonDown : 0 : 0 : 0
@@ -436,6 +460,14 @@ ENDIF
 ENDREPEAT
 LABEL : on sale
 REPEAT : 100 : 0 : 0 : Enter the number of iterations: : 0 : 0
+IF WINDOW EXISTS : GodsWar Online [USA] : 0
+ELSE
+GOTO : open gw
+ENDIF
+IF WINDOW EXISTS : Prompt : 0
+CLOSE WINDOW : Prompt : 0
+GOTO : open gw
+ENDIF
 DELAY : 100
 IF PIXEL COLOR EQUALS : 395 : 548 : 16580093 : 0
 Mouse : 419 : 131 : LeftButtonDown : 0 : 0 : 0
@@ -1015,6 +1047,14 @@ Mouse : 515 : 180 : LeftButtonUp : 0 : 0 : 0
 DELAY : 50
 LABEL : rq1
 REPEAT : 100 : 0 : 0 : Enter the number of iterations: : 0 : 0
+IF WINDOW EXISTS : GodsWar Online [USA] : 0
+ELSE
+GOTO : open gw
+ENDIF
+IF WINDOW EXISTS : Prompt : 0
+CLOSE WINDOW : Prompt : 0
+GOTO : open gw
+ENDIF
 DELAY : 100
 Mouse : 515 : 180 : Move : 0 : 0 : 0
 DELAY : 50
@@ -1039,6 +1079,14 @@ DELAY : 100
 GOTO : rq1
 LABEL : claim1
 REPEAT : 100 : 0 : 0 : Enter the number of iterations: : 0 : 0
+IF WINDOW EXISTS : GodsWar Online [USA] : 0
+ELSE
+GOTO : open gw
+ENDIF
+IF WINDOW EXISTS : Prompt : 0
+CLOSE WINDOW : Prompt : 0
+GOTO : open gw
+ENDIF
 DELAY : 100
 IF PIXEL COLOR EQUALS : 402 : 131 : 5029375 : 0
 Mouse : 402 : 131 : LeftButtonDown : 0 : 0 : 0
@@ -1078,6 +1126,14 @@ Mouse : 350 : 280 : LeftButtonDown : 0 : 0 : 0
 Mouse : 350 : 280 : LeftButtonUp : 0 : 0 : 0
 DELAY : 55
 REPEAT : 100 : 0 : 0 : Enter the number of iterations: : 0 : 0
+IF WINDOW EXISTS : GodsWar Online [USA] : 0
+ELSE
+GOTO : open gw
+ENDIF
+IF WINDOW EXISTS : Prompt : 0
+CLOSE WINDOW : Prompt : 0
+GOTO : open gw
+ENDIF
 DELAY : 100
 DELAY : 100
 IF PIXEL COLOR EQUALS : 96 : 336 : 16776960 : 0
@@ -1109,6 +1165,14 @@ DELAY : 55
 Mouse : 350 : 280 : LeftButtonDown : 0 : 0 : 0
 Mouse : 350 : 280 : LeftButtonUp : 0 : 0 : 0
 REPEAT : 100 : 0 : 0 : Enter the number of iterations: : 0 : 0
+IF WINDOW EXISTS : GodsWar Online [USA] : 0
+ELSE
+GOTO : open gw
+ENDIF
+IF WINDOW EXISTS : Prompt : 0
+CLOSE WINDOW : Prompt : 0
+GOTO : open gw
+ENDIF
 DELAY : 100
 IF PIXEL COLOR EQUALS : 402 : 131 : 5029375 : 0
 Mouse : 402 : 131 : LeftButtonDown : 0 : 0 : 0
@@ -1422,6 +1486,14 @@ DELAY : 55
 Mouse : 350 : 280 : LeftButtonDown : 0 : 0 : 0
 Mouse : 350 : 280 : LeftButtonUp : 0 : 0 : 0
 REPEAT : 100 : 0 : 0 : Enter the number of iterations: : 0 : 0
+IF WINDOW EXISTS : GodsWar Online [USA] : 0
+ELSE
+GOTO : open gw
+ENDIF
+IF WINDOW EXISTS : Prompt : 0
+CLOSE WINDOW : Prompt : 0
+GOTO : open gw
+ENDIF
 DELAY : 100
 IF PIXEL COLOR EQUALS : 402 : 131 : 5029375 : 0
 Mouse : 402 : 131 : LeftButtonDown : 0 : 0 : 0

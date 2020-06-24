@@ -68,7 +68,7 @@ REPEAT : 200 : 0 : 0 : Enter the number of iterations: : 0 : 0
 Mouse : 623 : 77 : RightButtonDown : 0 : 0 : 0
 Mouse : 623 : 77 : RightButtonUp : 0 : 0 : 0
 DELAY : 100
-IF IMAGE : Qk1qAQAAAAAAADYAAAAoAAAACwAAAAcAAAABACAAAAAAAAAAAADEDgAAxA4AAAAAAAAAAAAA2ZZl/9mWZf/ZlmX/4KiA///+/f/ZlmX/2ZZl/92id//039D//fr4//79/f/ZlmX/2ZZl/9mWZf/gqID///79/9mWZf/ZlmX/9+jd//DXxP/cn3L/2Zdm/9mWZf/amWr/2Zdn/+CogP///v3/2ZZl/9yfcv//////25tt/9mWZf/ZlmX/2ZZl//Pez//pwqb/4KiA///+/f/ZlmX/36Z9///////////////////////bm23/+/Tv//bl2v/gqID///79/9mWZf/bm23///79/9yecP/ZlmX/2ZZl/+a7m//w1cH/9+nf/+Ozj////v3/2ZZl/9mWZf/y2sn/8NfE/9ubbf/gqoL/8tzM/+S1kv/sybD/8NXC///+/f/ZlmX/2ZZl/9ubbf/x2cf//fr4//z39P8= : 0 : 0 : 0 : 492;82;15;9
+IF PIXEL COLOR EQUALS : 494 : 83 : 15660027 : 0
 GOTO : dead
 ENDIF
 ENDREPEAT
@@ -78,7 +78,7 @@ Mouse : 535 : 175 : Move : 0 : 0 : 0
 IF PIXEL COLOR EQUALS : 470 : 108 : 16350332 : 1
 GOTO : loot
 ENDIF
-IF IMAGE : Qk1qAQAAAAAAADYAAAAoAAAACwAAAAcAAAABACAAAAAAAAAAAADEDgAAxA4AAAAAAAAAAAAA2ZZl/9mWZf/ZlmX/4KiA///+/f/ZlmX/2ZZl/92id//039D//fr4//79/f/ZlmX/2ZZl/9mWZf/gqID///79/9mWZf/ZlmX/9+jd//DXxP/cn3L/2Zdm/9mWZf/amWr/2Zdn/+CogP///v3/2ZZl/9yfcv//////25tt/9mWZf/ZlmX/2ZZl//Pez//pwqb/4KiA///+/f/ZlmX/36Z9///////////////////////bm23/+/Tv//bl2v/gqID///79/9mWZf/bm23///79/9yecP/ZlmX/2ZZl/+a7m//w1cH/9+nf/+Ozj////v3/2ZZl/9mWZf/y2sn/8NfE/9ubbf/gqoL/8tzM/+S1kv/sybD/8NXC///+/f/ZlmX/2ZZl/9ubbf/x2cf//fr4//z39P8= : 0 : 0 : 1 : 492;82;15;9
+IF PIXEL COLOR EQUALS : 494 : 83 : 15660027 : 1
 GOTO : loot
 ENDIF
 GOTO : dead

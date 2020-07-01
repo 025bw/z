@@ -10,14 +10,6 @@ DELAY : 1
 IF PIXEL COLOR EQUALS : 76 : 803 : 3552822 : 1
 GOTO : close
 ENDIF
-IF WINDOW EXISTS : GodsWar Online [USA] : 0
-ELSE
-GOTO : open gw
-ENDIF
-IF WINDOW EXISTS : Prompt : 0
-CLOSE WINDOW : Prompt : 0
-GOTO : open gw
-ENDIF
 IF PIXEL COLOR EQUALS : 402 : 131 : 5029375 : 0
 Mouse : 402 : 131 : LeftButtonDown : 0 : 0 : 0
 Mouse : 402 : 131 : LeftButtonUp : 0 : 0 : 0
@@ -29,6 +21,8 @@ ENDIF
 ENDREPEAT
 GOTO : right
 LABEL : stone
+Mouse : 9 : 108 : Move : 0 : 0 : 0
+DELAY : 55
 IF IMAGE : Qk26AwAAAAAAADYAAAAoAAAADwAAAA8AAAABACAAAAAAAAAAAADEDgAAxA4AAAAAAAAAAAAAjr68/5nIx//D6uj/ps7L/3mVj/9wj4X/hKOZ/4ypn/9+o6D/Q2S+/yJC4f8nUOn/aY3b/6io4/+FqLT/jLi3/5bDwf+OuLX/e5uV/6XKxP+13tb/nbuu/5q6o/+ZvaT/jLKl/1FxwP8tUdr/H0jn/0No3/9ois7/i7W0/5G5t/+HrKr/rNbP/73o4f/J7+j/zfHo/8no2//H4tD/vdzH/7HSyf+gx8n/oKji/1l82v8oUOj/i7Ox/5S8uv+fysj/tN/b/8Dq5f/D6uH/z/Dm/9Hw4//j+ev/5/rs/+r77//i9e7/tNnS/5G1yP81VuP/RVRX/5S7uf+nzcz/tNrV/8bs5f/K7ub/yure/9/46f/p+fD/9v35//b//P/r+vD/w97S/5u6x/9UbMv/O0E+/zxHSv+avbr/stfR/8fr5P/M7uX/zOvg/9Ps2f/x+/b///////r9+//g9eH/t8/D/5OrvP+TrLH/f14z/0VCO/9DTVD/lLKt/7bY0P/B4tr/ip6a/9rs4P/x+vb/+fz6//L49v/H3NP/lauu/5Ovqv/L5+T/ims8/5JrO/9eVEP/P0VI/2Jwcf9gbW7/gZKR/9706v/o9uz/2uzd/8vc1f+ttLX/orSv/8bd2/+93NX/jG5K/5Z0SP+hfEf/f2xP/0lMT/9ITE//cn1+/8/j3f/Q5d3/udHL/6W5sP+dpqj/x83S/8Pe2P/A3tj/kXhZ/5h9Vv+hg1b/qIZW/497W/9YXF//Y2xt/8LY0P/E3tb/uczP/5ugtP+em7j/wNTT/9Dm4//G4d7/lIJm/5qEZv+hiWT/potk/6qNYv+bh2n/aGps/6Oxrf/E2tT/x9vV/8rf3v+8zND/yuHd/9Ho5f/O5OP/l4dx/5+Lcv+kj3L/ppFw/6eRcf+cinL/gH12/4WMjf++0Mz/xtnW/8je2v/L4t//y+He/8fe3P/H3d3/nY99/6CRfP+hknv/ppZ9/6qYf/+pmH3/mY5+/4aIh/+cpqX/wdPQ/8ne2//M4uH/x93c/87h3//S5eP/oJaH/56Vh/+flof/o5mH/6qdh/+xoYf/qJuI/5GOi/+KjI7/naWl/8zf3v/O4uL/zuLh/9Xn5f/c6+n/oZqP/5+Zj/+emI3/o5uO/6+ij/+2p5D/tKaQ/7OkkP+inZb/kpWW/6KoqP/O3t7/0OTj/9Lk5P/W5eT/ : 1 : 0 : 0 : 
 Mouse : C0 : C0 : RightClick : 0 : 1 : 0
 GOTO : 99

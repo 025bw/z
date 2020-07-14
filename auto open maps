@@ -1,4 +1,4 @@
-SET CLIPBOARD : 3 : 1 : Please enter the text to store in clipboard:
+SET CLIPBOARD :  : 1 : Please enter the text to store in clipboard:
 LABEL : y
 IF CLIPBOARD EQUALS : o : 0 : 0
 GOTO : o
@@ -1192,20 +1192,20 @@ Mouse : 668 : 476 : Click : 0 : 0 : 0
 DELAY : 50
 GOTO : 0.0
 LABEL : 0.0
+REPEAT : 1000 : 0 : 0 : Enter the number of iterations: : 0 : 0
 IF PIXEL FOUND : 13238784 : 0 : 1 : 167 : 934 : 173 : 942
-GOTO : 0.0
+ELSE
+EXIT LOOP
+GOTO : 0.1
+ENDIF
+ENDREPEAT
+IF PIXEL COLOR EQUALS : 827 : 226 : 11445904 : 0
+GOTO : y
 ENDIF
 IF PIXEL COLOR EQUALS : 610 : 715 : 8551784 : 0
 GOTO : 0.0
 ENDIF
-IF PIXEL COLOR EQUALS : 849 : 254 : 0 : 0
 GOTO : x
-ENDIF
-IF PIXEL COLOR EQUALS : 827 : 226 : 11445904 : 0
-GOTO : x
-ELSE
-GOTO : x
-ENDIF
 LABEL : ring
 IF IMAGE : Qk2GBQAAAAAAADYAAAAoAAAAIgAAAAoAAAABACAAAAAAAAAAAADEDgAAxA4AAAAAAAAAAAAA8Y08//KOPf/yjT3/8o09//GNPP/yjj3/8o09//KNPf/xjTz/8o49//KNPf/yjT3/8Y08//KOPf/yjT3/8o09//GNPP/yjj3/8o09//KNPf/xjTz/8o49//KNPf/yjT3/8Y08//KOPf/yjT3/8o09//GNPP/yjj3/8o09//KNPf/xjTz/8o49///4zf////////////3////yjbT/844+//KOPf/6jj3////g//ji8//yjj3//uKU//7////zwM3/8o49//OOPf/6jT3////g//rt///zjj3//+20//z4///yjpT/8449//qNPf///+D//Pj///OOlP/yjT3//MA+////8//z1OD/8o09//OOPv/+////88DN//qOPf///+D/+u3///OOPf/zjj3/+o49////4P/44vP/8449//zAPf////P/+OLz//OOPf/zjj3//dQ9///////z1OD/8449///ttP/8+P//846U//OOPf//7bT//v////PAzf/zjj3/8449//zAPf////P/89Tg//OOPf/zjj3/9I49//SPPv/5jj3///jN//z4///0j5X/9I49//uPPv///+D/+eLz//SOPf/0jz7//+20///////////////////////9////9I60//SPPv//7bT//Pj///SOlP/91D7///////TU4P/0jj3/9I8+//SOPf/8wT7////z//TU4P/0jj3/9I8+//SOPf/91D7////////////54vP/9Y8+//SOPf/7jz7////g//ri8//0jj3/9I8+//3UPf/+////9MDN//uPPv///+D/++3///SOPf/0jz7//+20///////////////////////64vP/9I49//SPPv/0jj3//ME+////8//01OD/9I49//WPPv//+M3///////z4///1j5X/9Y8+//WPPv/1jz7/+48+////4P/64vP/9Y8+//WPPv/7jz7////g//vt///91D7//v////XBzf/1jz7/9Y8+///ttP/8+P//9Y+V//WPPv/91D7///////XU4P/1jz7/9Y8+//zBPv////P/9dTg//WPPv/1jz7///////bV4P/1jz7/9o8+//WPPv/2kD7/9Y8+//uPPv///+D/+uPz//WPPv/2jz7/9Y8+///utP/9/////+3g//z4///2kJX/9Y8+//aPPv//7bT//fj///WPlf/2jz7/+48+////4P/64vP/9o8+//WPPv/9wT7////z//bU4P/1jz7/9pA+////8//31eD//cE+////8//64vP/95A///aQPv/8kD7////g//vj8//2kD7/95A+//aPPv/9wT/////z///////64vP/95A///aQPv/3kD7//+20//34///2kJX/95A+//3BPv////P/9tXg//eQPv/2jz7//cE/////8//31eD/9o8+//eQP///7rT////////////9+P//9pCV//7VP/////////////////////////////34///2kJX/+5A////4zf/+////9sHN//eQP//3kD7/95A+///utP///////////////////////O7///eQPv/+45X////////////////////////////87v//95A+//iRP//3kD//+JE///eQPv/4kT//95A///iRP//3kD7/+JE///eQP//4kT//95A+//iRP//3kD//+JE///eQPv/4kT//95A///iRP//3kD7/+JE///eQP//4kT//95A+//iRP//3kD//+JE///eQPv/4kT//95A///iRP//3kD7/+JE//w== : 1 : 0 : 0 : 
 Mouse : 0 : -100 : Click : 0 : 1 : 0

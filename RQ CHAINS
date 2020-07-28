@@ -289,7 +289,7 @@ Mouse : 790 : 810 : LeftButtonUp : 0 : 0 : 0
 DELAY : 100
 Mouse : 789 : 809 : Move : 0 : 0 : 0
 ENDIF
-REPEAT : 1000 : 0 : 0 : Enter the number of iterations: : 0 : 0
+REPEAT : 500 : 0 : 0 : Enter the number of iterations: : 0 : 0
 IF WINDOW EXISTS : GodsWar Online [USA] : 0
 ELSE
 GOTO : open gw
@@ -1103,7 +1103,7 @@ Mouse : 515 : 180 : LeftButtonDown : 0 : 0 : 0
 Mouse : 515 : 180 : LeftButtonUp : 0 : 0 : 0
 DELAY : 50
 LABEL : claim1
-REPEAT : 1500 : 0 : 0 : Enter the number of iterations: : 0 : 0
+REPEAT : 800 : 0 : 0 : Enter the number of iterations: : 0 : 0
 Mouse : 96 : 372 : LeftButtonDown : 0 : 0 : 0
 Mouse : 96 : 372 : LeftButtonUp : 0 : 0 : 0
 IF WINDOW EXISTS : GodsWar Online [USA] : 0
@@ -1188,7 +1188,7 @@ Mouse : 350 : 280 : Move : 0 : 0 : 0
 DELAY : 55
 Mouse : 350 : 280 : LeftButtonDown : 0 : 0 : 0
 Mouse : 350 : 280 : LeftButtonUp : 0 : 0 : 0
-REPEAT : 1500 : 0 : 0 : Enter the number of iterations: : 0 : 0
+REPEAT : 800 : 0 : 0 : Enter the number of iterations: : 0 : 0
 Mouse : 96 : 336 : LeftButtonDown : 0 : 0 : 0
 Mouse : 96 : 336 : LeftButtonUp : 0 : 0 : 0
 DELAY : 1
@@ -1416,7 +1416,7 @@ Mouse : 350 : 280 : Move : 0 : 0 : 0
 DELAY : 55
 Mouse : 350 : 280 : LeftButtonDown : 0 : 0 : 0
 Mouse : 350 : 280 : LeftButtonUp : 0 : 0 : 0
-REPEAT : 5000 : 0 : 0 : Enter the number of iterations: : 0 : 0
+REPEAT : 800 : 0 : 0 : Enter the number of iterations: : 0 : 0
 IF WINDOW EXISTS : GodsWar Online [USA] : 0
 ELSE
 GOTO : open gw
@@ -1859,6 +1859,52 @@ Keyboard : G : KeyDown
 Keyboard : G : KeyUp
 Keyboard : G : KeyDown
 Keyboard : G : KeyUp
+Keyboard : Tab : KeyDown
+Keyboard : Tab : KeyUp
+Keyboard : D : KeyDown
+Keyboard : D : KeyUp
+Keyboard : H : KeyDown
+Keyboard : H : KeyUp
+Keyboard : Y : KeyDown
+Keyboard : Y : KeyUp
+Keyboard : L : KeyDown
+Keyboard : L : KeyUp
+Keyboard : O : KeyDown
+Keyboard : O : KeyUp
+Keyboard : L : KeyDown
+Keyboard : L : KeyUp
+Keyboard : D2 : KeyDown
+Keyboard : D2 : KeyUp
+Keyboard : D4 : KeyDown
+Keyboard : D4 : KeyUp
+Mouse : 515 : 565 : LeftButtonDown : 0 : 0 : 0
+Mouse : 515 : 565 : LeftButtonUp : 0 : 0 : 0
+DELAY : 100
+GOTO : enter
+ENDIF
+IF CLIPBOARD EQUALS : 12 : 0 : 0
+Keyboard : C : KeyDown
+Keyboard : C : KeyUp
+Keyboard : H : KeyDown
+Keyboard : H : KeyUp
+Keyboard : O : KeyDown
+Keyboard : O : KeyUp
+Keyboard : E : KeyDown
+Keyboard : E : KeyUp
+Keyboard : M : KeyDown
+Keyboard : M : KeyUp
+Keyboard : D1 : KeyDown
+Keyboard : D1 : KeyUp
+Keyboard : N : KeyDown
+Keyboard : N : KeyUp
+Keyboard : U : KeyDown
+Keyboard : U : KeyUp
+Keyboard : H : KeyDown
+Keyboard : H : KeyUp
+Keyboard : O : KeyDown
+Keyboard : O : KeyUp
+Keyboard : N : KeyDown
+Keyboard : N : KeyUp
 Keyboard : Tab : KeyDown
 Keyboard : Tab : KeyUp
 Keyboard : D : KeyDown

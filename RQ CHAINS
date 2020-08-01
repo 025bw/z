@@ -1103,7 +1103,7 @@ Mouse : 515 : 180 : LeftButtonDown : 0 : 0 : 0
 Mouse : 515 : 180 : LeftButtonUp : 0 : 0 : 0
 DELAY : 50
 LABEL : claim1
-REPEAT : 800 : 0 : 0 : Enter the number of iterations: : 0 : 0
+REPEAT : 500 : 0 : 0 : Enter the number of iterations: : 0 : 0
 Mouse : 96 : 372 : LeftButtonDown : 0 : 0 : 0
 Mouse : 96 : 372 : LeftButtonUp : 0 : 0 : 0
 IF WINDOW EXISTS : GodsWar Online [USA] : 0
@@ -1188,7 +1188,7 @@ Mouse : 350 : 280 : Move : 0 : 0 : 0
 DELAY : 55
 Mouse : 350 : 280 : LeftButtonDown : 0 : 0 : 0
 Mouse : 350 : 280 : LeftButtonUp : 0 : 0 : 0
-REPEAT : 800 : 0 : 0 : Enter the number of iterations: : 0 : 0
+REPEAT : 500 : 0 : 0 : Enter the number of iterations: : 0 : 0
 Mouse : 96 : 336 : LeftButtonDown : 0 : 0 : 0
 Mouse : 96 : 336 : LeftButtonUp : 0 : 0 : 0
 DELAY : 1
@@ -1416,7 +1416,7 @@ Mouse : 350 : 280 : Move : 0 : 0 : 0
 DELAY : 55
 Mouse : 350 : 280 : LeftButtonDown : 0 : 0 : 0
 Mouse : 350 : 280 : LeftButtonUp : 0 : 0 : 0
-REPEAT : 800 : 0 : 0 : Enter the number of iterations: : 0 : 0
+REPEAT : 500 : 0 : 0 : Enter the number of iterations: : 0 : 0
 IF WINDOW EXISTS : GodsWar Online [USA] : 0
 ELSE
 GOTO : open gw

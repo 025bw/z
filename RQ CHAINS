@@ -1,3 +1,553 @@
+GOTO : mdew
+LABEL : acc
+IF CLIPBOARD EQUALS : 1 : 0 : 0
+Mouse : 429 : 405 : LeftButtonDown : 0 : 0 : 0
+Mouse : 429 : 405 : LeftButtonUp : 0 : 0 : 0
+Keyboard : R : KeyDown
+Keyboard : R : KeyUp
+Keyboard : Q : KeyDown
+Keyboard : Q : KeyUp
+Keyboard : D0 : KeyDown
+Keyboard : D0 : KeyUp
+Keyboard : D1 : KeyDown
+Keyboard : D1 : KeyUp
+Keyboard : Tab : KeyDown
+Keyboard : Tab : KeyUp
+Keyboard : D1 : KeyDown
+Keyboard : D1 : KeyUp
+Keyboard : D2 : KeyDown
+Keyboard : D2 : KeyUp
+Keyboard : D3 : KeyDown
+Keyboard : D3 : KeyUp
+Keyboard : D1 : KeyDown
+Keyboard : D1 : KeyUp
+Keyboard : D2 : KeyDown
+Keyboard : D2 : KeyUp
+Keyboard : D3 : KeyDown
+Keyboard : D3 : KeyUp
+Keyboard : A : KeyDown
+Keyboard : A : KeyUp
+Keyboard : A : KeyDown
+Keyboard : A : KeyUp
+Mouse : 515 : 565 : LeftButtonDown : 0 : 0 : 0
+Mouse : 515 : 565 : LeftButtonUp : 0 : 0 : 0
+DELAY : 100
+GOTO : enter
+ENDIF
+IF CLIPBOARD EQUALS : 2 : 0 : 0
+Mouse : 429 : 405 : LeftButtonDown : 0 : 0 : 0
+Mouse : 429 : 405 : LeftButtonUp : 0 : 0 : 0
+Keyboard : R : KeyDown
+Keyboard : R : KeyUp
+Keyboard : Q : KeyDown
+Keyboard : Q : KeyUp
+Keyboard : D0 : KeyDown
+Keyboard : D0 : KeyUp
+Keyboard : D2 : KeyDown
+Keyboard : D2 : KeyUp
+Keyboard : Tab : KeyDown
+Keyboard : Tab : KeyUp
+Keyboard : D1 : KeyDown
+Keyboard : D1 : KeyUp
+Keyboard : D2 : KeyDown
+Keyboard : D2 : KeyUp
+Keyboard : D3 : KeyDown
+Keyboard : D3 : KeyUp
+Keyboard : D1 : KeyDown
+Keyboard : D1 : KeyUp
+Keyboard : D2 : KeyDown
+Keyboard : D2 : KeyUp
+Keyboard : D3 : KeyDown
+Keyboard : D3 : KeyUp
+Keyboard : A : KeyDown
+Keyboard : A : KeyUp
+Keyboard : A : KeyDown
+Keyboard : A : KeyUp
+Mouse : 515 : 565 : LeftButtonDown : 0 : 0 : 0
+Mouse : 515 : 565 : LeftButtonUp : 0 : 0 : 0
+DELAY : 100
+GOTO : enter
+ENDIF
+IF CLIPBOARD EQUALS : 3 : 0 : 0
+Mouse : 429 : 405 : LeftButtonDown : 0 : 0 : 0
+Mouse : 429 : 405 : LeftButtonUp : 0 : 0 : 0
+Keyboard : R : KeyDown
+Keyboard : R : KeyUp
+Keyboard : Q : KeyDown
+Keyboard : Q : KeyUp
+Keyboard : X : KeyDown
+Keyboard : X : KeyUp
+Keyboard : Z : KeyDown
+Keyboard : Z : KeyUp
+Keyboard : D1 : KeyDown
+Keyboard : D1 : KeyUp
+Keyboard : Tab : KeyDown
+Keyboard : Tab : KeyUp
+Keyboard : D1 : KeyDown
+Keyboard : D1 : KeyUp
+Keyboard : D2 : KeyDown
+Keyboard : D2 : KeyUp
+Keyboard : D3 : KeyDown
+Keyboard : D3 : KeyUp
+Keyboard : D1 : KeyDown
+Keyboard : D1 : KeyUp
+Keyboard : D2 : KeyDown
+Keyboard : D2 : KeyUp
+Keyboard : D3 : KeyDown
+Keyboard : D3 : KeyUp
+Keyboard : A : KeyDown
+Keyboard : A : KeyUp
+Keyboard : A : KeyDown
+Keyboard : A : KeyUp
+Mouse : 515 : 565 : LeftButtonDown : 0 : 0 : 0
+Mouse : 515 : 565 : LeftButtonUp : 0 : 0 : 0
+DELAY : 100
+GOTO : enter
+ENDIF
+IF CLIPBOARD EQUALS : 4 : 0 : 0
+Keyboard : Z : KeyDown
+Keyboard : Z : KeyUp
+Keyboard : E : KeyDown
+Keyboard : E : KeyUp
+Keyboard : A : KeyDown
+Keyboard : A : KeyUp
+Keyboard : L : KeyDown
+Keyboard : L : KeyUp
+Keyboard : D0 : KeyDown
+Keyboard : D0 : KeyUp
+Keyboard : D2 : KeyDown
+Keyboard : D2 : KeyUp
+Keyboard : D4 : KeyDown
+Keyboard : D4 : KeyUp
+Keyboard : Tab : KeyDown
+Keyboard : Tab : KeyUp
+Keyboard : D : KeyDown
+Keyboard : D : KeyUp
+Keyboard : H : KeyDown
+Keyboard : H : KeyUp
+Keyboard : Y : KeyDown
+Keyboard : Y : KeyUp
+Keyboard : L : KeyDown
+Keyboard : L : KeyUp
+Keyboard : O : KeyDown
+Keyboard : O : KeyUp
+Keyboard : L : KeyDown
+Keyboard : L : KeyUp
+Keyboard : D2 : KeyDown
+Keyboard : D2 : KeyUp
+Keyboard : D4 : KeyDown
+Keyboard : D4 : KeyUp
+Mouse : 515 : 565 : LeftButtonDown : 0 : 0 : 0
+Mouse : 515 : 565 : LeftButtonUp : 0 : 0 : 0
+DELAY : 100
+GOTO : enter
+ENDIF
+IF CLIPBOARD EQUALS : 5 : 0 : 0
+Keyboard : G : KeyDown
+Keyboard : G : KeyUp
+Keyboard : W : KeyDown
+Keyboard : W : KeyUp
+Keyboard : N : KeyDown
+Keyboard : N : KeyUp
+Keyboard : O : KeyDown
+Keyboard : O : KeyUp
+Keyboard : O : KeyDown
+Keyboard : O : KeyUp
+Keyboard : B : KeyDown
+Keyboard : B : KeyUp
+Keyboard : D4 : KeyDown
+Keyboard : D4 : KeyUp
+Keyboard : Tab : KeyDown
+Keyboard : Tab : KeyUp
+Keyboard : D1 : KeyDown
+Keyboard : D1 : KeyUp
+Keyboard : D2 : KeyDown
+Keyboard : D2 : KeyUp
+Keyboard : D3 : KeyDown
+Keyboard : D3 : KeyUp
+Keyboard : D1 : KeyDown
+Keyboard : D1 : KeyUp
+Keyboard : D2 : KeyDown
+Keyboard : D2 : KeyUp
+Keyboard : D3 : KeyDown
+Keyboard : D3 : KeyUp
+Mouse : 515 : 565 : LeftButtonDown : 0 : 0 : 0
+Mouse : 515 : 565 : LeftButtonUp : 0 : 0 : 0
+DELAY : 100
+GOTO : enter
+ENDIF
+IF CLIPBOARD EQUALS : 6 : 0 : 0
+Keyboard : B : KeyDown
+Keyboard : B : KeyUp
+Keyboard : Y : KeyDown
+Keyboard : Y : KeyUp
+Keyboard : E : KeyDown
+Keyboard : E : KeyUp
+Keyboard : D0 : KeyDown
+Keyboard : D0 : KeyUp
+Keyboard : D2 : KeyDown
+Keyboard : D2 : KeyUp
+Keyboard : D5 : KeyDown
+Keyboard : D5 : KeyUp
+Keyboard : Tab : KeyDown
+Keyboard : Tab : KeyUp
+Keyboard : D1 : KeyDown
+Keyboard : D1 : KeyUp
+Keyboard : D2 : KeyDown
+Keyboard : D2 : KeyUp
+Keyboard : D3 : KeyDown
+Keyboard : D3 : KeyUp
+Keyboard : D1 : KeyDown
+Keyboard : D1 : KeyUp
+Keyboard : D2 : KeyDown
+Keyboard : D2 : KeyUp
+Keyboard : D3 : KeyDown
+Keyboard : D3 : KeyUp
+Mouse : 515 : 565 : LeftButtonDown : 0 : 0 : 0
+Mouse : 515 : 565 : LeftButtonUp : 0 : 0 : 0
+DELAY : 100
+GOTO : enter
+ENDIF
+IF CLIPBOARD EQUALS : 7 : 0 : 0
+Keyboard : G : KeyDown
+Keyboard : G : KeyUp
+Keyboard : L : KeyDown
+Keyboard : L : KeyUp
+Keyboard : A : KeyDown
+Keyboard : A : KeyUp
+Keyboard : C : KeyDown
+Keyboard : I : KeyDown
+Keyboard : C : KeyUp
+Keyboard : I : KeyUp
+Keyboard : A : KeyDown
+Keyboard : A : KeyUp
+Keyboard : D2 : KeyDown
+Keyboard : D4 : KeyDown
+Keyboard : D2 : KeyUp
+Keyboard : D4 : KeyUp
+Keyboard : Tab : KeyDown
+Keyboard : Tab : KeyUp
+Keyboard : D1 : KeyDown
+Keyboard : D1 : KeyUp
+Keyboard : D2 : KeyDown
+Keyboard : D2 : KeyUp
+Keyboard : D3 : KeyDown
+Keyboard : D3 : KeyUp
+Keyboard : D1 : KeyDown
+Keyboard : D1 : KeyUp
+Keyboard : D2 : KeyDown
+Keyboard : D2 : KeyUp
+Keyboard : D3 : KeyDown
+Keyboard : D3 : KeyUp
+Mouse : 515 : 565 : LeftButtonDown : 0 : 0 : 0
+Mouse : 515 : 565 : LeftButtonUp : 0 : 0 : 0
+DELAY : 100
+GOTO : enter
+ENDIF
+IF CLIPBOARD EQUALS : 8 : 0 : 0
+Keyboard : A : KeyDown
+Keyboard : A : KeyUp
+Keyboard : N : KeyDown
+Keyboard : N : KeyUp
+Keyboard : B : KeyDown
+Keyboard : B : KeyUp
+Keyboard : V : KeyDown
+Keyboard : V : KeyUp
+Keyboard : E : KeyDown
+Keyboard : E : KeyUp
+Keyboard : R : KeyDown
+Keyboard : R : KeyUp
+Keyboard : Tab : KeyDown
+Keyboard : Tab : KeyUp
+Keyboard : T : KeyDown
+Keyboard : T : KeyUp
+Keyboard : H : KeyDown
+Keyboard : H : KeyUp
+Keyboard : A : KeyDown
+Keyboard : A : KeyUp
+Keyboard : N : KeyDown
+Keyboard : N : KeyUp
+Keyboard : H : KeyDown
+Keyboard : H : KeyUp
+Keyboard : T : KeyDown
+Keyboard : T : KeyUp
+Keyboard : H : KeyDown
+Keyboard : H : KeyUp
+Keyboard : U : KeyDown
+Keyboard : U : KeyUp
+Keyboard : Y : KeyDown
+Keyboard : Y : KeyUp
+Keyboard : D1 : KeyDown
+Keyboard : D1 : KeyUp
+Keyboard : D0 : KeyDown
+Keyboard : D0 : KeyUp
+Keyboard : D3 : KeyDown
+Keyboard : D3 : KeyUp
+Keyboard : D0 : KeyDown
+Keyboard : D0 : KeyUp
+Mouse : 515 : 565 : LeftButtonDown : 0 : 0 : 0
+Mouse : 515 : 565 : LeftButtonUp : 0 : 0 : 0
+DELAY : 100
+GOTO : enter
+ENDIF
+IF CLIPBOARD EQUALS : 9 : 0 : 0
+Keyboard : G : KeyDown
+Keyboard : G : KeyUp
+Keyboard : W : KeyDown
+Keyboard : W : KeyUp
+Keyboard : N : KeyDown
+Keyboard : N : KeyUp
+Keyboard : O : KeyDown
+Keyboard : O : KeyUp
+Keyboard : O : KeyDown
+Keyboard : O : KeyUp
+Keyboard : B : KeyDown
+Keyboard : B : KeyUp
+Keyboard : D1 : KeyDown
+Keyboard : D1 : KeyUp
+Keyboard : Tab : KeyDown
+Keyboard : Tab : KeyUp
+Keyboard : D1 : KeyDown
+Keyboard : D1 : KeyUp
+Keyboard : D2 : KeyDown
+Keyboard : D2 : KeyUp
+Keyboard : D3 : KeyDown
+Keyboard : D3 : KeyUp
+Keyboard : D1 : KeyDown
+Keyboard : D1 : KeyUp
+Keyboard : D2 : KeyDown
+Keyboard : D2 : KeyUp
+Keyboard : D3 : KeyDown
+Keyboard : D3 : KeyUp
+Mouse : 515 : 565 : LeftButtonDown : 0 : 0 : 0
+Mouse : 515 : 565 : LeftButtonUp : 0 : 0 : 0
+DELAY : 100
+GOTO : enter
+ENDIF
+IF CLIPBOARD EQUALS : 10 : 0 : 0
+Keyboard : K : KeyDown
+Keyboard : K : KeyUp
+Keyboard : I : KeyDown
+Keyboard : I : KeyUp
+Keyboard : L : KeyDown
+Keyboard : L : KeyUp
+Keyboard : L : KeyDown
+Keyboard : E : KeyDown
+Keyboard : L : KeyUp
+Keyboard : R : KeyDown
+Keyboard : E : KeyUp
+Keyboard : R : KeyUp
+Keyboard : D4 : KeyDown
+Keyboard : D4 : KeyUp
+Keyboard : T : KeyDown
+Keyboard : D4 : KeyDown
+Keyboard : T : KeyUp
+Keyboard : D4 : KeyUp
+Keyboard : Tab : KeyDown
+Keyboard : Tab : KeyUp
+Keyboard : K : KeyDown
+Keyboard : K : KeyUp
+Keyboard : I : KeyDown
+Keyboard : I : KeyUp
+Keyboard : L : KeyDown
+Keyboard : L : KeyUp
+Keyboard : L : KeyDown
+Keyboard : L : KeyUp
+Keyboard : E : KeyDown
+Keyboard : R : KeyDown
+Keyboard : E : KeyUp
+Keyboard : R : KeyUp
+Keyboard : D4 : KeyDown
+Keyboard : D4 : KeyUp
+Keyboard : T : KeyDown
+Keyboard : D4 : KeyDown
+Keyboard : T : KeyUp
+Keyboard : D4 : KeyUp
+Mouse : 515 : 565 : LeftButtonDown : 0 : 0 : 0
+Mouse : 515 : 565 : LeftButtonUp : 0 : 0 : 0
+DELAY : 100
+GOTO : enter
+ENDIF
+IF CLIPBOARD EQUALS : 11 : 0 : 0
+Keyboard : O : KeyDown
+Keyboard : O : KeyUp
+Keyboard : M : KeyDown
+Keyboard : M : KeyUp
+Keyboard : G : KeyDown
+Keyboard : G : KeyUp
+Keyboard : J : KeyDown
+Keyboard : J : KeyUp
+Keyboard : I : KeyDown
+Keyboard : I : KeyUp
+Keyboard : G : KeyDown
+Keyboard : G : KeyUp
+Keyboard : G : KeyDown
+Keyboard : G : KeyUp
+Keyboard : Tab : KeyDown
+Keyboard : Tab : KeyUp
+Keyboard : D : KeyDown
+Keyboard : D : KeyUp
+Keyboard : H : KeyDown
+Keyboard : H : KeyUp
+Keyboard : Y : KeyDown
+Keyboard : Y : KeyUp
+Keyboard : L : KeyDown
+Keyboard : L : KeyUp
+Keyboard : O : KeyDown
+Keyboard : O : KeyUp
+Keyboard : L : KeyDown
+Keyboard : L : KeyUp
+Keyboard : D2 : KeyDown
+Keyboard : D2 : KeyUp
+Keyboard : D4 : KeyDown
+Keyboard : D4 : KeyUp
+Mouse : 515 : 565 : LeftButtonDown : 0 : 0 : 0
+Mouse : 515 : 565 : LeftButtonUp : 0 : 0 : 0
+DELAY : 100
+GOTO : enter
+ENDIF
+IF CLIPBOARD EQUALS : 12 : 0 : 0
+Keyboard : C : KeyDown
+Keyboard : C : KeyUp
+Keyboard : H : KeyDown
+Keyboard : H : KeyUp
+Keyboard : O : KeyDown
+Keyboard : O : KeyUp
+Keyboard : E : KeyDown
+Keyboard : E : KeyUp
+Keyboard : M : KeyDown
+Keyboard : M : KeyUp
+Keyboard : D1 : KeyDown
+Keyboard : D1 : KeyUp
+Keyboard : N : KeyDown
+Keyboard : N : KeyUp
+Keyboard : U : KeyDown
+Keyboard : U : KeyUp
+Keyboard : H : KeyDown
+Keyboard : H : KeyUp
+Keyboard : O : KeyDown
+Keyboard : O : KeyUp
+Keyboard : N : KeyDown
+Keyboard : N : KeyUp
+Keyboard : Tab : KeyDown
+Keyboard : Tab : KeyUp
+Keyboard : D : KeyDown
+Keyboard : D : KeyUp
+Keyboard : H : KeyDown
+Keyboard : H : KeyUp
+Keyboard : Y : KeyDown
+Keyboard : Y : KeyUp
+Keyboard : L : KeyDown
+Keyboard : L : KeyUp
+Keyboard : O : KeyDown
+Keyboard : O : KeyUp
+Keyboard : L : KeyDown
+Keyboard : L : KeyUp
+Keyboard : D2 : KeyDown
+Keyboard : D2 : KeyUp
+Keyboard : D4 : KeyDown
+Keyboard : D4 : KeyUp
+Mouse : 515 : 565 : LeftButtonDown : 0 : 0 : 0
+Mouse : 515 : 565 : LeftButtonUp : 0 : 0 : 0
+DELAY : 100
+GOTO : enter
+ENDIF
+IF CLIPBOARD EQUALS : 13 : 0 : 0
+Keyboard : D : KeyDown
+Keyboard : D : KeyUp
+Keyboard : R : KeyDown
+Keyboard : R : KeyUp
+Keyboard : S : KeyDown
+Keyboard : S : KeyUp
+Keyboard : N : KeyDown
+Keyboard : N : KeyUp
+Keyboard : O : KeyDown
+Keyboard : O : KeyUp
+Keyboard : R : KeyDown
+Keyboard : R : KeyUp
+Keyboard : L : KeyDown
+Keyboard : L : KeyUp
+Keyboard : A : KeyDown
+Keyboard : A : KeyUp
+Keyboard : X : KeyDown
+Keyboard : X : KeyUp
+Keyboard : Tab : KeyDown
+Keyboard : Tab : KeyUp
+Keyboard : D : KeyDown
+Keyboard : D : KeyUp
+Keyboard : H : KeyDown
+Keyboard : H : KeyUp
+Keyboard : Y : KeyDown
+Keyboard : Y : KeyUp
+Keyboard : L : KeyDown
+Keyboard : L : KeyUp
+Keyboard : O : KeyDown
+Keyboard : O : KeyUp
+Keyboard : L : KeyDown
+Keyboard : L : KeyUp
+Keyboard : D2 : KeyDown
+Keyboard : D2 : KeyUp
+Keyboard : D4 : KeyDown
+Keyboard : D4 : KeyUp
+Mouse : 515 : 565 : LeftButtonDown : 0 : 0 : 0
+Mouse : 515 : 565 : LeftButtonUp : 0 : 0 : 0
+DELAY : 100
+GOTO : enter
+ENDIF
+IF CLIPBOARD EQUALS : 14 : 0 : 0
+Keyboard : H : KeyDown
+Keyboard : H : KeyUp
+Keyboard : A : KeyDown
+Keyboard : R : KeyDown
+Keyboard : A : KeyUp
+Keyboard : R : KeyUp
+Keyboard : P : KeyDown
+Keyboard : P : KeyUp
+Keyboard : U : KeyDown
+Keyboard : I : KeyDown
+Keyboard : U : KeyUp
+Keyboard : A : KeyDown
+Keyboard : I : KeyUp
+Keyboard : D2 : KeyDown
+Keyboard : D4 : KeyDown
+Keyboard : A : KeyUp
+Keyboard : D2 : KeyUp
+Keyboard : D4 : KeyUp
+Keyboard : Tab : KeyDown
+Keyboard : Tab : KeyUp
+Keyboard : D0 : KeyDown
+Keyboard : D1 : KeyDown
+Keyboard : D0 : KeyUp
+Keyboard : D2 : KeyDown
+Keyboard : D1 : KeyUp
+Keyboard : D2 : KeyUp
+Keyboard : D2 : KeyDown
+Keyboard : D2 : KeyUp
+Keyboard : D1 : KeyDown
+Keyboard : D3 : KeyDown
+Keyboard : D1 : KeyUp
+Keyboard : D3 : KeyUp
+Keyboard : D0 : KeyDown
+Keyboard : D0 : KeyUp
+Keyboard : D6 : KeyDown
+Keyboard : D3 : KeyDown
+Keyboard : D6 : KeyUp
+Keyboard : D3 : KeyUp
+Mouse : 515 : 565 : LeftButtonDown : 0 : 0 : 0
+Mouse : 515 : 565 : LeftButtonUp : 0 : 0 : 0
+DELAY : 100
+GOTO : enter
+ENDIF
+IF CLIPBOARD EQUALS : 100 : 0 : 2
+SET CLIPBOARD : 1 : 0 : Please enter the text to store in clipboard:
+GOTO : acc
+ENDIF
+IF CLIPBOARD EQUALS : 0 : 0 : 2
+INCREMENT CLIPBOARD : 1
+GOTO : acc
+ENDIF
+SET CLIPBOARD : 1 : 0 : Please enter the text to store in clipboard:
+GOTO : acc
 LABEL : mdew
 IF WINDOW EXISTS : GodsWar Online [USA] : 0
 ELSE
@@ -1037,6 +1587,9 @@ ENDIF
 DELAY : 100
 GOTO : check full bag
 LABEL : dragx
+IF IMAGE : Qk12BQAAAAAAADYAAAAoAAAADgAAABgAAAABACAAAAAAAAAAAADEDgAAxA4AAAAAAAAAAAAAMTEx/zIyMv8vLy//KSkp/wICAf9BQD//BgcG/wkJCf86Ojr/AgIB/wAAAP8AAAD/G0BS/ylde/8xMTH/MTEx/y4uLv8pKSn/AgIB/0FAP/8GBwb/CQkJ/zo6Ov8DAgH/AAgI/wAICP8mUGD/OXGM/zExMf8zMzP/Li4u/ykpKf8CAgH/QUA//wYHBv8JCQn/Ojo6/wICAf8ACAj/AAgI/yZQYP85cYz/MTEx/zExMf8vLy//KSkp/wICAf9BQD//BgcH/wkJCf86Ojr/AwIB/wAICP8ACAj/JlBg/zlxjP8yMjL/MTEx/zExMf8pKSn/AwIB/0FAP/8GBwb/CQkJ/zo6Ov8DAgH/AAgI/wAICP8mUGD/OXGM/zIyMv8xMTH/MDAw/yoqKv8DAgH/QUA//wYHBv8JCQn/Ojo6/wMCAf8AAAD/EyY0/yZTaP85eZz/MzMz/zExMf8vLy//LCws/wICAf9BQD//BgcG/wkJCf86Ojr/AwIB/wAAAP8TJjT/OXmc/zl5nP8yMjL/MTEx/zAwMP8uLi7/AwIB/0FAP/8GBwb/CQkJ/zo6Ov8DAgH/AAAA/xMmNP85eZz/OXmc/zc3N/80NDT/Ly8v/zExMf8CAgH/QUA//wYHBv8JCQn/Ojo6/wMCAf8AAAD/EyY0/zl5nP85eZz/Q0ND/zs7O/8vLy//MTEx/wMCAf9BQD//BgcG/wkJCf86Ojr/AwIB/wAEEP8ABBD/MWN+/0qOtf9BQUH/OTk5/y8vL/8wMDD/AwIB/0FAP/8GBwb/CQkJ/zo6Ov8DAgH/AAQQ/wAEEP8xY37/So61/z09Pf82Njb/Ly8v/zAwMP8DAgH/QUA//wYHBv8JCQn/Ojo6/wMCAf8ABBD/AAQQ/zFjfv9KjrX/OTk5/zY2Nv8vLy//MTEx/wMCAf9BQD//BgcG/wkJCf86Ojr/AwIB/wAEEP8ABBD/MWN+/0qOtf8zMzP/MjIy/zExMf8xMTH/AwIB/0FAP/8GBwb/CQkJ/zo6Ov8DAgH/AAAI/wAACP85dZz/OXWc/zIyMv8xMTH/MTEx/y4uLv8CAQD/QUA//wYHBv8JCQn/Ojo6/wMCAf8AAAj/AAAI/zl1nP85dZz/MzMz/zIyMv8vLy//LCws/wICAf9BQD//BgcH/wkJCf86Ojr/AwIB/wAACP8TJTn/OXWc/zl1nP8yMjL/MjIy/zExMf8qKir/AgIB/0FAP/8GBwb/CQkJ/zo6Ov8DAgH/AAAI/xMlOf85dZz/OXWc/zIyMv8yMjL/Ly8v/ykpKf8DAgH/QUA//wYHBv8JCQn/Ojo6/wMCAf8IAAj/Jio3/2OGlP9jhpT/MTEx/zIyMv8tLS3/KSkp/wICAf9BQD//BgcG/wkJCf86Ojr/AwIB/wgACP8IAAj/RFxl/2OGlP8zMzP/MjIy/y0tLf8pKSn/AgIB/0FAP/8GBwb/CQkJ/zo6Ov8DAgH/CAAI/wgACP9EXGX/RFxl/zExMf8xMTH/LS0t/ykpKf8CAgH/QUA//wYHBv8JCQn/Ojo6/wMCAf8IAAj/CAAI/0RcZf9EXGX/MTEx/zIyMv8tLS3/KSkp/wICAP9BQD//BgcG/wkJCf86Ojr/AwIB/yEAEP8hABD/jHmE/4x5hP8xMTH/MjIy/y0tLf8pKSn/AgIB/0FAP/8GBwb/CQkJ/zo6Ov8DAgH/IQAQ/yEAEP+MeYT/jHmE/zExMf8yMjL/LS0t/ykpKf8CAgH/QUA//wYHBv8JCQn/Ojo6/wMCAf8hABD/IQAQ/4x5hP+MeYT/ : 0 : 20 : 1 : 21;329;249;500
+GOTO : move maps to top
+ENDIF
 IF IMAGE : Qk2WAAAAAAAAADYAAAAoAAAABgAAAAQAAAABACAAAAAAAAAAAADEDgAAxA4AAAAAAAAAAAAAODg4/zg4OP84ODj/ODg4/zg4OP84ODj/ODg4/zg4OP89PT3/PT09/zw8PP88PDz/ODg4/zg4OP8/Pz//Ozs7/zs7O/87Ozv/ODg4/zg4OP9AQED/Pz8//zs7O/86Ojr/ : 1 : 0 : 0 : 776;590;216;130
 DELAY : 60
 Mouse : C0 : C0 : LeftButtonUp : 0 : 0 : 0
@@ -1475,469 +2028,6 @@ IF PIXEL COLOR EQUALS : 429 : 405 : 4606778 : 0
 GOTO : acc
 ENDIF
 GOTO : account
-LABEL : acc
-IF CLIPBOARD EQUALS : 1 : 0 : 0
-Mouse : 429 : 405 : LeftButtonDown : 0 : 0 : 0
-Mouse : 429 : 405 : LeftButtonUp : 0 : 0 : 0
-Keyboard : R : KeyDown
-Keyboard : R : KeyUp
-Keyboard : Q : KeyDown
-Keyboard : Q : KeyUp
-Keyboard : D0 : KeyDown
-Keyboard : D0 : KeyUp
-Keyboard : D1 : KeyDown
-Keyboard : D1 : KeyUp
-Keyboard : Tab : KeyDown
-Keyboard : Tab : KeyUp
-Keyboard : D1 : KeyDown
-Keyboard : D1 : KeyUp
-Keyboard : D2 : KeyDown
-Keyboard : D2 : KeyUp
-Keyboard : D3 : KeyDown
-Keyboard : D3 : KeyUp
-Keyboard : D1 : KeyDown
-Keyboard : D1 : KeyUp
-Keyboard : D2 : KeyDown
-Keyboard : D2 : KeyUp
-Keyboard : D3 : KeyDown
-Keyboard : D3 : KeyUp
-Keyboard : A : KeyDown
-Keyboard : A : KeyUp
-Keyboard : A : KeyDown
-Keyboard : A : KeyUp
-Mouse : 515 : 565 : LeftButtonDown : 0 : 0 : 0
-Mouse : 515 : 565 : LeftButtonUp : 0 : 0 : 0
-DELAY : 100
-GOTO : enter
-ENDIF
-IF CLIPBOARD EQUALS : 2 : 0 : 0
-Mouse : 429 : 405 : LeftButtonDown : 0 : 0 : 0
-Mouse : 429 : 405 : LeftButtonUp : 0 : 0 : 0
-Keyboard : R : KeyDown
-Keyboard : R : KeyUp
-Keyboard : Q : KeyDown
-Keyboard : Q : KeyUp
-Keyboard : D0 : KeyDown
-Keyboard : D0 : KeyUp
-Keyboard : D2 : KeyDown
-Keyboard : D2 : KeyUp
-Keyboard : Tab : KeyDown
-Keyboard : Tab : KeyUp
-Keyboard : D1 : KeyDown
-Keyboard : D1 : KeyUp
-Keyboard : D2 : KeyDown
-Keyboard : D2 : KeyUp
-Keyboard : D3 : KeyDown
-Keyboard : D3 : KeyUp
-Keyboard : D1 : KeyDown
-Keyboard : D1 : KeyUp
-Keyboard : D2 : KeyDown
-Keyboard : D2 : KeyUp
-Keyboard : D3 : KeyDown
-Keyboard : D3 : KeyUp
-Keyboard : A : KeyDown
-Keyboard : A : KeyUp
-Keyboard : A : KeyDown
-Keyboard : A : KeyUp
-Mouse : 515 : 565 : LeftButtonDown : 0 : 0 : 0
-Mouse : 515 : 565 : LeftButtonUp : 0 : 0 : 0
-DELAY : 100
-GOTO : enter
-ENDIF
-IF CLIPBOARD EQUALS : 3 : 0 : 0
-Mouse : 429 : 405 : LeftButtonDown : 0 : 0 : 0
-Mouse : 429 : 405 : LeftButtonUp : 0 : 0 : 0
-Keyboard : R : KeyDown
-Keyboard : R : KeyUp
-Keyboard : Q : KeyDown
-Keyboard : Q : KeyUp
-Keyboard : X : KeyDown
-Keyboard : X : KeyUp
-Keyboard : Z : KeyDown
-Keyboard : Z : KeyUp
-Keyboard : D1 : KeyDown
-Keyboard : D1 : KeyUp
-Keyboard : Tab : KeyDown
-Keyboard : Tab : KeyUp
-Keyboard : D1 : KeyDown
-Keyboard : D1 : KeyUp
-Keyboard : D2 : KeyDown
-Keyboard : D2 : KeyUp
-Keyboard : D3 : KeyDown
-Keyboard : D3 : KeyUp
-Keyboard : D1 : KeyDown
-Keyboard : D1 : KeyUp
-Keyboard : D2 : KeyDown
-Keyboard : D2 : KeyUp
-Keyboard : D3 : KeyDown
-Keyboard : D3 : KeyUp
-Keyboard : A : KeyDown
-Keyboard : A : KeyUp
-Keyboard : A : KeyDown
-Keyboard : A : KeyUp
-Mouse : 515 : 565 : LeftButtonDown : 0 : 0 : 0
-Mouse : 515 : 565 : LeftButtonUp : 0 : 0 : 0
-DELAY : 100
-GOTO : enter
-ENDIF
-IF CLIPBOARD EQUALS : 4 : 0 : 0
-Keyboard : Z : KeyDown
-Keyboard : Z : KeyUp
-Keyboard : E : KeyDown
-Keyboard : E : KeyUp
-Keyboard : A : KeyDown
-Keyboard : A : KeyUp
-Keyboard : L : KeyDown
-Keyboard : L : KeyUp
-Keyboard : D0 : KeyDown
-Keyboard : D0 : KeyUp
-Keyboard : D2 : KeyDown
-Keyboard : D2 : KeyUp
-Keyboard : D4 : KeyDown
-Keyboard : D4 : KeyUp
-Keyboard : Tab : KeyDown
-Keyboard : Tab : KeyUp
-Keyboard : D : KeyDown
-Keyboard : D : KeyUp
-Keyboard : H : KeyDown
-Keyboard : H : KeyUp
-Keyboard : Y : KeyDown
-Keyboard : Y : KeyUp
-Keyboard : L : KeyDown
-Keyboard : L : KeyUp
-Keyboard : O : KeyDown
-Keyboard : O : KeyUp
-Keyboard : L : KeyDown
-Keyboard : L : KeyUp
-Keyboard : D2 : KeyDown
-Keyboard : D2 : KeyUp
-Keyboard : D4 : KeyDown
-Keyboard : D4 : KeyUp
-Mouse : 515 : 565 : LeftButtonDown : 0 : 0 : 0
-Mouse : 515 : 565 : LeftButtonUp : 0 : 0 : 0
-DELAY : 100
-GOTO : enter
-ENDIF
-IF CLIPBOARD EQUALS : 5 : 0 : 0
-Keyboard : G : KeyDown
-Keyboard : G : KeyUp
-Keyboard : W : KeyDown
-Keyboard : W : KeyUp
-Keyboard : N : KeyDown
-Keyboard : N : KeyUp
-Keyboard : O : KeyDown
-Keyboard : O : KeyUp
-Keyboard : O : KeyDown
-Keyboard : O : KeyUp
-Keyboard : B : KeyDown
-Keyboard : B : KeyUp
-Keyboard : D4 : KeyDown
-Keyboard : D4 : KeyUp
-Keyboard : Tab : KeyDown
-Keyboard : Tab : KeyUp
-Keyboard : D1 : KeyDown
-Keyboard : D1 : KeyUp
-Keyboard : D2 : KeyDown
-Keyboard : D2 : KeyUp
-Keyboard : D3 : KeyDown
-Keyboard : D3 : KeyUp
-Keyboard : D1 : KeyDown
-Keyboard : D1 : KeyUp
-Keyboard : D2 : KeyDown
-Keyboard : D2 : KeyUp
-Keyboard : D3 : KeyDown
-Keyboard : D3 : KeyUp
-Mouse : 515 : 565 : LeftButtonDown : 0 : 0 : 0
-Mouse : 515 : 565 : LeftButtonUp : 0 : 0 : 0
-DELAY : 100
-GOTO : enter
-ENDIF
-IF CLIPBOARD EQUALS : 6 : 0 : 0
-Keyboard : B : KeyDown
-Keyboard : B : KeyUp
-Keyboard : Y : KeyDown
-Keyboard : Y : KeyUp
-Keyboard : E : KeyDown
-Keyboard : E : KeyUp
-Keyboard : D0 : KeyDown
-Keyboard : D0 : KeyUp
-Keyboard : D2 : KeyDown
-Keyboard : D2 : KeyUp
-Keyboard : D5 : KeyDown
-Keyboard : D5 : KeyUp
-Keyboard : Tab : KeyDown
-Keyboard : Tab : KeyUp
-Keyboard : D1 : KeyDown
-Keyboard : D1 : KeyUp
-Keyboard : D2 : KeyDown
-Keyboard : D2 : KeyUp
-Keyboard : D3 : KeyDown
-Keyboard : D3 : KeyUp
-Keyboard : D1 : KeyDown
-Keyboard : D1 : KeyUp
-Keyboard : D2 : KeyDown
-Keyboard : D2 : KeyUp
-Keyboard : D3 : KeyDown
-Keyboard : D3 : KeyUp
-Mouse : 515 : 565 : LeftButtonDown : 0 : 0 : 0
-Mouse : 515 : 565 : LeftButtonUp : 0 : 0 : 0
-DELAY : 100
-GOTO : enter
-ENDIF
-IF CLIPBOARD EQUALS : 7 : 0 : 0
-Keyboard : G : KeyDown
-Keyboard : G : KeyUp
-Keyboard : L : KeyDown
-Keyboard : L : KeyUp
-Keyboard : A : KeyDown
-Keyboard : A : KeyUp
-Keyboard : C : KeyDown
-Keyboard : I : KeyDown
-Keyboard : C : KeyUp
-Keyboard : I : KeyUp
-Keyboard : A : KeyDown
-Keyboard : A : KeyUp
-Keyboard : D2 : KeyDown
-Keyboard : D4 : KeyDown
-Keyboard : D2 : KeyUp
-Keyboard : D4 : KeyUp
-Keyboard : Tab : KeyDown
-Keyboard : Tab : KeyUp
-Keyboard : D1 : KeyDown
-Keyboard : D1 : KeyUp
-Keyboard : D2 : KeyDown
-Keyboard : D2 : KeyUp
-Keyboard : D3 : KeyDown
-Keyboard : D3 : KeyUp
-Keyboard : D1 : KeyDown
-Keyboard : D1 : KeyUp
-Keyboard : D2 : KeyDown
-Keyboard : D2 : KeyUp
-Keyboard : D3 : KeyDown
-Keyboard : D3 : KeyUp
-Mouse : 515 : 565 : LeftButtonDown : 0 : 0 : 0
-Mouse : 515 : 565 : LeftButtonUp : 0 : 0 : 0
-DELAY : 100
-GOTO : enter
-ENDIF
-IF CLIPBOARD EQUALS : 8 : 0 : 0
-Keyboard : A : KeyDown
-Keyboard : A : KeyUp
-Keyboard : N : KeyDown
-Keyboard : N : KeyUp
-Keyboard : B : KeyDown
-Keyboard : B : KeyUp
-Keyboard : V : KeyDown
-Keyboard : V : KeyUp
-Keyboard : E : KeyDown
-Keyboard : E : KeyUp
-Keyboard : R : KeyDown
-Keyboard : R : KeyUp
-Keyboard : Tab : KeyDown
-Keyboard : Tab : KeyUp
-Keyboard : T : KeyDown
-Keyboard : T : KeyUp
-Keyboard : H : KeyDown
-Keyboard : H : KeyUp
-Keyboard : A : KeyDown
-Keyboard : A : KeyUp
-Keyboard : N : KeyDown
-Keyboard : N : KeyUp
-Keyboard : H : KeyDown
-Keyboard : H : KeyUp
-Keyboard : T : KeyDown
-Keyboard : T : KeyUp
-Keyboard : H : KeyDown
-Keyboard : H : KeyUp
-Keyboard : U : KeyDown
-Keyboard : U : KeyUp
-Keyboard : Y : KeyDown
-Keyboard : Y : KeyUp
-Keyboard : D1 : KeyDown
-Keyboard : D1 : KeyUp
-Keyboard : D0 : KeyDown
-Keyboard : D0 : KeyUp
-Keyboard : D3 : KeyDown
-Keyboard : D3 : KeyUp
-Keyboard : D0 : KeyDown
-Keyboard : D0 : KeyUp
-Mouse : 515 : 565 : LeftButtonDown : 0 : 0 : 0
-Mouse : 515 : 565 : LeftButtonUp : 0 : 0 : 0
-DELAY : 100
-GOTO : enter
-ENDIF
-IF CLIPBOARD EQUALS : 9 : 0 : 0
-Keyboard : G : KeyDown
-Keyboard : G : KeyUp
-Keyboard : W : KeyDown
-Keyboard : W : KeyUp
-Keyboard : N : KeyDown
-Keyboard : N : KeyUp
-Keyboard : O : KeyDown
-Keyboard : O : KeyUp
-Keyboard : O : KeyDown
-Keyboard : O : KeyUp
-Keyboard : B : KeyDown
-Keyboard : B : KeyUp
-Keyboard : D1 : KeyDown
-Keyboard : D1 : KeyUp
-Keyboard : Tab : KeyDown
-Keyboard : Tab : KeyUp
-Keyboard : D1 : KeyDown
-Keyboard : D1 : KeyUp
-Keyboard : D2 : KeyDown
-Keyboard : D2 : KeyUp
-Keyboard : D3 : KeyDown
-Keyboard : D3 : KeyUp
-Keyboard : D1 : KeyDown
-Keyboard : D1 : KeyUp
-Keyboard : D2 : KeyDown
-Keyboard : D2 : KeyUp
-Keyboard : D3 : KeyDown
-Keyboard : D3 : KeyUp
-Mouse : 515 : 565 : LeftButtonDown : 0 : 0 : 0
-Mouse : 515 : 565 : LeftButtonUp : 0 : 0 : 0
-DELAY : 100
-GOTO : enter
-ENDIF
-IF CLIPBOARD EQUALS : 10 : 0 : 0
-Keyboard : K : KeyDown
-Keyboard : K : KeyUp
-Keyboard : I : KeyDown
-Keyboard : I : KeyUp
-Keyboard : L : KeyDown
-Keyboard : L : KeyUp
-Keyboard : L : KeyDown
-Keyboard : E : KeyDown
-Keyboard : L : KeyUp
-Keyboard : R : KeyDown
-Keyboard : E : KeyUp
-Keyboard : R : KeyUp
-Keyboard : D4 : KeyDown
-Keyboard : D4 : KeyUp
-Keyboard : T : KeyDown
-Keyboard : D4 : KeyDown
-Keyboard : T : KeyUp
-Keyboard : D4 : KeyUp
-Keyboard : Tab : KeyDown
-Keyboard : Tab : KeyUp
-Keyboard : K : KeyDown
-Keyboard : K : KeyUp
-Keyboard : I : KeyDown
-Keyboard : I : KeyUp
-Keyboard : L : KeyDown
-Keyboard : L : KeyUp
-Keyboard : L : KeyDown
-Keyboard : L : KeyUp
-Keyboard : E : KeyDown
-Keyboard : R : KeyDown
-Keyboard : E : KeyUp
-Keyboard : R : KeyUp
-Keyboard : D4 : KeyDown
-Keyboard : D4 : KeyUp
-Keyboard : T : KeyDown
-Keyboard : D4 : KeyDown
-Keyboard : T : KeyUp
-Keyboard : D4 : KeyUp
-Mouse : 515 : 565 : LeftButtonDown : 0 : 0 : 0
-Mouse : 515 : 565 : LeftButtonUp : 0 : 0 : 0
-DELAY : 100
-GOTO : enter
-ENDIF
-IF CLIPBOARD EQUALS : 11 : 0 : 0
-Keyboard : O : KeyDown
-Keyboard : O : KeyUp
-Keyboard : M : KeyDown
-Keyboard : M : KeyUp
-Keyboard : G : KeyDown
-Keyboard : G : KeyUp
-Keyboard : J : KeyDown
-Keyboard : J : KeyUp
-Keyboard : I : KeyDown
-Keyboard : I : KeyUp
-Keyboard : G : KeyDown
-Keyboard : G : KeyUp
-Keyboard : G : KeyDown
-Keyboard : G : KeyUp
-Keyboard : Tab : KeyDown
-Keyboard : Tab : KeyUp
-Keyboard : D : KeyDown
-Keyboard : D : KeyUp
-Keyboard : H : KeyDown
-Keyboard : H : KeyUp
-Keyboard : Y : KeyDown
-Keyboard : Y : KeyUp
-Keyboard : L : KeyDown
-Keyboard : L : KeyUp
-Keyboard : O : KeyDown
-Keyboard : O : KeyUp
-Keyboard : L : KeyDown
-Keyboard : L : KeyUp
-Keyboard : D2 : KeyDown
-Keyboard : D2 : KeyUp
-Keyboard : D4 : KeyDown
-Keyboard : D4 : KeyUp
-Mouse : 515 : 565 : LeftButtonDown : 0 : 0 : 0
-Mouse : 515 : 565 : LeftButtonUp : 0 : 0 : 0
-DELAY : 100
-GOTO : enter
-ENDIF
-IF CLIPBOARD EQUALS : 12 : 0 : 0
-Keyboard : C : KeyDown
-Keyboard : C : KeyUp
-Keyboard : H : KeyDown
-Keyboard : H : KeyUp
-Keyboard : O : KeyDown
-Keyboard : O : KeyUp
-Keyboard : E : KeyDown
-Keyboard : E : KeyUp
-Keyboard : M : KeyDown
-Keyboard : M : KeyUp
-Keyboard : D1 : KeyDown
-Keyboard : D1 : KeyUp
-Keyboard : N : KeyDown
-Keyboard : N : KeyUp
-Keyboard : U : KeyDown
-Keyboard : U : KeyUp
-Keyboard : H : KeyDown
-Keyboard : H : KeyUp
-Keyboard : O : KeyDown
-Keyboard : O : KeyUp
-Keyboard : N : KeyDown
-Keyboard : N : KeyUp
-Keyboard : Tab : KeyDown
-Keyboard : Tab : KeyUp
-Keyboard : D : KeyDown
-Keyboard : D : KeyUp
-Keyboard : H : KeyDown
-Keyboard : H : KeyUp
-Keyboard : Y : KeyDown
-Keyboard : Y : KeyUp
-Keyboard : L : KeyDown
-Keyboard : L : KeyUp
-Keyboard : O : KeyDown
-Keyboard : O : KeyUp
-Keyboard : L : KeyDown
-Keyboard : L : KeyUp
-Keyboard : D2 : KeyDown
-Keyboard : D2 : KeyUp
-Keyboard : D4 : KeyDown
-Keyboard : D4 : KeyUp
-Mouse : 515 : 565 : LeftButtonDown : 0 : 0 : 0
-Mouse : 515 : 565 : LeftButtonUp : 0 : 0 : 0
-DELAY : 100
-GOTO : enter
-ENDIF
-IF CLIPBOARD EQUALS : 100 : 0 : 2
-SET CLIPBOARD : 1 : 0 : Please enter the text to store in clipboard:
-GOTO : acc
-ENDIF
-IF CLIPBOARD EQUALS : 0 : 0 : 2
-INCREMENT CLIPBOARD : 1
-GOTO : acc
-ENDIF
-SET CLIPBOARD : 1 : 0 : Please enter the text to store in clipboard:
-GOTO : acc
 LABEL : enter
 IF PIXEL COLOR EQUALS : 586 : 430 : 16185079 : 0
 Mouse : 512 : 498 : LeftButtonDown : 0 : 0 : 0

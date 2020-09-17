@@ -1,16 +1,23 @@
+SET CLIPBOARD : 1 : 0 : Please enter the text to store in clipboard:
 LABEL : accept
+IF PIXEL COLOR EQUALS : 411 : 159 : 2499659 : 0
+DELAY : 50
+GOTO : accept
+ENDIF
+IF WINDOW EXISTS : Error : 0
+SWITCH TO WINDOW : Error : 0
+CLOSE WINDOW : Error : 0
+CLOSE WINDOW : Error : 0
+ENDIF
 IF WINDOW EXISTS : Woops! Something broke. : 0
 CLOSE WINDOW : Woops! Something broke. : 0
-ENDIF
-IF WINDOW EXISTS : System Error : 0
-CLOSE WINDOW : System Error : 0
 ENDIF
 IF WINDOW EXISTS : League of Legends (TM) Client : 0
 GOTO : claim
 ENDIF
 IF PIXEL COLOR EQUALS : 0 : 0 : 1976365 : 1
-Keyboard : F10 : KeyDown
-Keyboard : F10 : KeyUp
+SWITCH TO WINDOW : League of Legends : 0
+Keyboard : F10 : KeyPress
 ENDIF
 LABEL : lock
 IF PIXEL COLOR EQUALS : 512 : 470 : 571572 : 0
@@ -25,7 +32,7 @@ DELAY : 50
 ENDIF
 LABEL : requeue
 DELAY : 50
-IF PIXEL COLOR EQUALS : 355 : 545 : 8485475 : 0
+IF PIXEL COLOR EQUALS : 55 : 32 : 75841 : 0
 Mouse : 400 : 540 : LeftButtonDown : 0 : 0 : 0
 DELAY : 50
 Mouse : 400 : 540 : LeftButtonUp : 0 : 0 : 0
@@ -48,7 +55,7 @@ IF PIXEL COLOR EQUALS : 55 : 44 : 92042 : 0
 Mouse : 80 : 40 : Click : 0 : 0 : 0
 ENDIF
 LABEL : create tft
-IF PIXEL COLOR EQUALS : 699 : 148 : 11707774 : 0
+IF PIXEL COLOR EQUALS : 650 : 409 : 15787730 : 0
 Mouse : 434 : 553 : Click : 0 : 0 : 0
 ENDIF
 LABEL : select tft
@@ -59,8 +66,33 @@ LABEL : reconnect
 IF PIXEL COLOR EQUALS : 365 : 274 : 68115 : 0
 Mouse : 420 : 285 : Click : 0 : 0 : 0
 ENDIF
+LABEL : recreate
+IF PIXEL COLOR EQUALS : 347 : 497 : 11445658 : 0
+Mouse : 350 : 545 : Click : 0 : 0 : 0
+ENDIF
+LABEL : close ads
+IF PIXEL COLOR EQUALS : 818 : 61 : 13023373 : 0
+Mouse : 818 : 61 : Click : 0 : 0 : 0
+ENDIF
+IF PIXEL COLOR EQUALS : 818 : 63 : 12957837 : 0
+Mouse : 818 : 63 : Click : 0 : 0 : 0
+ENDIF
+LABEL : close icon
+IF PIXEL COLOR EQUALS : 822 : 103 : 9999494 : 0
+Mouse : 822 : 103 : Click : 0 : 0 : 0
+ENDIF
+LABEL : close map
+IF PIXEL COLOR EQUALS : 806 : 501 : 1975080 : 0
+Mouse : 876 : 53 : Click : 0 : 0 : 0
+ENDIF
+IF PIXEL FOUND : 1054495 : 0 : 1 : 520 : 452 : 565 : 571
+FIND PIXEL : 1054495 : 0 : 1 : 520 : 452 : 565 : 571
+Mouse : 0 : 0 : LeftButtonDown : 0 : 1 : 0
+Mouse : 0 : 0 : LeftButtonUp : 0 : 1 : 0
+Mouse : 436 : 548 : Move : 0 : 0 : 0
+ENDIF
 LABEL : end
-IF PIXEL COLOR EQUALS : 681 : 364 : 1579032 : 0
+IF PIXEL COLOR EQUALS : 526 : 374 : 13018992 : 0
 Mouse : 420 : 380 : Click : 0 : 0 : 0
 ENDIF
 IF PIXEL COLOR EQUALS : 684 : 360 : 3553074 : 0
@@ -136,22 +168,10 @@ Mouse : 830 : 533 : LeftButtonUp : 0 : 0 : 0
 DELAY : 50
 Mouse : 555 : 35 : Move : 0 : 0 : 0
 ENDIF
-IF PIXEL COLOR EQUALS : 114 : 37 : 2041130 : 0
-Mouse : 830 : 533 : LeftButtonDown : 0 : 0 : 0
-DELAY : 50
-Mouse : 830 : 533 : LeftButtonUp : 0 : 0 : 0
-DELAY : 50
-Mouse : 555 : 35 : Move : 0 : 0 : 0
-ENDIF
 IF PIXEL COLOR EQUALS : 725 : 514 : 3241381 : 0
 Mouse : 830 : 533 : LeftButtonDown : 0 : 0 : 0
 DELAY : 50
 Mouse : 830 : 533 : LeftButtonUp : 0 : 0 : 0
-DELAY : 50
-Mouse : 555 : 35 : Move : 0 : 0 : 0
-ENDIF
-IF PIXEL COLOR EQUALS : 444 : 535 : 366250 : 0
-Mouse : 444 : 544 : Click : 0 : 0 : 0
 DELAY : 50
 Mouse : 555 : 35 : Move : 0 : 0 : 0
 ENDIF
@@ -165,17 +185,8 @@ Mouse : 444 : 544 : Click : 0 : 0 : 0
 DELAY : 50
 Mouse : 555 : 35 : Move : 0 : 0 : 0
 ENDIF
-IF PIXEL COLOR EQUALS : 333 : 275 : 13150572 : 0
-Mouse : 512 : 285 : Click : 0 : 0 : 0
-ENDIF
-IF PIXEL COLOR EQUALS : 80 : 40 : 1975080 : 0
-Mouse : 80 : 40 : Click : 0 : 0 : 0
-ENDIF
-IF PIXEL COLOR EQUALS : 633 : 412 : 15656401 : 0
-Mouse : 440 : 550 : Click : 0 : 0 : 0
-ENDIF
 LABEL : buy
-IF IMAGE : Qk02AQAAAAAAADYAAAAoAAAACAAAAAgAAAABACAAAAAAAAAAAADEDgAAxA4AAAAAAAAAAAAAFQwF/xELBv8QDQv/HBwc/zY2Nv84ODj/ODg4/zg4OP8EAwH/Ghoa/zc3N/84ODj/ODg4/zg4OP84ODj/ODg4/y8vL/84ODj/OTk5/zo6Ov86Ojr/Ojo6/zo6Ov86Ojr/ODg4/zg4OP85OTn/VFRU/6Kiov86Ojr/oqKi/1RUVP84ODj/ODg4/3BwcP9AQED/2NjY/9jY2P/Y2Nj/QEBA/zc3N/+Tk5P/g4OD/9jY2P/Y2Nj/2NjY/9jY2P/Y2Nj/Nzc3/zg4OP9KSkr/kpKS/25ubv/Y2Nj/bm5u/5KSkv83Nzf/ODg4/8vLy/+ioqL/Ojo6/0VFRf86Ojr/pKSk/w== : 1 : 30 : 0 : 175;692;591;46
+IF IMAGE : Qk36AAAAAAAAADYAAAAoAAAABwAAAAcAAAABACAAAAAAAAAAAADEDgAAxA4AAAAAAAAAAAAAODg4/zg4OP84ODj/ODg4/zg4OP84ODj/ODg4/zg4OP9QUFD/nZ2d/7a2tv+2trb/kpKS/z8/P/84ODj/oqKi/9jY2P/U1NT/wsLC/9HR0f/X19f/ODg4/zg4OP9UVFT/2NjY/9fX1//T09P/e3t7/zg4OP84ODj/S0tL/9jY2P/Y2Nj/dnZ2/zg4OP84ODj/ODg4/zo6Ov/Y2Nj/zMzM/zg4OP84ODj/ODg4/zg4OP84ODj/kJCQ/8/Pz/84ODj/ODg4/w== : 1 : 30 : 0 : 175;692;591;46
 Mouse : 0 : 0 : LeftButtonDown : 0 : 1 : 0
 DELAY : 111
 Mouse : 0 : 0 : LeftButtonUp : 0 : 1 : 0
@@ -194,6 +205,10 @@ ENDIF
 LABEL : 6
 IF PIXEL COLOR EQUALS : 455 : 635 : 13945785 : 0
 GOTO : roll
+ENDIF
+LABEL : free roll
+IF PIXEL COLOR EQUALS : 145 : 734 : 16777213 : 0
+GOTO : c
 ENDIF
 GOTO : accept
 LABEL : roll

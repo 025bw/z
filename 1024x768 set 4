@@ -1,0 +1,276 @@
+SET CLIPBOARD : 1 : 0 : Please enter the text to store in clipboard:
+LABEL : accept
+IF PIXEL COLOR EQUALS : 411 : 159 : 2499659 : 0
+DELAY : 50
+GOTO : accept
+ENDIF
+IF WINDOW EXISTS : Error : 0
+SWITCH TO WINDOW : Error : 0
+CLOSE WINDOW : Error : 0
+CLOSE WINDOW : Error : 0
+ENDIF
+IF WINDOW EXISTS : Woops! Something broke. : 0
+CLOSE WINDOW : Woops! Something broke. : 0
+ENDIF
+IF WINDOW EXISTS : League of Legends (TM) Client : 0
+GOTO : buy
+ENDIF
+IF PIXEL FOUND : 15787730 : 0 : 1 : 92 : 941 : 109 : 952
+CLOSE WINDOW : League of Legends : 0
+CLOSE WINDOW : League of Legends : 0
+ENDIF
+IF WINDOW EXISTS : Launch Failed : 0
+CLOSE WINDOW : Launch Failed : 0
+ENDIF
+IF WINDOW EXISTS : League of Legends : 0
+MOVE WINDOW : Garena - Game Center : 0 : 2 : 0 : 0 : 0 : 0
+ELSE
+SWITCH TO WINDOW : Garena - Game Center : 0
+ENDIF
+IF PIXEL COLOR EQUALS : 330 : 46 : 13967650 : 0
+Mouse : 481 : 689 : Click : 0 : 0 : 0
+ENDIF
+IF PIXEL COLOR EQUALS : 0 : 0 : 1976365 : 1
+SWITCH TO WINDOW : League of Legends : 0
+Keyboard : F10 : KeyPress
+ENDIF
+LABEL : claim
+IF PIXEL COLOR EQUALS : 462 : 530 : 13150829 : 0
+Mouse : 512 : 540 : LeftButtonDown : 0 : 0 : 0
+DELAY : 50
+Mouse : 512 : 540 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+ENDIF
+LABEL : lock
+IF PIXEL COLOR EQUALS : 512 : 470 : 571572 : 0
+Mouse : 512 : 475 : Click : 0 : 0 : 0
+ENDIF
+LABEL : requeue
+DELAY : 50
+IF PIXEL COLOR EQUALS : 55 : 32 : 75841 : 0
+Mouse : 400 : 540 : LeftButtonDown : 0 : 0 : 0
+DELAY : 50
+Mouse : 400 : 540 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 400 : 500 : Move : 0 : 0 : 0
+DELAY : 50
+ENDIF
+LABEL : queue
+IF PIXEL COLOR EQUALS : 355 : 540 : 8485475 : 0
+Mouse : 400 : 540 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 400 : 540 : LeftButtonDown : 0 : 0 : 0
+DELAY : 50
+Mouse : 400 : 540 : LeftButtonUp : 0 : 0 : 0
+DELAY : 1111
+Mouse : 400 : 500 : Move : 0 : 0 : 0
+ENDIF
+LABEL : create
+IF PIXEL COLOR EQUALS : 55 : 44 : 92042 : 0
+Mouse : 80 : 40 : Click : 0 : 0 : 0
+ENDIF
+LABEL : create tft
+IF PIXEL COLOR EQUALS : 650 : 409 : 15787730 : 0
+Mouse : 434 : 553 : Click : 0 : 0 : 0
+ENDIF
+LABEL : select tft
+IF PIXEL COLOR EQUALS : 89 : 165 : 291978 : 0
+Mouse : 700 : 171 : Click : 0 : 0 : 0
+ENDIF
+LABEL : reconnect
+IF PIXEL COLOR EQUALS : 365 : 274 : 68115 : 0
+Mouse : 420 : 285 : Click : 0 : 0 : 0
+ENDIF
+LABEL : recreate
+IF PIXEL COLOR EQUALS : 347 : 497 : 11445658 : 0
+Mouse : 350 : 545 : Click : 0 : 0 : 0
+ENDIF
+LABEL : close ads
+IF PIXEL COLOR EQUALS : 818 : 61 : 13023373 : 0
+Mouse : 818 : 61 : Click : 0 : 0 : 0
+ENDIF
+IF PIXEL COLOR EQUALS : 846 : 47 : 13483665 : 0
+Mouse : 846 : 47 : Click : 0 : 0 : 0
+ENDIF
+IF PIXEL COLOR EQUALS : 818 : 63 : 12957837 : 0
+Mouse : 818 : 63 : Click : 0 : 0 : 0
+ENDIF
+LABEL : close icon
+IF PIXEL COLOR EQUALS : 822 : 103 : 9999494 : 0
+Mouse : 822 : 103 : Click : 0 : 0 : 0
+ENDIF
+LABEL : close map
+IF PIXEL COLOR EQUALS : 806 : 501 : 1975080 : 0
+Mouse : 876 : 53 : Click : 0 : 0 : 0
+ENDIF
+IF PIXEL COLOR EQUALS : 896 : 37 : 4601620 : 0
+Mouse : 879 : 55 : Click : 0 : 0 : 0
+ENDIF
+IF PIXEL FOUND : 1054495 : 0 : 1 : 520 : 452 : 565 : 571
+FIND PIXEL : 1054495 : 0 : 1 : 520 : 452 : 565 : 571
+Mouse : 0 : 0 : LeftButtonDown : 0 : 1 : 0
+Mouse : 0 : 0 : LeftButtonUp : 0 : 1 : 0
+Mouse : 436 : 548 : Move : 0 : 0 : 0
+ENDIF
+IF PIXEL COLOR EQUALS : 684 : 360 : 3553074 : 0
+Mouse : 415 : 380 : Click : 0 : 0 : 0
+ENDIF
+IF PIXEL COLOR EQUALS : 429 : 544 : 6517135 : 0
+Mouse : 436 : 548 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 436 : 548 : LeftButtonDown : 0 : 0 : 0
+DELAY : 50
+Mouse : 436 : 548 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 555 : 35 : Move : 0 : 0 : 0
+ENDIF
+IF PIXEL COLOR EQUALS : 510 : 429 : 11067624 : 0
+Mouse : 510 : 430 : LeftButtonDown : 0 : 0 : 0
+DELAY : 50
+Mouse : 510 : 430 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+ENDIF
+IF PIXEL COLOR EQUALS : 429 : 539 : 8747319 : 0
+Mouse : 428 : 539 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 428 : 539 : LeftButtonDown : 0 : 0 : 0
+DELAY : 50
+Mouse : 428 : 539 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 555 : 35 : Move : 0 : 0 : 0
+ENDIF
+IF PIXEL COLOR EQUALS : 512 : 429 : 703663 : 0
+Mouse : 512 : 440 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 512 : 440 : LeftButtonDown : 0 : 0 : 0
+DELAY : 50
+Mouse : 512 : 440 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 555 : 35 : Move : 0 : 0 : 0
+ENDIF
+IF PIXEL COLOR EQUALS : 515 : 537 : 7565404 : 0
+Mouse : 515 : 537 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 515 : 537 : LeftButtonDown : 0 : 0 : 0
+DELAY : 50
+Mouse : 515 : 537 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 555 : 35 : Move : 0 : 0 : 0
+ENDIF
+IF PIXEL COLOR EQUALS : 822 : 591 : 4605750 : 0
+Mouse : 866 : 606 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 866 : 606 : LeftButtonDown : 0 : 0 : 0
+DELAY : 50
+Mouse : 866 : 606 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 555 : 35 : Move : 0 : 0 : 0
+ENDIF
+IF PIXEL COLOR EQUALS : 535 : 417 : 13018731 : 0
+Mouse : 635 : 437 : LeftButtonDown : 0 : 0 : 0
+DELAY : 50
+Mouse : 635 : 437 : LeftButtonUp : 0 : 0 : 0
+DELAY : 1111
+ENDIF
+IF PIXEL COLOR EQUALS : 542 : 424 : 539722 : 0
+Mouse : 635 : 437 : LeftButtonDown : 0 : 0 : 0
+DELAY : 50
+Mouse : 635 : 437 : LeftButtonUp : 0 : 0 : 0
+DELAY : 1111
+ENDIF
+IF PIXEL COLOR EQUALS : 721 : 510 : 9338714 : 0
+Mouse : 830 : 533 : LeftButtonDown : 0 : 0 : 0
+DELAY : 50
+Mouse : 830 : 533 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 555 : 35 : Move : 0 : 0 : 0
+ENDIF
+IF PIXEL COLOR EQUALS : 725 : 514 : 3241381 : 0
+Mouse : 830 : 533 : LeftButtonDown : 0 : 0 : 0
+DELAY : 50
+Mouse : 830 : 533 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 555 : 35 : Move : 0 : 0 : 0
+ENDIF
+IF PIXEL COLOR EQUALS : 444 : 530 : 366250 : 0
+Mouse : 444 : 544 : Click : 0 : 0 : 0
+DELAY : 50
+Mouse : 555 : 35 : Move : 0 : 0 : 0
+ENDIF
+IF PIXEL COLOR EQUALS : 444 : 530 : 9891303 : 0
+Mouse : 444 : 544 : Click : 0 : 0 : 0
+DELAY : 50
+Mouse : 555 : 35 : Move : 0 : 0 : 0
+ENDIF
+LABEL : buy
+SWITCH TO WINDOW : League of Legends (TM) Client : 0
+LABEL : end
+IF PIXEL COLOR EQUALS : 526 : 374 : 13018992 : 0
+Mouse : 420 : 380 : Click : 0 : 0 : 0
+ENDIF
+IF IMAGE : Qk36AAAAAAAAADYAAAAoAAAABwAAAAcAAAABACAAAAAAAAAAAADEDgAAxA4AAAAAAAAAAAAAODg4/zg4OP9iYmL/2NjY/9jY2P/Y2Nj/Y2Nj/zg4OP/Pz8//h4eH/7i4uP/Y2Nj/urq6/3x8fP84ODj/ODg4/3R0dP/Y2Nj/2NjY/9jY2P9zc3P/ODg4/zg4OP84ODj/fHx8/9jY2P96enr/ODg4/zg4OP84ODj/ODg4/5ubm//Y2Nj/mpqa/zg4OP84ODj/ODg4/zg4OP84ODj/hISE/zg4OP84ODj/ODg4/zg4OP84ODj/ODg4/zg4OP84ODj/ODg4/w== : 1 : 30 : 0 : 175;692;591;46
+Mouse : 0 : 0 : LeftButtonDown : 0 : 1 : 0
+DELAY : 111
+Mouse : 0 : 0 : LeftButtonUp : 0 : 1 : 0
+DELAY : 111
+Mouse : 0 : 0 : LeftButtonDown : 0 : 1 : 0
+DELAY : 111
+Mouse : 0 : 0 : LeftButtonUp : 0 : 1 : 0
+DELAY : 222
+Mouse : 0 : 0 : Move : 0 : 0 : 0
+SET CLIPBOARD : 1 : 0 : Please enter the text to store in clipboard:
+GOTO : buy
+ENDIF
+IF IMAGE : Qk0WAQAAAAAAADYAAAAoAAAACAAAAAcAAAABACAAAAAAAAAAAADEDgAAxA4AAAAAAAAAAAAAODg4/zg4OP84ODj/Pz8//zg4OP9NTU3/ODg4/zg4OP84ODj/ODg4/9DQ0P84ODj/ODg4/0RERP+UlJT/ODg4/zg4OP+tra3/tra2/0xMTP/a2tr/ODg4/9nZ2f9LS0v/ODg4/9ra2v+AgID/2NjY/9ra2v+ysrL/y8vL/9LS0v84ODj/fHx8/6+vr//V1dX/2NjY/5ycnP/a2tr/Ojo6/zg4OP84ODj/2tra/9bW1v+Xl5f/2NjY/9nZ2f84ODj/ODg4/zg4OP/a2tr/2tra/9ra2v/a2tr/nJyc/zg4OP8= : 1 : 30 : 0 : 175;692;591;46
+Mouse : 0 : 0 : LeftButtonDown : 0 : 1 : 0
+DELAY : 111
+Mouse : 0 : 0 : LeftButtonUp : 0 : 1 : 0
+DELAY : 111
+Mouse : 0 : 0 : LeftButtonDown : 0 : 1 : 0
+DELAY : 111
+Mouse : 0 : 0 : LeftButtonUp : 0 : 1 : 0
+DELAY : 222
+Mouse : 0 : 0 : Move : 0 : 0 : 0
+SET CLIPBOARD : 1 : 0 : Please enter the text to store in clipboard:
+GOTO : buy
+ENDIF
+IF IMAGE : Qk2uAAAAAAAAADYAAAAoAAAACgAAAAMAAAABACAAAAAAAAAAAADEDgAAxA4AAAAAAAAAAAAAMCQx/zEkMf8xJDH/LyQx/y0kMf8uIy//LiMu/y4jLv8uJC7/LiQu/y8kMf8wJDH/KyEs/x0XH/8bFh7/KiAs/y8kMP8uIy7/LiQu/y0kLf8xJDH/HRcf/xEQEv8qKir/MTEx/xMSFP8YExr/LSQw/y0kLf8tJC3/ : 1 : 0 : 0 : 175;692;591;46
+Mouse : 0 : 0 : LeftButtonDown : 0 : 1 : 0
+DELAY : 111
+Mouse : 0 : 0 : LeftButtonUp : 0 : 1 : 0
+DELAY : 111
+Mouse : 0 : 0 : LeftButtonDown : 0 : 1 : 0
+DELAY : 111
+Mouse : 0 : 0 : LeftButtonUp : 0 : 1 : 0
+DELAY : 222
+Mouse : 0 : 0 : Move : 0 : 0 : 0
+SET CLIPBOARD : 1 : 0 : Please enter the text to store in clipboard:
+GOTO : buy
+ENDIF
+LABEL : 7
+IF PIXEL COLOR EQUALS : 452 : 632 : 6514271 : 0
+GOTO : roll
+ENDIF
+LABEL : 6
+IF PIXEL COLOR EQUALS : 455 : 635 : 13945785 : 0
+GOTO : roll
+ENDIF
+LABEL : free roll
+IF PIXEL COLOR EQUALS : 145 : 734 : 16777213 : 0
+GOTO : c
+ENDIF
+GOTO : accept
+LABEL : roll
+LABEL : lvl 7
+IF PIXEL COLOR EQUALS : 56 : 628 : 4211775 : 1
+Keyboard : F : KeyPress
+GOTO : buy
+ENDIF
+LABEL : c
+IF CLIPBOARD EQUALS : 3 : 0 : 2
+SET CLIPBOARD : 1 : 0 : Please enter the text to store in clipboard:
+Keyboard : D : KeyPress
+GOTO : buy
+ENDIF
+INCREMENT CLIPBOARD : 1
+GOTO : buy

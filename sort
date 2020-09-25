@@ -1,0 +1,4825 @@
+Mouse : 2 : 72 : Move : 0 : 0 : 0
+SET CLIPBOARD : 7 : 1 : Please enter the text to store in clipboard:
+LABEL : start
+IF CLIPBOARD EQUALS : 2 : 0 : 0
+GOTO : port
+ENDIF
+IF CLIPBOARD EQUALS : 3 : 0 : 0
+GOTO : athens
+ENDIF
+IF CLIPBOARD EQUALS : 4 : 0 : 0
+GOTO : subs
+ENDIF
+IF CLIPBOARD EQUALS : 5 : 0 : 0
+GOTO : plataea
+ENDIF
+IF CLIPBOARD EQUALS : 6 : 0 : 0
+GOTO : megara
+ENDIF
+IF CLIPBOARD EQUALS : 7 : 0 : 0
+GOTO : isthmus
+ENDIF
+IF CLIPBOARD EQUALS : 8 : 0 : 0
+GOTO : argo
+ENDIF
+IF CLIPBOARD EQUALS : 9 : 0 : 0
+GOTO : thermo
+ENDIF
+IF CLIPBOARD EQUALS : 10 : 0 : 0
+GOTO : parnitha
+ENDIF
+IF CLIPBOARD EQUALS : 24 : 0 : 0
+GOTO : marathon
+ENDIF
+IF CLIPBOARD EQUALS : 024 : 0 : 0
+GOTO : derv
+ENDIF
+GOTO : m
+LABEL : athens
+Mouse : 40 : 345 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 142 : 408 : 16711680 : 0
+Mouse : 40 : 345 : RightButtonDown : 0 : 0 : 0
+Mouse : 40 : 345 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 82 : 345 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 184 : 408 : 16711680 : 0
+Mouse : 82 : 345 : RightButtonDown : 0 : 0 : 0
+Mouse : 82 : 345 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 124 : 345 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 226 : 408 : 16711680 : 0
+Mouse : 124 : 345 : RightButtonDown : 0 : 0 : 0
+Mouse : 124 : 345 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 166 : 345 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 268 : 408 : 16711680 : 0
+Mouse : 166 : 345 : RightButtonDown : 0 : 0 : 0
+Mouse : 166 : 345 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 208 : 345 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 310 : 408 : 16711680 : 0
+Mouse : 208 : 345 : RightButtonDown : 0 : 0 : 0
+Mouse : 208 : 345 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 250 : 345 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 352 : 408 : 16711680 : 0
+Mouse : 250 : 345 : RightButtonDown : 0 : 0 : 0
+Mouse : 250 : 345 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 40 : 387 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 142 : 450 : 16711680 : 0
+Mouse : 40 : 387 : RightButtonDown : 0 : 0 : 0
+Mouse : 40 : 387 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 82 : 387 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 184 : 450 : 16711680 : 0
+Mouse : 82 : 387 : RightButtonDown : 0 : 0 : 0
+Mouse : 82 : 387 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 124 : 387 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 226 : 450 : 16711680 : 0
+Mouse : 124 : 387 : RightButtonDown : 0 : 0 : 0
+Mouse : 124 : 387 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 166 : 387 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 268 : 450 : 16711680 : 0
+Mouse : 166 : 387 : RightButtonDown : 0 : 0 : 0
+Mouse : 166 : 387 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 208 : 387 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 310 : 450 : 16711680 : 0
+Mouse : 208 : 387 : RightButtonDown : 0 : 0 : 0
+Mouse : 208 : 387 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 250 : 387 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 352 : 450 : 16711680 : 0
+Mouse : 250 : 387 : RightButtonDown : 0 : 0 : 0
+Mouse : 250 : 387 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 40 : 429 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 142 : 492 : 16711680 : 0
+Mouse : 40 : 429 : RightButtonDown : 0 : 0 : 0
+Mouse : 40 : 429 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 82 : 429 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 184 : 492 : 16711680 : 0
+Mouse : 82 : 429 : RightButtonDown : 0 : 0 : 0
+Mouse : 82 : 429 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 124 : 429 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 226 : 492 : 16711680 : 0
+Mouse : 124 : 429 : RightButtonDown : 0 : 0 : 0
+Mouse : 124 : 429 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 166 : 429 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 268 : 492 : 16711680 : 0
+Mouse : 166 : 429 : RightButtonDown : 0 : 0 : 0
+Mouse : 166 : 429 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 208 : 429 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 310 : 492 : 16711680 : 0
+Mouse : 208 : 429 : RightButtonDown : 0 : 0 : 0
+Mouse : 208 : 429 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 250 : 429 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 352 : 492 : 16711680 : 0
+Mouse : 250 : 429 : RightButtonDown : 0 : 0 : 0
+Mouse : 250 : 429 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 40 : 471 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 142 : 534 : 16711680 : 0
+Mouse : 40 : 471 : RightButtonDown : 0 : 0 : 0
+Mouse : 40 : 471 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 82 : 471 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 184 : 534 : 16711680 : 0
+Mouse : 82 : 471 : RightButtonDown : 0 : 0 : 0
+Mouse : 82 : 471 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 124 : 471 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 226 : 534 : 16711680 : 0
+Mouse : 124 : 471 : RightButtonDown : 0 : 0 : 0
+Mouse : 124 : 471 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 166 : 471 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 268 : 534 : 16711680 : 0
+Mouse : 166 : 471 : RightButtonDown : 0 : 0 : 0
+Mouse : 166 : 471 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 208 : 471 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 310 : 534 : 16711680 : 0
+Mouse : 208 : 471 : RightButtonDown : 0 : 0 : 0
+Mouse : 208 : 471 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 250 : 471 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 352 : 534 : 16711680 : 0
+Mouse : 250 : 471 : RightButtonDown : 0 : 0 : 0
+Mouse : 250 : 471 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 40 : 513 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 142 : 404 : 16711680 : 0
+Mouse : 40 : 513 : RightButtonDown : 0 : 0 : 0
+Mouse : 40 : 513 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 82 : 513 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 184 : 404 : 16711680 : 0
+Mouse : 82 : 513 : RightButtonDown : 0 : 0 : 0
+Mouse : 82 : 513 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 124 : 513 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 226 : 404 : 16711680 : 0
+Mouse : 124 : 513 : RightButtonDown : 0 : 0 : 0
+Mouse : 124 : 513 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 166 : 513 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 268 : 404 : 16711680 : 0
+Mouse : 166 : 513 : RightButtonDown : 0 : 0 : 0
+Mouse : 166 : 513 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 208 : 513 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 310 : 404 : 16711680 : 0
+Mouse : 208 : 513 : RightButtonDown : 0 : 0 : 0
+Mouse : 208 : 513 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 250 : 513 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 352 : 404 : 16711680 : 0
+Mouse : 250 : 513 : RightButtonDown : 0 : 0 : 0
+Mouse : 250 : 513 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 40 : 555 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 142 : 446 : 16711680 : 0
+Mouse : 40 : 555 : RightButtonDown : 0 : 0 : 0
+Mouse : 40 : 555 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 82 : 555 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 184 : 446 : 16711680 : 0
+Mouse : 82 : 555 : RightButtonDown : 0 : 0 : 0
+Mouse : 82 : 555 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 124 : 555 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 226 : 446 : 16711680 : 0
+Mouse : 124 : 555 : RightButtonDown : 0 : 0 : 0
+Mouse : 124 : 555 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 166 : 555 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 268 : 446 : 16711680 : 0
+Mouse : 166 : 555 : RightButtonDown : 0 : 0 : 0
+Mouse : 166 : 555 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 208 : 555 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 310 : 446 : 16711680 : 0
+Mouse : 208 : 555 : RightButtonDown : 0 : 0 : 0
+Mouse : 208 : 555 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 250 : 555 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 352 : 446 : 16711680 : 0
+Mouse : 250 : 555 : RightButtonDown : 0 : 0 : 0
+Mouse : 250 : 555 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 40 : 597 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 142 : 488 : 16711680 : 0
+Mouse : 40 : 597 : RightButtonDown : 0 : 0 : 0
+Mouse : 40 : 597 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 82 : 597 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 184 : 488 : 16711680 : 0
+Mouse : 82 : 597 : RightButtonDown : 0 : 0 : 0
+Mouse : 82 : 597 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 124 : 597 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 226 : 488 : 16711680 : 0
+Mouse : 124 : 597 : RightButtonDown : 0 : 0 : 0
+Mouse : 124 : 597 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 166 : 597 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 268 : 488 : 16711680 : 0
+Mouse : 166 : 597 : RightButtonDown : 0 : 0 : 0
+Mouse : 166 : 597 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 208 : 597 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 310 : 488 : 16711680 : 0
+Mouse : 208 : 597 : RightButtonDown : 0 : 0 : 0
+Mouse : 208 : 597 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 250 : 597 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 352 : 488 : 16711680 : 0
+Mouse : 250 : 597 : RightButtonDown : 0 : 0 : 0
+Mouse : 250 : 597 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 40 : 639 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 142 : 530 : 16711680 : 0
+Mouse : 40 : 639 : RightButtonDown : 0 : 0 : 0
+Mouse : 40 : 639 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 82 : 639 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 184 : 530 : 16711680 : 0
+Mouse : 82 : 639 : RightButtonDown : 0 : 0 : 0
+Mouse : 82 : 639 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 124 : 639 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 226 : 530 : 16711680 : 0
+Mouse : 124 : 639 : RightButtonDown : 0 : 0 : 0
+Mouse : 124 : 639 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 166 : 639 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 268 : 530 : 16711680 : 0
+Mouse : 166 : 639 : RightButtonDown : 0 : 0 : 0
+Mouse : 166 : 639 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 208 : 639 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 310 : 530 : 16711680 : 0
+Mouse : 208 : 639 : RightButtonDown : 0 : 0 : 0
+Mouse : 208 : 639 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 250 : 639 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 352 : 530 : 16711680 : 0
+Mouse : 250 : 639 : RightButtonDown : 0 : 0 : 0
+Mouse : 250 : 639 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 40 : 681 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 142 : 572 : 16711680 : 0
+Mouse : 40 : 681 : RightButtonDown : 0 : 0 : 0
+Mouse : 40 : 681 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 82 : 681 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 184 : 572 : 16711680 : 0
+Mouse : 82 : 681 : RightButtonDown : 0 : 0 : 0
+Mouse : 82 : 681 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 124 : 681 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 226 : 572 : 16711680 : 0
+Mouse : 124 : 681 : RightButtonDown : 0 : 0 : 0
+Mouse : 124 : 681 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 166 : 681 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 268 : 572 : 16711680 : 0
+Mouse : 166 : 681 : RightButtonDown : 0 : 0 : 0
+Mouse : 166 : 681 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 208 : 681 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 310 : 572 : 16711680 : 0
+Mouse : 208 : 681 : RightButtonDown : 0 : 0 : 0
+Mouse : 208 : 681 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 250 : 681 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 352 : 572 : 16711680 : 0
+Mouse : 250 : 681 : RightButtonDown : 0 : 0 : 0
+Mouse : 250 : 681 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 40 : 723 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 142 : 614 : 16711680 : 0
+Mouse : 40 : 723 : RightButtonDown : 0 : 0 : 0
+Mouse : 40 : 723 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 82 : 723 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 184 : 614 : 16711680 : 0
+Mouse : 82 : 723 : RightButtonDown : 0 : 0 : 0
+Mouse : 82 : 723 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 124 : 723 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 226 : 614 : 16711680 : 0
+Mouse : 124 : 723 : RightButtonDown : 0 : 0 : 0
+Mouse : 124 : 723 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 166 : 723 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 268 : 614 : 16711680 : 0
+Mouse : 166 : 723 : RightButtonDown : 0 : 0 : 0
+Mouse : 166 : 723 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 208 : 723 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 310 : 614 : 16711680 : 0
+Mouse : 208 : 723 : RightButtonDown : 0 : 0 : 0
+Mouse : 208 : 723 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 250 : 723 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 352 : 614 : 16711680 : 0
+Mouse : 250 : 723 : RightButtonDown : 0 : 0 : 0
+Mouse : 250 : 723 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 40 : 765 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 142 : 656 : 16711680 : 0
+Mouse : 40 : 765 : RightButtonDown : 0 : 0 : 0
+Mouse : 40 : 765 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 82 : 765 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 184 : 656 : 16711680 : 0
+Mouse : 82 : 765 : RightButtonDown : 0 : 0 : 0
+Mouse : 82 : 765 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 124 : 765 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 226 : 656 : 16711680 : 0
+Mouse : 124 : 765 : RightButtonDown : 0 : 0 : 0
+Mouse : 124 : 765 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 166 : 765 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 268 : 656 : 16711680 : 0
+Mouse : 166 : 765 : RightButtonDown : 0 : 0 : 0
+Mouse : 166 : 765 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 208 : 765 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 310 : 656 : 16711680 : 0
+Mouse : 208 : 765 : RightButtonDown : 0 : 0 : 0
+Mouse : 208 : 765 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 250 : 765 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 352 : 656 : 16711680 : 0
+Mouse : 250 : 765 : RightButtonDown : 0 : 0 : 0
+Mouse : 250 : 765 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 40 : 807 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 142 : 698 : 16711680 : 0
+Mouse : 40 : 807 : RightButtonDown : 0 : 0 : 0
+Mouse : 40 : 807 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 82 : 807 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 184 : 698 : 16711680 : 0
+Mouse : 82 : 807 : RightButtonDown : 0 : 0 : 0
+Mouse : 82 : 807 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 124 : 807 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 226 : 698 : 16711680 : 0
+Mouse : 124 : 807 : RightButtonDown : 0 : 0 : 0
+Mouse : 124 : 807 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 166 : 807 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 268 : 698 : 16711680 : 0
+Mouse : 166 : 807 : RightButtonDown : 0 : 0 : 0
+Mouse : 166 : 807 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 208 : 807 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 310 : 698 : 16711680 : 0
+Mouse : 208 : 807 : RightButtonDown : 0 : 0 : 0
+Mouse : 208 : 807 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 250 : 807 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 352 : 698 : 16711680 : 0
+Mouse : 250 : 807 : RightButtonDown : 0 : 0 : 0
+Mouse : 250 : 807 : RightButtonUp : 0 : 0 : 0
+ENDIF
+GOTO : move
+LABEL : subs
+Mouse : 40 : 345 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 199 : 408 : 16711680 : 0
+Mouse : 40 : 345 : RightButtonDown : 0 : 0 : 0
+Mouse : 40 : 345 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 82 : 345 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 241 : 408 : 16711680 : 0
+Mouse : 82 : 345 : RightButtonDown : 0 : 0 : 0
+Mouse : 82 : 345 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 124 : 345 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 283 : 408 : 16711680 : 0
+Mouse : 124 : 345 : RightButtonDown : 0 : 0 : 0
+Mouse : 124 : 345 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 166 : 345 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 325 : 408 : 16711680 : 0
+Mouse : 166 : 345 : RightButtonDown : 0 : 0 : 0
+Mouse : 166 : 345 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 208 : 345 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 367 : 408 : 16711680 : 0
+Mouse : 208 : 345 : RightButtonDown : 0 : 0 : 0
+Mouse : 208 : 345 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 250 : 345 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 409 : 408 : 16711680 : 0
+Mouse : 250 : 345 : RightButtonDown : 0 : 0 : 0
+Mouse : 250 : 345 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 40 : 387 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 199 : 450 : 16711680 : 0
+Mouse : 40 : 387 : RightButtonDown : 0 : 0 : 0
+Mouse : 40 : 387 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 82 : 387 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 241 : 450 : 16711680 : 0
+Mouse : 82 : 387 : RightButtonDown : 0 : 0 : 0
+Mouse : 82 : 387 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 124 : 387 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 283 : 450 : 16711680 : 0
+Mouse : 124 : 387 : RightButtonDown : 0 : 0 : 0
+Mouse : 124 : 387 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 166 : 387 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 325 : 450 : 16711680 : 0
+Mouse : 166 : 387 : RightButtonDown : 0 : 0 : 0
+Mouse : 166 : 387 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 208 : 387 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 367 : 450 : 16711680 : 0
+Mouse : 208 : 387 : RightButtonDown : 0 : 0 : 0
+Mouse : 208 : 387 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 250 : 387 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 409 : 450 : 16711680 : 0
+Mouse : 250 : 387 : RightButtonDown : 0 : 0 : 0
+Mouse : 250 : 387 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 40 : 429 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 199 : 492 : 16711680 : 0
+Mouse : 40 : 429 : RightButtonDown : 0 : 0 : 0
+Mouse : 40 : 429 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 82 : 429 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 241 : 492 : 16711680 : 0
+Mouse : 82 : 429 : RightButtonDown : 0 : 0 : 0
+Mouse : 82 : 429 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 124 : 429 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 283 : 492 : 16711680 : 0
+Mouse : 124 : 429 : RightButtonDown : 0 : 0 : 0
+Mouse : 124 : 429 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 166 : 429 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 325 : 492 : 16711680 : 0
+Mouse : 166 : 429 : RightButtonDown : 0 : 0 : 0
+Mouse : 166 : 429 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 208 : 429 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 367 : 492 : 16711680 : 0
+Mouse : 208 : 429 : RightButtonDown : 0 : 0 : 0
+Mouse : 208 : 429 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 250 : 429 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 409 : 492 : 16711680 : 0
+Mouse : 250 : 429 : RightButtonDown : 0 : 0 : 0
+Mouse : 250 : 429 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 40 : 471 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 199 : 534 : 16711680 : 0
+Mouse : 40 : 471 : RightButtonDown : 0 : 0 : 0
+Mouse : 40 : 471 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 82 : 471 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 241 : 534 : 16711680 : 0
+Mouse : 82 : 471 : RightButtonDown : 0 : 0 : 0
+Mouse : 82 : 471 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 124 : 471 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 283 : 534 : 16711680 : 0
+Mouse : 124 : 471 : RightButtonDown : 0 : 0 : 0
+Mouse : 124 : 471 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 166 : 471 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 325 : 534 : 16711680 : 0
+Mouse : 166 : 471 : RightButtonDown : 0 : 0 : 0
+Mouse : 166 : 471 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 208 : 471 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 367 : 534 : 16711680 : 0
+Mouse : 208 : 471 : RightButtonDown : 0 : 0 : 0
+Mouse : 208 : 471 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 250 : 471 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 409 : 534 : 16711680 : 0
+Mouse : 250 : 471 : RightButtonDown : 0 : 0 : 0
+Mouse : 250 : 471 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 40 : 513 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 199 : 404 : 16711680 : 0
+Mouse : 40 : 513 : RightButtonDown : 0 : 0 : 0
+Mouse : 40 : 513 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 82 : 513 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 241 : 404 : 16711680 : 0
+Mouse : 82 : 513 : RightButtonDown : 0 : 0 : 0
+Mouse : 82 : 513 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 124 : 513 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 283 : 404 : 16711680 : 0
+Mouse : 124 : 513 : RightButtonDown : 0 : 0 : 0
+Mouse : 124 : 513 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 166 : 513 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 325 : 404 : 16711680 : 0
+Mouse : 166 : 513 : RightButtonDown : 0 : 0 : 0
+Mouse : 166 : 513 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 208 : 513 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 367 : 404 : 16711680 : 0
+Mouse : 208 : 513 : RightButtonDown : 0 : 0 : 0
+Mouse : 208 : 513 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 250 : 513 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 409 : 404 : 16711680 : 0
+Mouse : 250 : 513 : RightButtonDown : 0 : 0 : 0
+Mouse : 250 : 513 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 40 : 555 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 199 : 446 : 16711680 : 0
+Mouse : 40 : 555 : RightButtonDown : 0 : 0 : 0
+Mouse : 40 : 555 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 82 : 555 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 241 : 446 : 16711680 : 0
+Mouse : 82 : 555 : RightButtonDown : 0 : 0 : 0
+Mouse : 82 : 555 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 124 : 555 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 283 : 446 : 16711680 : 0
+Mouse : 124 : 555 : RightButtonDown : 0 : 0 : 0
+Mouse : 124 : 555 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 166 : 555 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 325 : 446 : 16711680 : 0
+Mouse : 166 : 555 : RightButtonDown : 0 : 0 : 0
+Mouse : 166 : 555 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 208 : 555 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 367 : 446 : 16711680 : 0
+Mouse : 208 : 555 : RightButtonDown : 0 : 0 : 0
+Mouse : 208 : 555 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 250 : 555 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 409 : 446 : 16711680 : 0
+Mouse : 250 : 555 : RightButtonDown : 0 : 0 : 0
+Mouse : 250 : 555 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 40 : 597 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 199 : 488 : 16711680 : 0
+Mouse : 40 : 597 : RightButtonDown : 0 : 0 : 0
+Mouse : 40 : 597 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 82 : 597 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 241 : 488 : 16711680 : 0
+Mouse : 82 : 597 : RightButtonDown : 0 : 0 : 0
+Mouse : 82 : 597 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 124 : 597 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 283 : 488 : 16711680 : 0
+Mouse : 124 : 597 : RightButtonDown : 0 : 0 : 0
+Mouse : 124 : 597 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 166 : 597 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 325 : 488 : 16711680 : 0
+Mouse : 166 : 597 : RightButtonDown : 0 : 0 : 0
+Mouse : 166 : 597 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 208 : 597 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 367 : 488 : 16711680 : 0
+Mouse : 208 : 597 : RightButtonDown : 0 : 0 : 0
+Mouse : 208 : 597 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 250 : 597 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 409 : 488 : 16711680 : 0
+Mouse : 250 : 597 : RightButtonDown : 0 : 0 : 0
+Mouse : 250 : 597 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 40 : 639 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 199 : 530 : 16711680 : 0
+Mouse : 40 : 639 : RightButtonDown : 0 : 0 : 0
+Mouse : 40 : 639 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 82 : 639 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 241 : 530 : 16711680 : 0
+Mouse : 82 : 639 : RightButtonDown : 0 : 0 : 0
+Mouse : 82 : 639 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 124 : 639 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 283 : 530 : 16711680 : 0
+Mouse : 124 : 639 : RightButtonDown : 0 : 0 : 0
+Mouse : 124 : 639 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 166 : 639 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 325 : 530 : 16711680 : 0
+Mouse : 166 : 639 : RightButtonDown : 0 : 0 : 0
+Mouse : 166 : 639 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 208 : 639 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 367 : 530 : 16711680 : 0
+Mouse : 208 : 639 : RightButtonDown : 0 : 0 : 0
+Mouse : 208 : 639 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 250 : 639 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 409 : 530 : 16711680 : 0
+Mouse : 250 : 639 : RightButtonDown : 0 : 0 : 0
+Mouse : 250 : 639 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 40 : 681 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 199 : 572 : 16711680 : 0
+Mouse : 40 : 681 : RightButtonDown : 0 : 0 : 0
+Mouse : 40 : 681 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 82 : 681 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 241 : 572 : 16711680 : 0
+Mouse : 82 : 681 : RightButtonDown : 0 : 0 : 0
+Mouse : 82 : 681 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 124 : 681 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 283 : 572 : 16711680 : 0
+Mouse : 124 : 681 : RightButtonDown : 0 : 0 : 0
+Mouse : 124 : 681 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 166 : 681 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 325 : 572 : 16711680 : 0
+Mouse : 166 : 681 : RightButtonDown : 0 : 0 : 0
+Mouse : 166 : 681 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 208 : 681 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 367 : 572 : 16711680 : 0
+Mouse : 208 : 681 : RightButtonDown : 0 : 0 : 0
+Mouse : 208 : 681 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 250 : 681 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 409 : 572 : 16711680 : 0
+Mouse : 250 : 681 : RightButtonDown : 0 : 0 : 0
+Mouse : 250 : 681 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 40 : 723 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 199 : 614 : 16711680 : 0
+Mouse : 40 : 723 : RightButtonDown : 0 : 0 : 0
+Mouse : 40 : 723 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 82 : 723 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 241 : 614 : 16711680 : 0
+Mouse : 82 : 723 : RightButtonDown : 0 : 0 : 0
+Mouse : 82 : 723 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 124 : 723 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 283 : 614 : 16711680 : 0
+Mouse : 124 : 723 : RightButtonDown : 0 : 0 : 0
+Mouse : 124 : 723 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 166 : 723 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 325 : 614 : 16711680 : 0
+Mouse : 166 : 723 : RightButtonDown : 0 : 0 : 0
+Mouse : 166 : 723 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 208 : 723 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 367 : 614 : 16711680 : 0
+Mouse : 208 : 723 : RightButtonDown : 0 : 0 : 0
+Mouse : 208 : 723 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 250 : 723 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 409 : 614 : 16711680 : 0
+Mouse : 250 : 723 : RightButtonDown : 0 : 0 : 0
+Mouse : 250 : 723 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 40 : 765 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 199 : 656 : 16711680 : 0
+Mouse : 40 : 765 : RightButtonDown : 0 : 0 : 0
+Mouse : 40 : 765 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 82 : 765 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 241 : 656 : 16711680 : 0
+Mouse : 82 : 765 : RightButtonDown : 0 : 0 : 0
+Mouse : 82 : 765 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 124 : 765 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 283 : 656 : 16711680 : 0
+Mouse : 124 : 765 : RightButtonDown : 0 : 0 : 0
+Mouse : 124 : 765 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 166 : 765 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 325 : 656 : 16711680 : 0
+Mouse : 166 : 765 : RightButtonDown : 0 : 0 : 0
+Mouse : 166 : 765 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 208 : 765 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 367 : 656 : 16711680 : 0
+Mouse : 208 : 765 : RightButtonDown : 0 : 0 : 0
+Mouse : 208 : 765 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 250 : 765 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 409 : 656 : 16711680 : 0
+Mouse : 250 : 765 : RightButtonDown : 0 : 0 : 0
+Mouse : 250 : 765 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 40 : 807 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 199 : 698 : 16711680 : 0
+Mouse : 40 : 807 : RightButtonDown : 0 : 0 : 0
+Mouse : 40 : 807 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 82 : 807 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 241 : 698 : 16711680 : 0
+Mouse : 82 : 807 : RightButtonDown : 0 : 0 : 0
+Mouse : 82 : 807 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 124 : 807 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 283 : 698 : 16711680 : 0
+Mouse : 124 : 807 : RightButtonDown : 0 : 0 : 0
+Mouse : 124 : 807 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 166 : 807 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 325 : 698 : 16711680 : 0
+Mouse : 166 : 807 : RightButtonDown : 0 : 0 : 0
+Mouse : 166 : 807 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 208 : 807 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 367 : 698 : 16711680 : 0
+Mouse : 208 : 807 : RightButtonDown : 0 : 0 : 0
+Mouse : 208 : 807 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 250 : 807 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 409 : 698 : 16711680 : 0
+Mouse : 250 : 807 : RightButtonDown : 0 : 0 : 0
+Mouse : 250 : 807 : RightButtonUp : 0 : 0 : 0
+ENDIF
+GOTO : move
+LABEL : marathon
+Mouse : 40 : 345 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 130 : 406 : 16711680 : 0
+Mouse : 40 : 345 : RightButtonDown : 0 : 0 : 0
+Mouse : 40 : 345 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 82 : 345 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 172 : 406 : 16711680 : 0
+Mouse : 82 : 345 : RightButtonDown : 0 : 0 : 0
+Mouse : 82 : 345 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 124 : 345 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 214 : 406 : 16711680 : 0
+Mouse : 124 : 345 : RightButtonDown : 0 : 0 : 0
+Mouse : 124 : 345 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 166 : 345 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 256 : 406 : 16711680 : 0
+Mouse : 166 : 345 : RightButtonDown : 0 : 0 : 0
+Mouse : 166 : 345 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 208 : 345 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 298 : 406 : 16711680 : 0
+Mouse : 208 : 345 : RightButtonDown : 0 : 0 : 0
+Mouse : 208 : 345 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 250 : 345 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 340 : 406 : 16711680 : 0
+Mouse : 250 : 345 : RightButtonDown : 0 : 0 : 0
+Mouse : 250 : 345 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 40 : 387 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 130 : 448 : 16711680 : 0
+Mouse : 40 : 387 : RightButtonDown : 0 : 0 : 0
+Mouse : 40 : 387 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 82 : 387 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 172 : 448 : 16711680 : 0
+Mouse : 82 : 387 : RightButtonDown : 0 : 0 : 0
+Mouse : 82 : 387 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 124 : 387 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 214 : 448 : 16711680 : 0
+Mouse : 124 : 387 : RightButtonDown : 0 : 0 : 0
+Mouse : 124 : 387 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 166 : 387 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 256 : 448 : 16711680 : 0
+Mouse : 166 : 387 : RightButtonDown : 0 : 0 : 0
+Mouse : 166 : 387 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 208 : 387 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 298 : 448 : 16711680 : 0
+Mouse : 208 : 387 : RightButtonDown : 0 : 0 : 0
+Mouse : 208 : 387 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 250 : 387 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 340 : 448 : 16711680 : 0
+Mouse : 250 : 387 : RightButtonDown : 0 : 0 : 0
+Mouse : 250 : 387 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 40 : 429 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 130 : 490 : 16711680 : 0
+Mouse : 40 : 429 : RightButtonDown : 0 : 0 : 0
+Mouse : 40 : 429 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 82 : 429 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 172 : 490 : 16711680 : 0
+Mouse : 82 : 429 : RightButtonDown : 0 : 0 : 0
+Mouse : 82 : 429 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 124 : 429 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 214 : 490 : 16711680 : 0
+Mouse : 124 : 429 : RightButtonDown : 0 : 0 : 0
+Mouse : 124 : 429 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 166 : 429 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 256 : 490 : 16711680 : 0
+Mouse : 166 : 429 : RightButtonDown : 0 : 0 : 0
+Mouse : 166 : 429 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 208 : 429 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 298 : 490 : 16711680 : 0
+Mouse : 208 : 429 : RightButtonDown : 0 : 0 : 0
+Mouse : 208 : 429 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 250 : 429 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 340 : 490 : 16711680 : 0
+Mouse : 250 : 429 : RightButtonDown : 0 : 0 : 0
+Mouse : 250 : 429 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 40 : 471 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 130 : 532 : 16711680 : 0
+Mouse : 40 : 471 : RightButtonDown : 0 : 0 : 0
+Mouse : 40 : 471 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 82 : 471 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 172 : 532 : 16711680 : 0
+Mouse : 82 : 471 : RightButtonDown : 0 : 0 : 0
+Mouse : 82 : 471 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 124 : 471 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 214 : 532 : 16711680 : 0
+Mouse : 124 : 471 : RightButtonDown : 0 : 0 : 0
+Mouse : 124 : 471 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 166 : 471 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 256 : 532 : 16711680 : 0
+Mouse : 166 : 471 : RightButtonDown : 0 : 0 : 0
+Mouse : 166 : 471 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 208 : 471 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 298 : 532 : 16711680 : 0
+Mouse : 208 : 471 : RightButtonDown : 0 : 0 : 0
+Mouse : 208 : 471 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 250 : 471 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 340 : 532 : 16711680 : 0
+Mouse : 250 : 471 : RightButtonDown : 0 : 0 : 0
+Mouse : 250 : 471 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 40 : 513 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 130 : 402 : 16711680 : 0
+Mouse : 40 : 513 : RightButtonDown : 0 : 0 : 0
+Mouse : 40 : 513 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 82 : 513 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 172 : 402 : 16711680 : 0
+Mouse : 82 : 513 : RightButtonDown : 0 : 0 : 0
+Mouse : 82 : 513 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 124 : 513 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 214 : 402 : 16711680 : 0
+Mouse : 124 : 513 : RightButtonDown : 0 : 0 : 0
+Mouse : 124 : 513 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 166 : 513 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 256 : 402 : 16711680 : 0
+Mouse : 166 : 513 : RightButtonDown : 0 : 0 : 0
+Mouse : 166 : 513 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 208 : 513 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 298 : 402 : 16711680 : 0
+Mouse : 208 : 513 : RightButtonDown : 0 : 0 : 0
+Mouse : 208 : 513 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 250 : 513 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 340 : 402 : 16711680 : 0
+Mouse : 250 : 513 : RightButtonDown : 0 : 0 : 0
+Mouse : 250 : 513 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 40 : 555 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 130 : 444 : 16711680 : 0
+Mouse : 40 : 555 : RightButtonDown : 0 : 0 : 0
+Mouse : 40 : 555 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 82 : 555 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 172 : 444 : 16711680 : 0
+Mouse : 82 : 555 : RightButtonDown : 0 : 0 : 0
+Mouse : 82 : 555 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 124 : 555 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 214 : 444 : 16711680 : 0
+Mouse : 124 : 555 : RightButtonDown : 0 : 0 : 0
+Mouse : 124 : 555 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 166 : 555 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 256 : 444 : 16711680 : 0
+Mouse : 166 : 555 : RightButtonDown : 0 : 0 : 0
+Mouse : 166 : 555 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 208 : 555 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 298 : 444 : 16711680 : 0
+Mouse : 208 : 555 : RightButtonDown : 0 : 0 : 0
+Mouse : 208 : 555 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 250 : 555 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 340 : 444 : 16711680 : 0
+Mouse : 250 : 555 : RightButtonDown : 0 : 0 : 0
+Mouse : 250 : 555 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 40 : 597 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 130 : 486 : 16711680 : 0
+Mouse : 40 : 597 : RightButtonDown : 0 : 0 : 0
+Mouse : 40 : 597 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 82 : 597 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 172 : 486 : 16711680 : 0
+Mouse : 82 : 597 : RightButtonDown : 0 : 0 : 0
+Mouse : 82 : 597 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 124 : 597 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 214 : 486 : 16711680 : 0
+Mouse : 124 : 597 : RightButtonDown : 0 : 0 : 0
+Mouse : 124 : 597 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 166 : 597 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 256 : 486 : 16711680 : 0
+Mouse : 166 : 597 : RightButtonDown : 0 : 0 : 0
+Mouse : 166 : 597 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 208 : 597 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 298 : 486 : 16711680 : 0
+Mouse : 208 : 597 : RightButtonDown : 0 : 0 : 0
+Mouse : 208 : 597 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 250 : 597 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 340 : 486 : 16711680 : 0
+Mouse : 250 : 597 : RightButtonDown : 0 : 0 : 0
+Mouse : 250 : 597 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 40 : 639 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 130 : 528 : 16711680 : 0
+Mouse : 40 : 639 : RightButtonDown : 0 : 0 : 0
+Mouse : 40 : 639 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 82 : 639 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 172 : 528 : 16711680 : 0
+Mouse : 82 : 639 : RightButtonDown : 0 : 0 : 0
+Mouse : 82 : 639 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 124 : 639 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 214 : 528 : 16711680 : 0
+Mouse : 124 : 639 : RightButtonDown : 0 : 0 : 0
+Mouse : 124 : 639 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 166 : 639 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 256 : 528 : 16711680 : 0
+Mouse : 166 : 639 : RightButtonDown : 0 : 0 : 0
+Mouse : 166 : 639 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 208 : 639 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 298 : 528 : 16711680 : 0
+Mouse : 208 : 639 : RightButtonDown : 0 : 0 : 0
+Mouse : 208 : 639 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 250 : 639 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 340 : 528 : 16711680 : 0
+Mouse : 250 : 639 : RightButtonDown : 0 : 0 : 0
+Mouse : 250 : 639 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 40 : 681 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 130 : 570 : 16711680 : 0
+Mouse : 40 : 681 : RightButtonDown : 0 : 0 : 0
+Mouse : 40 : 681 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 82 : 681 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 172 : 570 : 16711680 : 0
+Mouse : 82 : 681 : RightButtonDown : 0 : 0 : 0
+Mouse : 82 : 681 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 124 : 681 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 214 : 570 : 16711680 : 0
+Mouse : 124 : 681 : RightButtonDown : 0 : 0 : 0
+Mouse : 124 : 681 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 166 : 681 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 256 : 570 : 16711680 : 0
+Mouse : 166 : 681 : RightButtonDown : 0 : 0 : 0
+Mouse : 166 : 681 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 208 : 681 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 298 : 570 : 16711680 : 0
+Mouse : 208 : 681 : RightButtonDown : 0 : 0 : 0
+Mouse : 208 : 681 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 250 : 681 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 340 : 570 : 16711680 : 0
+Mouse : 250 : 681 : RightButtonDown : 0 : 0 : 0
+Mouse : 250 : 681 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 40 : 723 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 130 : 612 : 16711680 : 0
+Mouse : 40 : 723 : RightButtonDown : 0 : 0 : 0
+Mouse : 40 : 723 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 82 : 723 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 172 : 612 : 16711680 : 0
+Mouse : 82 : 723 : RightButtonDown : 0 : 0 : 0
+Mouse : 82 : 723 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 124 : 723 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 214 : 612 : 16711680 : 0
+Mouse : 124 : 723 : RightButtonDown : 0 : 0 : 0
+Mouse : 124 : 723 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 166 : 723 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 256 : 612 : 16711680 : 0
+Mouse : 166 : 723 : RightButtonDown : 0 : 0 : 0
+Mouse : 166 : 723 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 208 : 723 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 298 : 612 : 16711680 : 0
+Mouse : 208 : 723 : RightButtonDown : 0 : 0 : 0
+Mouse : 208 : 723 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 250 : 723 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 340 : 612 : 16711680 : 0
+Mouse : 250 : 723 : RightButtonDown : 0 : 0 : 0
+Mouse : 250 : 723 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 40 : 765 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 130 : 654 : 16711680 : 0
+Mouse : 40 : 765 : RightButtonDown : 0 : 0 : 0
+Mouse : 40 : 765 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 82 : 765 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 172 : 654 : 16711680 : 0
+Mouse : 82 : 765 : RightButtonDown : 0 : 0 : 0
+Mouse : 82 : 765 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 124 : 765 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 214 : 654 : 16711680 : 0
+Mouse : 124 : 765 : RightButtonDown : 0 : 0 : 0
+Mouse : 124 : 765 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 166 : 765 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 256 : 654 : 16711680 : 0
+Mouse : 166 : 765 : RightButtonDown : 0 : 0 : 0
+Mouse : 166 : 765 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 208 : 765 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 298 : 654 : 16711680 : 0
+Mouse : 208 : 765 : RightButtonDown : 0 : 0 : 0
+Mouse : 208 : 765 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 250 : 765 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 340 : 654 : 16711680 : 0
+Mouse : 250 : 765 : RightButtonDown : 0 : 0 : 0
+Mouse : 250 : 765 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 40 : 807 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 130 : 696 : 16711680 : 0
+Mouse : 40 : 807 : RightButtonDown : 0 : 0 : 0
+Mouse : 40 : 807 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 82 : 807 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 172 : 696 : 16711680 : 0
+Mouse : 82 : 807 : RightButtonDown : 0 : 0 : 0
+Mouse : 82 : 807 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 124 : 807 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 214 : 696 : 16711680 : 0
+Mouse : 124 : 807 : RightButtonDown : 0 : 0 : 0
+Mouse : 124 : 807 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 166 : 807 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 256 : 696 : 16711680 : 0
+Mouse : 166 : 807 : RightButtonDown : 0 : 0 : 0
+Mouse : 166 : 807 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 208 : 807 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 298 : 696 : 16711680 : 0
+Mouse : 208 : 807 : RightButtonDown : 0 : 0 : 0
+Mouse : 208 : 807 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 250 : 807 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 340 : 696 : 16711680 : 0
+Mouse : 250 : 807 : RightButtonDown : 0 : 0 : 0
+Mouse : 250 : 807 : RightButtonUp : 0 : 0 : 0
+ENDIF
+GOTO : move
+LABEL : parnitha
+Mouse : 40 : 345 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 157 : 408 : 16711680 : 0
+Mouse : 40 : 345 : RightButtonDown : 0 : 0 : 0
+Mouse : 40 : 345 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 82 : 345 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 199 : 408 : 16711680 : 0
+Mouse : 82 : 345 : RightButtonDown : 0 : 0 : 0
+Mouse : 82 : 345 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 124 : 345 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 241 : 408 : 16711680 : 0
+Mouse : 124 : 345 : RightButtonDown : 0 : 0 : 0
+Mouse : 124 : 345 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 166 : 345 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 283 : 408 : 16711680 : 0
+Mouse : 166 : 345 : RightButtonDown : 0 : 0 : 0
+Mouse : 166 : 345 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 208 : 345 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 325 : 408 : 16711680 : 0
+Mouse : 208 : 345 : RightButtonDown : 0 : 0 : 0
+Mouse : 208 : 345 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 250 : 345 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 367 : 408 : 16711680 : 0
+Mouse : 250 : 345 : RightButtonDown : 0 : 0 : 0
+Mouse : 250 : 345 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 40 : 387 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 157 : 450 : 16711680 : 0
+Mouse : 40 : 387 : RightButtonDown : 0 : 0 : 0
+Mouse : 40 : 387 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 82 : 387 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 199 : 450 : 16711680 : 0
+Mouse : 82 : 387 : RightButtonDown : 0 : 0 : 0
+Mouse : 82 : 387 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 124 : 387 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 241 : 450 : 16711680 : 0
+Mouse : 124 : 387 : RightButtonDown : 0 : 0 : 0
+Mouse : 124 : 387 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 166 : 387 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 283 : 450 : 16711680 : 0
+Mouse : 166 : 387 : RightButtonDown : 0 : 0 : 0
+Mouse : 166 : 387 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 208 : 387 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 325 : 450 : 16711680 : 0
+Mouse : 208 : 387 : RightButtonDown : 0 : 0 : 0
+Mouse : 208 : 387 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 250 : 387 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 367 : 450 : 16711680 : 0
+Mouse : 250 : 387 : RightButtonDown : 0 : 0 : 0
+Mouse : 250 : 387 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 40 : 429 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 157 : 492 : 16711680 : 0
+Mouse : 40 : 429 : RightButtonDown : 0 : 0 : 0
+Mouse : 40 : 429 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 82 : 429 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 199 : 492 : 16711680 : 0
+Mouse : 82 : 429 : RightButtonDown : 0 : 0 : 0
+Mouse : 82 : 429 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 124 : 429 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 241 : 492 : 16711680 : 0
+Mouse : 124 : 429 : RightButtonDown : 0 : 0 : 0
+Mouse : 124 : 429 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 166 : 429 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 283 : 492 : 16711680 : 0
+Mouse : 166 : 429 : RightButtonDown : 0 : 0 : 0
+Mouse : 166 : 429 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 208 : 429 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 325 : 492 : 16711680 : 0
+Mouse : 208 : 429 : RightButtonDown : 0 : 0 : 0
+Mouse : 208 : 429 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 250 : 429 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 367 : 492 : 16711680 : 0
+Mouse : 250 : 429 : RightButtonDown : 0 : 0 : 0
+Mouse : 250 : 429 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 40 : 471 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 157 : 534 : 16711680 : 0
+Mouse : 40 : 471 : RightButtonDown : 0 : 0 : 0
+Mouse : 40 : 471 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 82 : 471 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 199 : 534 : 16711680 : 0
+Mouse : 82 : 471 : RightButtonDown : 0 : 0 : 0
+Mouse : 82 : 471 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 124 : 471 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 241 : 534 : 16711680 : 0
+Mouse : 124 : 471 : RightButtonDown : 0 : 0 : 0
+Mouse : 124 : 471 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 166 : 471 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 283 : 534 : 16711680 : 0
+Mouse : 166 : 471 : RightButtonDown : 0 : 0 : 0
+Mouse : 166 : 471 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 208 : 471 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 325 : 534 : 16711680 : 0
+Mouse : 208 : 471 : RightButtonDown : 0 : 0 : 0
+Mouse : 208 : 471 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 250 : 471 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 367 : 534 : 16711680 : 0
+Mouse : 250 : 471 : RightButtonDown : 0 : 0 : 0
+Mouse : 250 : 471 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 40 : 513 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 157 : 404 : 16711680 : 0
+Mouse : 40 : 513 : RightButtonDown : 0 : 0 : 0
+Mouse : 40 : 513 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 82 : 513 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 199 : 404 : 16711680 : 0
+Mouse : 82 : 513 : RightButtonDown : 0 : 0 : 0
+Mouse : 82 : 513 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 124 : 513 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 241 : 404 : 16711680 : 0
+Mouse : 124 : 513 : RightButtonDown : 0 : 0 : 0
+Mouse : 124 : 513 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 166 : 513 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 283 : 404 : 16711680 : 0
+Mouse : 166 : 513 : RightButtonDown : 0 : 0 : 0
+Mouse : 166 : 513 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 208 : 513 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 325 : 404 : 16711680 : 0
+Mouse : 208 : 513 : RightButtonDown : 0 : 0 : 0
+Mouse : 208 : 513 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 250 : 513 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 367 : 404 : 16711680 : 0
+Mouse : 250 : 513 : RightButtonDown : 0 : 0 : 0
+Mouse : 250 : 513 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 40 : 555 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 157 : 446 : 16711680 : 0
+Mouse : 40 : 555 : RightButtonDown : 0 : 0 : 0
+Mouse : 40 : 555 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 82 : 555 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 199 : 446 : 16711680 : 0
+Mouse : 82 : 555 : RightButtonDown : 0 : 0 : 0
+Mouse : 82 : 555 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 124 : 555 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 241 : 446 : 16711680 : 0
+Mouse : 124 : 555 : RightButtonDown : 0 : 0 : 0
+Mouse : 124 : 555 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 166 : 555 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 283 : 446 : 16711680 : 0
+Mouse : 166 : 555 : RightButtonDown : 0 : 0 : 0
+Mouse : 166 : 555 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 208 : 555 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 325 : 446 : 16711680 : 0
+Mouse : 208 : 555 : RightButtonDown : 0 : 0 : 0
+Mouse : 208 : 555 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 250 : 555 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 367 : 446 : 16711680 : 0
+Mouse : 250 : 555 : RightButtonDown : 0 : 0 : 0
+Mouse : 250 : 555 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 40 : 597 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 157 : 488 : 16711680 : 0
+Mouse : 40 : 597 : RightButtonDown : 0 : 0 : 0
+Mouse : 40 : 597 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 82 : 597 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 199 : 488 : 16711680 : 0
+Mouse : 82 : 597 : RightButtonDown : 0 : 0 : 0
+Mouse : 82 : 597 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 124 : 597 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 241 : 488 : 16711680 : 0
+Mouse : 124 : 597 : RightButtonDown : 0 : 0 : 0
+Mouse : 124 : 597 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 166 : 597 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 283 : 488 : 16711680 : 0
+Mouse : 166 : 597 : RightButtonDown : 0 : 0 : 0
+Mouse : 166 : 597 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 208 : 597 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 325 : 488 : 16711680 : 0
+Mouse : 208 : 597 : RightButtonDown : 0 : 0 : 0
+Mouse : 208 : 597 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 250 : 597 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 367 : 488 : 16711680 : 0
+Mouse : 250 : 597 : RightButtonDown : 0 : 0 : 0
+Mouse : 250 : 597 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 40 : 639 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 157 : 530 : 16711680 : 0
+Mouse : 40 : 639 : RightButtonDown : 0 : 0 : 0
+Mouse : 40 : 639 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 82 : 639 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 199 : 530 : 16711680 : 0
+Mouse : 82 : 639 : RightButtonDown : 0 : 0 : 0
+Mouse : 82 : 639 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 124 : 639 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 241 : 530 : 16711680 : 0
+Mouse : 124 : 639 : RightButtonDown : 0 : 0 : 0
+Mouse : 124 : 639 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 166 : 639 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 283 : 530 : 16711680 : 0
+Mouse : 166 : 639 : RightButtonDown : 0 : 0 : 0
+Mouse : 166 : 639 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 208 : 639 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 325 : 530 : 16711680 : 0
+Mouse : 208 : 639 : RightButtonDown : 0 : 0 : 0
+Mouse : 208 : 639 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 250 : 639 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 367 : 530 : 16711680 : 0
+Mouse : 250 : 639 : RightButtonDown : 0 : 0 : 0
+Mouse : 250 : 639 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 40 : 681 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 157 : 572 : 16711680 : 0
+Mouse : 40 : 681 : RightButtonDown : 0 : 0 : 0
+Mouse : 40 : 681 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 82 : 681 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 199 : 572 : 16711680 : 0
+Mouse : 82 : 681 : RightButtonDown : 0 : 0 : 0
+Mouse : 82 : 681 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 124 : 681 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 241 : 572 : 16711680 : 0
+Mouse : 124 : 681 : RightButtonDown : 0 : 0 : 0
+Mouse : 124 : 681 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 166 : 681 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 283 : 572 : 16711680 : 0
+Mouse : 166 : 681 : RightButtonDown : 0 : 0 : 0
+Mouse : 166 : 681 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 208 : 681 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 325 : 572 : 16711680 : 0
+Mouse : 208 : 681 : RightButtonDown : 0 : 0 : 0
+Mouse : 208 : 681 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 250 : 681 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 367 : 572 : 16711680 : 0
+Mouse : 250 : 681 : RightButtonDown : 0 : 0 : 0
+Mouse : 250 : 681 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 40 : 723 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 157 : 614 : 16711680 : 0
+Mouse : 40 : 723 : RightButtonDown : 0 : 0 : 0
+Mouse : 40 : 723 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 82 : 723 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 199 : 614 : 16711680 : 0
+Mouse : 82 : 723 : RightButtonDown : 0 : 0 : 0
+Mouse : 82 : 723 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 124 : 723 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 241 : 614 : 16711680 : 0
+Mouse : 124 : 723 : RightButtonDown : 0 : 0 : 0
+Mouse : 124 : 723 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 166 : 723 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 283 : 614 : 16711680 : 0
+Mouse : 166 : 723 : RightButtonDown : 0 : 0 : 0
+Mouse : 166 : 723 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 208 : 723 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 325 : 614 : 16711680 : 0
+Mouse : 208 : 723 : RightButtonDown : 0 : 0 : 0
+Mouse : 208 : 723 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 250 : 723 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 367 : 614 : 16711680 : 0
+Mouse : 250 : 723 : RightButtonDown : 0 : 0 : 0
+Mouse : 250 : 723 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 40 : 765 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 157 : 656 : 16711680 : 0
+Mouse : 40 : 765 : RightButtonDown : 0 : 0 : 0
+Mouse : 40 : 765 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 82 : 765 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 199 : 656 : 16711680 : 0
+Mouse : 82 : 765 : RightButtonDown : 0 : 0 : 0
+Mouse : 82 : 765 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 124 : 765 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 241 : 656 : 16711680 : 0
+Mouse : 124 : 765 : RightButtonDown : 0 : 0 : 0
+Mouse : 124 : 765 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 166 : 765 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 283 : 656 : 16711680 : 0
+Mouse : 166 : 765 : RightButtonDown : 0 : 0 : 0
+Mouse : 166 : 765 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 208 : 765 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 325 : 656 : 16711680 : 0
+Mouse : 208 : 765 : RightButtonDown : 0 : 0 : 0
+Mouse : 208 : 765 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 250 : 765 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 367 : 656 : 16711680 : 0
+Mouse : 250 : 765 : RightButtonDown : 0 : 0 : 0
+Mouse : 250 : 765 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 40 : 807 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 157 : 698 : 16711680 : 0
+Mouse : 40 : 807 : RightButtonDown : 0 : 0 : 0
+Mouse : 40 : 807 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 82 : 807 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 199 : 698 : 16711680 : 0
+Mouse : 82 : 807 : RightButtonDown : 0 : 0 : 0
+Mouse : 82 : 807 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 124 : 807 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 241 : 698 : 16711680 : 0
+Mouse : 124 : 807 : RightButtonDown : 0 : 0 : 0
+Mouse : 124 : 807 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 166 : 807 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 283 : 698 : 16711680 : 0
+Mouse : 166 : 807 : RightButtonDown : 0 : 0 : 0
+Mouse : 166 : 807 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 208 : 807 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 325 : 698 : 16711680 : 0
+Mouse : 208 : 807 : RightButtonDown : 0 : 0 : 0
+Mouse : 208 : 807 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 250 : 807 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 367 : 698 : 16711680 : 0
+Mouse : 250 : 807 : RightButtonDown : 0 : 0 : 0
+Mouse : 250 : 807 : RightButtonUp : 0 : 0 : 0
+ENDIF
+GOTO : move
+LABEL : port
+Mouse : 40 : 345 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 190 : 406 : 16711680 : 0
+Mouse : 40 : 345 : RightButtonDown : 0 : 0 : 0
+Mouse : 40 : 345 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 82 : 345 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 232 : 406 : 16711680 : 0
+Mouse : 82 : 345 : RightButtonDown : 0 : 0 : 0
+Mouse : 82 : 345 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 124 : 345 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 274 : 406 : 16711680 : 0
+Mouse : 124 : 345 : RightButtonDown : 0 : 0 : 0
+Mouse : 124 : 345 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 166 : 345 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 316 : 406 : 16711680 : 0
+Mouse : 166 : 345 : RightButtonDown : 0 : 0 : 0
+Mouse : 166 : 345 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 208 : 345 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 358 : 406 : 16711680 : 0
+Mouse : 208 : 345 : RightButtonDown : 0 : 0 : 0
+Mouse : 208 : 345 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 250 : 345 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 400 : 406 : 16711680 : 0
+Mouse : 250 : 345 : RightButtonDown : 0 : 0 : 0
+Mouse : 250 : 345 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 40 : 387 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 190 : 448 : 16711680 : 0
+Mouse : 40 : 387 : RightButtonDown : 0 : 0 : 0
+Mouse : 40 : 387 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 82 : 387 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 232 : 448 : 16711680 : 0
+Mouse : 82 : 387 : RightButtonDown : 0 : 0 : 0
+Mouse : 82 : 387 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 124 : 387 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 274 : 448 : 16711680 : 0
+Mouse : 124 : 387 : RightButtonDown : 0 : 0 : 0
+Mouse : 124 : 387 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 166 : 387 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 316 : 448 : 16711680 : 0
+Mouse : 166 : 387 : RightButtonDown : 0 : 0 : 0
+Mouse : 166 : 387 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 208 : 387 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 358 : 448 : 16711680 : 0
+Mouse : 208 : 387 : RightButtonDown : 0 : 0 : 0
+Mouse : 208 : 387 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 250 : 387 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 400 : 448 : 16711680 : 0
+Mouse : 250 : 387 : RightButtonDown : 0 : 0 : 0
+Mouse : 250 : 387 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 40 : 429 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 190 : 490 : 16711680 : 0
+Mouse : 40 : 429 : RightButtonDown : 0 : 0 : 0
+Mouse : 40 : 429 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 82 : 429 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 232 : 490 : 16711680 : 0
+Mouse : 82 : 429 : RightButtonDown : 0 : 0 : 0
+Mouse : 82 : 429 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 124 : 429 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 274 : 490 : 16711680 : 0
+Mouse : 124 : 429 : RightButtonDown : 0 : 0 : 0
+Mouse : 124 : 429 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 166 : 429 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 316 : 490 : 16711680 : 0
+Mouse : 166 : 429 : RightButtonDown : 0 : 0 : 0
+Mouse : 166 : 429 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 208 : 429 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 358 : 490 : 16711680 : 0
+Mouse : 208 : 429 : RightButtonDown : 0 : 0 : 0
+Mouse : 208 : 429 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 250 : 429 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 400 : 490 : 16711680 : 0
+Mouse : 250 : 429 : RightButtonDown : 0 : 0 : 0
+Mouse : 250 : 429 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 40 : 471 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 190 : 532 : 16711680 : 0
+Mouse : 40 : 471 : RightButtonDown : 0 : 0 : 0
+Mouse : 40 : 471 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 82 : 471 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 232 : 532 : 16711680 : 0
+Mouse : 82 : 471 : RightButtonDown : 0 : 0 : 0
+Mouse : 82 : 471 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 124 : 471 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 274 : 532 : 16711680 : 0
+Mouse : 124 : 471 : RightButtonDown : 0 : 0 : 0
+Mouse : 124 : 471 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 166 : 471 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 316 : 532 : 16711680 : 0
+Mouse : 166 : 471 : RightButtonDown : 0 : 0 : 0
+Mouse : 166 : 471 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 208 : 471 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 358 : 532 : 16711680 : 0
+Mouse : 208 : 471 : RightButtonDown : 0 : 0 : 0
+Mouse : 208 : 471 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 250 : 471 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 400 : 532 : 16711680 : 0
+Mouse : 250 : 471 : RightButtonDown : 0 : 0 : 0
+Mouse : 250 : 471 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 40 : 513 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 190 : 402 : 16711680 : 0
+Mouse : 40 : 513 : RightButtonDown : 0 : 0 : 0
+Mouse : 40 : 513 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 82 : 513 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 232 : 402 : 16711680 : 0
+Mouse : 82 : 513 : RightButtonDown : 0 : 0 : 0
+Mouse : 82 : 513 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 124 : 513 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 274 : 402 : 16711680 : 0
+Mouse : 124 : 513 : RightButtonDown : 0 : 0 : 0
+Mouse : 124 : 513 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 166 : 513 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 316 : 402 : 16711680 : 0
+Mouse : 166 : 513 : RightButtonDown : 0 : 0 : 0
+Mouse : 166 : 513 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 208 : 513 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 358 : 402 : 16711680 : 0
+Mouse : 208 : 513 : RightButtonDown : 0 : 0 : 0
+Mouse : 208 : 513 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 250 : 513 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 400 : 402 : 16711680 : 0
+Mouse : 250 : 513 : RightButtonDown : 0 : 0 : 0
+Mouse : 250 : 513 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 40 : 555 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 190 : 444 : 16711680 : 0
+Mouse : 40 : 555 : RightButtonDown : 0 : 0 : 0
+Mouse : 40 : 555 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 82 : 555 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 232 : 444 : 16711680 : 0
+Mouse : 82 : 555 : RightButtonDown : 0 : 0 : 0
+Mouse : 82 : 555 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 124 : 555 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 274 : 444 : 16711680 : 0
+Mouse : 124 : 555 : RightButtonDown : 0 : 0 : 0
+Mouse : 124 : 555 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 166 : 555 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 316 : 444 : 16711680 : 0
+Mouse : 166 : 555 : RightButtonDown : 0 : 0 : 0
+Mouse : 166 : 555 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 208 : 555 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 358 : 444 : 16711680 : 0
+Mouse : 208 : 555 : RightButtonDown : 0 : 0 : 0
+Mouse : 208 : 555 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 250 : 555 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 400 : 444 : 16711680 : 0
+Mouse : 250 : 555 : RightButtonDown : 0 : 0 : 0
+Mouse : 250 : 555 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 40 : 597 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 190 : 486 : 16711680 : 0
+Mouse : 40 : 597 : RightButtonDown : 0 : 0 : 0
+Mouse : 40 : 597 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 82 : 597 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 232 : 486 : 16711680 : 0
+Mouse : 82 : 597 : RightButtonDown : 0 : 0 : 0
+Mouse : 82 : 597 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 124 : 597 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 274 : 486 : 16711680 : 0
+Mouse : 124 : 597 : RightButtonDown : 0 : 0 : 0
+Mouse : 124 : 597 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 166 : 597 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 316 : 486 : 16711680 : 0
+Mouse : 166 : 597 : RightButtonDown : 0 : 0 : 0
+Mouse : 166 : 597 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 208 : 597 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 358 : 486 : 16711680 : 0
+Mouse : 208 : 597 : RightButtonDown : 0 : 0 : 0
+Mouse : 208 : 597 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 250 : 597 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 400 : 486 : 16711680 : 0
+Mouse : 250 : 597 : RightButtonDown : 0 : 0 : 0
+Mouse : 250 : 597 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 40 : 639 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 190 : 528 : 16711680 : 0
+Mouse : 40 : 639 : RightButtonDown : 0 : 0 : 0
+Mouse : 40 : 639 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 82 : 639 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 232 : 528 : 16711680 : 0
+Mouse : 82 : 639 : RightButtonDown : 0 : 0 : 0
+Mouse : 82 : 639 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 124 : 639 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 274 : 528 : 16711680 : 0
+Mouse : 124 : 639 : RightButtonDown : 0 : 0 : 0
+Mouse : 124 : 639 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 166 : 639 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 316 : 528 : 16711680 : 0
+Mouse : 166 : 639 : RightButtonDown : 0 : 0 : 0
+Mouse : 166 : 639 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 208 : 639 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 358 : 528 : 16711680 : 0
+Mouse : 208 : 639 : RightButtonDown : 0 : 0 : 0
+Mouse : 208 : 639 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 250 : 639 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 400 : 528 : 16711680 : 0
+Mouse : 250 : 639 : RightButtonDown : 0 : 0 : 0
+Mouse : 250 : 639 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 40 : 681 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 190 : 570 : 16711680 : 0
+Mouse : 40 : 681 : RightButtonDown : 0 : 0 : 0
+Mouse : 40 : 681 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 82 : 681 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 232 : 570 : 16711680 : 0
+Mouse : 82 : 681 : RightButtonDown : 0 : 0 : 0
+Mouse : 82 : 681 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 124 : 681 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 274 : 570 : 16711680 : 0
+Mouse : 124 : 681 : RightButtonDown : 0 : 0 : 0
+Mouse : 124 : 681 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 166 : 681 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 316 : 570 : 16711680 : 0
+Mouse : 166 : 681 : RightButtonDown : 0 : 0 : 0
+Mouse : 166 : 681 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 208 : 681 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 358 : 570 : 16711680 : 0
+Mouse : 208 : 681 : RightButtonDown : 0 : 0 : 0
+Mouse : 208 : 681 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 250 : 681 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 400 : 570 : 16711680 : 0
+Mouse : 250 : 681 : RightButtonDown : 0 : 0 : 0
+Mouse : 250 : 681 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 40 : 723 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 190 : 612 : 16711680 : 0
+Mouse : 40 : 723 : RightButtonDown : 0 : 0 : 0
+Mouse : 40 : 723 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 82 : 723 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 232 : 612 : 16711680 : 0
+Mouse : 82 : 723 : RightButtonDown : 0 : 0 : 0
+Mouse : 82 : 723 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 124 : 723 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 274 : 612 : 16711680 : 0
+Mouse : 124 : 723 : RightButtonDown : 0 : 0 : 0
+Mouse : 124 : 723 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 166 : 723 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 316 : 612 : 16711680 : 0
+Mouse : 166 : 723 : RightButtonDown : 0 : 0 : 0
+Mouse : 166 : 723 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 208 : 723 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 358 : 612 : 16711680 : 0
+Mouse : 208 : 723 : RightButtonDown : 0 : 0 : 0
+Mouse : 208 : 723 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 250 : 723 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 400 : 612 : 16711680 : 0
+Mouse : 250 : 723 : RightButtonDown : 0 : 0 : 0
+Mouse : 250 : 723 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 40 : 765 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 190 : 654 : 16711680 : 0
+Mouse : 40 : 765 : RightButtonDown : 0 : 0 : 0
+Mouse : 40 : 765 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 82 : 765 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 232 : 654 : 16711680 : 0
+Mouse : 82 : 765 : RightButtonDown : 0 : 0 : 0
+Mouse : 82 : 765 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 124 : 765 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 274 : 654 : 16711680 : 0
+Mouse : 124 : 765 : RightButtonDown : 0 : 0 : 0
+Mouse : 124 : 765 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 166 : 765 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 316 : 654 : 16711680 : 0
+Mouse : 166 : 765 : RightButtonDown : 0 : 0 : 0
+Mouse : 166 : 765 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 208 : 765 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 358 : 654 : 16711680 : 0
+Mouse : 208 : 765 : RightButtonDown : 0 : 0 : 0
+Mouse : 208 : 765 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 250 : 765 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 400 : 654 : 16711680 : 0
+Mouse : 250 : 765 : RightButtonDown : 0 : 0 : 0
+Mouse : 250 : 765 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 40 : 807 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 190 : 696 : 16711680 : 0
+Mouse : 40 : 807 : RightButtonDown : 0 : 0 : 0
+Mouse : 40 : 807 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 82 : 807 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 232 : 696 : 16711680 : 0
+Mouse : 82 : 807 : RightButtonDown : 0 : 0 : 0
+Mouse : 82 : 807 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 124 : 807 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 274 : 696 : 16711680 : 0
+Mouse : 124 : 807 : RightButtonDown : 0 : 0 : 0
+Mouse : 124 : 807 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 166 : 807 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 316 : 696 : 16711680 : 0
+Mouse : 166 : 807 : RightButtonDown : 0 : 0 : 0
+Mouse : 166 : 807 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 208 : 807 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 358 : 696 : 16711680 : 0
+Mouse : 208 : 807 : RightButtonDown : 0 : 0 : 0
+Mouse : 208 : 807 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 250 : 807 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 400 : 696 : 16711680 : 0
+Mouse : 250 : 807 : RightButtonDown : 0 : 0 : 0
+Mouse : 250 : 807 : RightButtonUp : 0 : 0 : 0
+ENDIF
+GOTO : move
+LABEL : thermo
+Mouse : 40 : 345 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 182 : 408 : 16711680 : 0
+Mouse : 40 : 345 : RightButtonDown : 0 : 0 : 0
+Mouse : 40 : 345 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 82 : 345 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 224 : 408 : 16711680 : 0
+Mouse : 82 : 345 : RightButtonDown : 0 : 0 : 0
+Mouse : 82 : 345 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 124 : 345 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 266 : 408 : 16711680 : 0
+Mouse : 124 : 345 : RightButtonDown : 0 : 0 : 0
+Mouse : 124 : 345 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 166 : 345 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 308 : 408 : 16711680 : 0
+Mouse : 166 : 345 : RightButtonDown : 0 : 0 : 0
+Mouse : 166 : 345 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 208 : 345 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 350 : 408 : 16711680 : 0
+Mouse : 208 : 345 : RightButtonDown : 0 : 0 : 0
+Mouse : 208 : 345 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 250 : 345 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 392 : 408 : 16711680 : 0
+Mouse : 250 : 345 : RightButtonDown : 0 : 0 : 0
+Mouse : 250 : 345 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 40 : 387 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 182 : 450 : 16711680 : 0
+Mouse : 40 : 387 : RightButtonDown : 0 : 0 : 0
+Mouse : 40 : 387 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 82 : 387 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 224 : 450 : 16711680 : 0
+Mouse : 82 : 387 : RightButtonDown : 0 : 0 : 0
+Mouse : 82 : 387 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 124 : 387 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 266 : 450 : 16711680 : 0
+Mouse : 124 : 387 : RightButtonDown : 0 : 0 : 0
+Mouse : 124 : 387 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 166 : 387 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 308 : 450 : 16711680 : 0
+Mouse : 166 : 387 : RightButtonDown : 0 : 0 : 0
+Mouse : 166 : 387 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 208 : 387 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 350 : 450 : 16711680 : 0
+Mouse : 208 : 387 : RightButtonDown : 0 : 0 : 0
+Mouse : 208 : 387 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 250 : 387 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 392 : 450 : 16711680 : 0
+Mouse : 250 : 387 : RightButtonDown : 0 : 0 : 0
+Mouse : 250 : 387 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 40 : 429 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 182 : 492 : 16711680 : 0
+Mouse : 40 : 429 : RightButtonDown : 0 : 0 : 0
+Mouse : 40 : 429 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 82 : 429 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 224 : 492 : 16711680 : 0
+Mouse : 82 : 429 : RightButtonDown : 0 : 0 : 0
+Mouse : 82 : 429 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 124 : 429 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 266 : 492 : 16711680 : 0
+Mouse : 124 : 429 : RightButtonDown : 0 : 0 : 0
+Mouse : 124 : 429 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 166 : 429 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 308 : 492 : 16711680 : 0
+Mouse : 166 : 429 : RightButtonDown : 0 : 0 : 0
+Mouse : 166 : 429 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 208 : 429 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 350 : 492 : 16711680 : 0
+Mouse : 208 : 429 : RightButtonDown : 0 : 0 : 0
+Mouse : 208 : 429 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 250 : 429 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 392 : 492 : 16711680 : 0
+Mouse : 250 : 429 : RightButtonDown : 0 : 0 : 0
+Mouse : 250 : 429 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 40 : 471 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 182 : 534 : 16711680 : 0
+Mouse : 40 : 471 : RightButtonDown : 0 : 0 : 0
+Mouse : 40 : 471 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 82 : 471 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 224 : 534 : 16711680 : 0
+Mouse : 82 : 471 : RightButtonDown : 0 : 0 : 0
+Mouse : 82 : 471 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 124 : 471 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 266 : 534 : 16711680 : 0
+Mouse : 124 : 471 : RightButtonDown : 0 : 0 : 0
+Mouse : 124 : 471 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 166 : 471 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 308 : 534 : 16711680 : 0
+Mouse : 166 : 471 : RightButtonDown : 0 : 0 : 0
+Mouse : 166 : 471 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 208 : 471 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 350 : 534 : 16711680 : 0
+Mouse : 208 : 471 : RightButtonDown : 0 : 0 : 0
+Mouse : 208 : 471 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 250 : 471 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 392 : 534 : 16711680 : 0
+Mouse : 250 : 471 : RightButtonDown : 0 : 0 : 0
+Mouse : 250 : 471 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 40 : 513 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 182 : 404 : 16711680 : 0
+Mouse : 40 : 513 : RightButtonDown : 0 : 0 : 0
+Mouse : 40 : 513 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 82 : 513 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 224 : 404 : 16711680 : 0
+Mouse : 82 : 513 : RightButtonDown : 0 : 0 : 0
+Mouse : 82 : 513 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 124 : 513 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 266 : 404 : 16711680 : 0
+Mouse : 124 : 513 : RightButtonDown : 0 : 0 : 0
+Mouse : 124 : 513 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 166 : 513 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 308 : 404 : 16711680 : 0
+Mouse : 166 : 513 : RightButtonDown : 0 : 0 : 0
+Mouse : 166 : 513 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 208 : 513 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 350 : 404 : 16711680 : 0
+Mouse : 208 : 513 : RightButtonDown : 0 : 0 : 0
+Mouse : 208 : 513 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 250 : 513 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 392 : 404 : 16711680 : 0
+Mouse : 250 : 513 : RightButtonDown : 0 : 0 : 0
+Mouse : 250 : 513 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 40 : 555 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 182 : 446 : 16711680 : 0
+Mouse : 40 : 555 : RightButtonDown : 0 : 0 : 0
+Mouse : 40 : 555 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 82 : 555 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 224 : 446 : 16711680 : 0
+Mouse : 82 : 555 : RightButtonDown : 0 : 0 : 0
+Mouse : 82 : 555 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 124 : 555 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 266 : 446 : 16711680 : 0
+Mouse : 124 : 555 : RightButtonDown : 0 : 0 : 0
+Mouse : 124 : 555 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 166 : 555 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 308 : 446 : 16711680 : 0
+Mouse : 166 : 555 : RightButtonDown : 0 : 0 : 0
+Mouse : 166 : 555 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 208 : 555 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 350 : 446 : 16711680 : 0
+Mouse : 208 : 555 : RightButtonDown : 0 : 0 : 0
+Mouse : 208 : 555 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 250 : 555 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 392 : 446 : 16711680 : 0
+Mouse : 250 : 555 : RightButtonDown : 0 : 0 : 0
+Mouse : 250 : 555 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 40 : 597 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 182 : 488 : 16711680 : 0
+Mouse : 40 : 597 : RightButtonDown : 0 : 0 : 0
+Mouse : 40 : 597 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 82 : 597 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 224 : 488 : 16711680 : 0
+Mouse : 82 : 597 : RightButtonDown : 0 : 0 : 0
+Mouse : 82 : 597 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 124 : 597 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 266 : 488 : 16711680 : 0
+Mouse : 124 : 597 : RightButtonDown : 0 : 0 : 0
+Mouse : 124 : 597 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 166 : 597 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 308 : 488 : 16711680 : 0
+Mouse : 166 : 597 : RightButtonDown : 0 : 0 : 0
+Mouse : 166 : 597 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 208 : 597 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 350 : 488 : 16711680 : 0
+Mouse : 208 : 597 : RightButtonDown : 0 : 0 : 0
+Mouse : 208 : 597 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 250 : 597 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 392 : 488 : 16711680 : 0
+Mouse : 250 : 597 : RightButtonDown : 0 : 0 : 0
+Mouse : 250 : 597 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 40 : 639 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 182 : 530 : 16711680 : 0
+Mouse : 40 : 639 : RightButtonDown : 0 : 0 : 0
+Mouse : 40 : 639 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 82 : 639 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 224 : 530 : 16711680 : 0
+Mouse : 82 : 639 : RightButtonDown : 0 : 0 : 0
+Mouse : 82 : 639 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 124 : 639 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 266 : 530 : 16711680 : 0
+Mouse : 124 : 639 : RightButtonDown : 0 : 0 : 0
+Mouse : 124 : 639 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 166 : 639 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 308 : 530 : 16711680 : 0
+Mouse : 166 : 639 : RightButtonDown : 0 : 0 : 0
+Mouse : 166 : 639 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 208 : 639 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 350 : 530 : 16711680 : 0
+Mouse : 208 : 639 : RightButtonDown : 0 : 0 : 0
+Mouse : 208 : 639 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 250 : 639 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 392 : 530 : 16711680 : 0
+Mouse : 250 : 639 : RightButtonDown : 0 : 0 : 0
+Mouse : 250 : 639 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 40 : 681 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 182 : 572 : 16711680 : 0
+Mouse : 40 : 681 : RightButtonDown : 0 : 0 : 0
+Mouse : 40 : 681 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 82 : 681 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 224 : 572 : 16711680 : 0
+Mouse : 82 : 681 : RightButtonDown : 0 : 0 : 0
+Mouse : 82 : 681 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 124 : 681 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 266 : 572 : 16711680 : 0
+Mouse : 124 : 681 : RightButtonDown : 0 : 0 : 0
+Mouse : 124 : 681 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 166 : 681 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 308 : 572 : 16711680 : 0
+Mouse : 166 : 681 : RightButtonDown : 0 : 0 : 0
+Mouse : 166 : 681 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 208 : 681 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 350 : 572 : 16711680 : 0
+Mouse : 208 : 681 : RightButtonDown : 0 : 0 : 0
+Mouse : 208 : 681 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 250 : 681 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 392 : 572 : 16711680 : 0
+Mouse : 250 : 681 : RightButtonDown : 0 : 0 : 0
+Mouse : 250 : 681 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 40 : 723 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 182 : 614 : 16711680 : 0
+Mouse : 40 : 723 : RightButtonDown : 0 : 0 : 0
+Mouse : 40 : 723 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 82 : 723 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 224 : 614 : 16711680 : 0
+Mouse : 82 : 723 : RightButtonDown : 0 : 0 : 0
+Mouse : 82 : 723 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 124 : 723 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 266 : 614 : 16711680 : 0
+Mouse : 124 : 723 : RightButtonDown : 0 : 0 : 0
+Mouse : 124 : 723 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 166 : 723 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 308 : 614 : 16711680 : 0
+Mouse : 166 : 723 : RightButtonDown : 0 : 0 : 0
+Mouse : 166 : 723 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 208 : 723 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 350 : 614 : 16711680 : 0
+Mouse : 208 : 723 : RightButtonDown : 0 : 0 : 0
+Mouse : 208 : 723 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 250 : 723 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 392 : 614 : 16711680 : 0
+Mouse : 250 : 723 : RightButtonDown : 0 : 0 : 0
+Mouse : 250 : 723 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 40 : 765 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 182 : 656 : 16711680 : 0
+Mouse : 40 : 765 : RightButtonDown : 0 : 0 : 0
+Mouse : 40 : 765 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 82 : 765 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 224 : 656 : 16711680 : 0
+Mouse : 82 : 765 : RightButtonDown : 0 : 0 : 0
+Mouse : 82 : 765 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 124 : 765 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 266 : 656 : 16711680 : 0
+Mouse : 124 : 765 : RightButtonDown : 0 : 0 : 0
+Mouse : 124 : 765 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 166 : 765 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 308 : 656 : 16711680 : 0
+Mouse : 166 : 765 : RightButtonDown : 0 : 0 : 0
+Mouse : 166 : 765 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 208 : 765 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 350 : 656 : 16711680 : 0
+Mouse : 208 : 765 : RightButtonDown : 0 : 0 : 0
+Mouse : 208 : 765 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 250 : 765 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 392 : 656 : 16711680 : 0
+Mouse : 250 : 765 : RightButtonDown : 0 : 0 : 0
+Mouse : 250 : 765 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 40 : 807 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 182 : 698 : 16711680 : 0
+Mouse : 40 : 807 : RightButtonDown : 0 : 0 : 0
+Mouse : 40 : 807 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 82 : 807 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 224 : 698 : 16711680 : 0
+Mouse : 82 : 807 : RightButtonDown : 0 : 0 : 0
+Mouse : 82 : 807 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 124 : 807 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 266 : 698 : 16711680 : 0
+Mouse : 124 : 807 : RightButtonDown : 0 : 0 : 0
+Mouse : 124 : 807 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 166 : 807 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 308 : 698 : 16711680 : 0
+Mouse : 166 : 807 : RightButtonDown : 0 : 0 : 0
+Mouse : 166 : 807 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 208 : 807 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 350 : 698 : 16711680 : 0
+Mouse : 208 : 807 : RightButtonDown : 0 : 0 : 0
+Mouse : 208 : 807 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 250 : 807 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 392 : 698 : 16711680 : 0
+Mouse : 250 : 807 : RightButtonDown : 0 : 0 : 0
+Mouse : 250 : 807 : RightButtonUp : 0 : 0 : 0
+ENDIF
+GOTO : move
+LABEL : megara
+Mouse : 40 : 345 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 145 : 408 : 16711680 : 0
+Mouse : 40 : 345 : RightButtonDown : 0 : 0 : 0
+Mouse : 40 : 345 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 82 : 345 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 187 : 408 : 16711680 : 0
+Mouse : 82 : 345 : RightButtonDown : 0 : 0 : 0
+Mouse : 82 : 345 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 124 : 345 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 229 : 408 : 16711680 : 0
+Mouse : 124 : 345 : RightButtonDown : 0 : 0 : 0
+Mouse : 124 : 345 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 166 : 345 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 271 : 408 : 16711680 : 0
+Mouse : 166 : 345 : RightButtonDown : 0 : 0 : 0
+Mouse : 166 : 345 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 208 : 345 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 313 : 408 : 16711680 : 0
+Mouse : 208 : 345 : RightButtonDown : 0 : 0 : 0
+Mouse : 208 : 345 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 250 : 345 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 355 : 408 : 16711680 : 0
+Mouse : 250 : 345 : RightButtonDown : 0 : 0 : 0
+Mouse : 250 : 345 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 40 : 387 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 145 : 450 : 16711680 : 0
+Mouse : 40 : 387 : RightButtonDown : 0 : 0 : 0
+Mouse : 40 : 387 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 82 : 387 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 187 : 450 : 16711680 : 0
+Mouse : 82 : 387 : RightButtonDown : 0 : 0 : 0
+Mouse : 82 : 387 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 124 : 387 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 229 : 450 : 16711680 : 0
+Mouse : 124 : 387 : RightButtonDown : 0 : 0 : 0
+Mouse : 124 : 387 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 166 : 387 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 271 : 450 : 16711680 : 0
+Mouse : 166 : 387 : RightButtonDown : 0 : 0 : 0
+Mouse : 166 : 387 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 208 : 387 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 313 : 450 : 16711680 : 0
+Mouse : 208 : 387 : RightButtonDown : 0 : 0 : 0
+Mouse : 208 : 387 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 250 : 387 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 355 : 450 : 16711680 : 0
+Mouse : 250 : 387 : RightButtonDown : 0 : 0 : 0
+Mouse : 250 : 387 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 40 : 429 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 145 : 492 : 16711680 : 0
+Mouse : 40 : 429 : RightButtonDown : 0 : 0 : 0
+Mouse : 40 : 429 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 82 : 429 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 187 : 492 : 16711680 : 0
+Mouse : 82 : 429 : RightButtonDown : 0 : 0 : 0
+Mouse : 82 : 429 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 124 : 429 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 229 : 492 : 16711680 : 0
+Mouse : 124 : 429 : RightButtonDown : 0 : 0 : 0
+Mouse : 124 : 429 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 166 : 429 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 271 : 492 : 16711680 : 0
+Mouse : 166 : 429 : RightButtonDown : 0 : 0 : 0
+Mouse : 166 : 429 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 208 : 429 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 313 : 492 : 16711680 : 0
+Mouse : 208 : 429 : RightButtonDown : 0 : 0 : 0
+Mouse : 208 : 429 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 250 : 429 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 355 : 492 : 16711680 : 0
+Mouse : 250 : 429 : RightButtonDown : 0 : 0 : 0
+Mouse : 250 : 429 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 40 : 471 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 145 : 534 : 16711680 : 0
+Mouse : 40 : 471 : RightButtonDown : 0 : 0 : 0
+Mouse : 40 : 471 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 82 : 471 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 187 : 534 : 16711680 : 0
+Mouse : 82 : 471 : RightButtonDown : 0 : 0 : 0
+Mouse : 82 : 471 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 124 : 471 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 229 : 534 : 16711680 : 0
+Mouse : 124 : 471 : RightButtonDown : 0 : 0 : 0
+Mouse : 124 : 471 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 166 : 471 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 271 : 534 : 16711680 : 0
+Mouse : 166 : 471 : RightButtonDown : 0 : 0 : 0
+Mouse : 166 : 471 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 208 : 471 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 313 : 534 : 16711680 : 0
+Mouse : 208 : 471 : RightButtonDown : 0 : 0 : 0
+Mouse : 208 : 471 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 250 : 471 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 355 : 534 : 16711680 : 0
+Mouse : 250 : 471 : RightButtonDown : 0 : 0 : 0
+Mouse : 250 : 471 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 40 : 513 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 145 : 404 : 16711680 : 0
+Mouse : 40 : 513 : RightButtonDown : 0 : 0 : 0
+Mouse : 40 : 513 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 82 : 513 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 187 : 404 : 16711680 : 0
+Mouse : 82 : 513 : RightButtonDown : 0 : 0 : 0
+Mouse : 82 : 513 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 124 : 513 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 229 : 404 : 16711680 : 0
+Mouse : 124 : 513 : RightButtonDown : 0 : 0 : 0
+Mouse : 124 : 513 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 166 : 513 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 271 : 404 : 16711680 : 0
+Mouse : 166 : 513 : RightButtonDown : 0 : 0 : 0
+Mouse : 166 : 513 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 208 : 513 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 313 : 404 : 16711680 : 0
+Mouse : 208 : 513 : RightButtonDown : 0 : 0 : 0
+Mouse : 208 : 513 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 250 : 513 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 355 : 404 : 16711680 : 0
+Mouse : 250 : 513 : RightButtonDown : 0 : 0 : 0
+Mouse : 250 : 513 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 40 : 555 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 145 : 446 : 16711680 : 0
+Mouse : 40 : 555 : RightButtonDown : 0 : 0 : 0
+Mouse : 40 : 555 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 82 : 555 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 187 : 446 : 16711680 : 0
+Mouse : 82 : 555 : RightButtonDown : 0 : 0 : 0
+Mouse : 82 : 555 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 124 : 555 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 229 : 446 : 16711680 : 0
+Mouse : 124 : 555 : RightButtonDown : 0 : 0 : 0
+Mouse : 124 : 555 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 166 : 555 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 271 : 446 : 16711680 : 0
+Mouse : 166 : 555 : RightButtonDown : 0 : 0 : 0
+Mouse : 166 : 555 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 208 : 555 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 313 : 446 : 16711680 : 0
+Mouse : 208 : 555 : RightButtonDown : 0 : 0 : 0
+Mouse : 208 : 555 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 250 : 555 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 355 : 446 : 16711680 : 0
+Mouse : 250 : 555 : RightButtonDown : 0 : 0 : 0
+Mouse : 250 : 555 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 40 : 597 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 145 : 488 : 16711680 : 0
+Mouse : 40 : 597 : RightButtonDown : 0 : 0 : 0
+Mouse : 40 : 597 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 82 : 597 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 187 : 488 : 16711680 : 0
+Mouse : 82 : 597 : RightButtonDown : 0 : 0 : 0
+Mouse : 82 : 597 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 124 : 597 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 229 : 488 : 16711680 : 0
+Mouse : 124 : 597 : RightButtonDown : 0 : 0 : 0
+Mouse : 124 : 597 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 166 : 597 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 271 : 488 : 16711680 : 0
+Mouse : 166 : 597 : RightButtonDown : 0 : 0 : 0
+Mouse : 166 : 597 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 208 : 597 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 313 : 488 : 16711680 : 0
+Mouse : 208 : 597 : RightButtonDown : 0 : 0 : 0
+Mouse : 208 : 597 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 250 : 597 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 355 : 488 : 16711680 : 0
+Mouse : 250 : 597 : RightButtonDown : 0 : 0 : 0
+Mouse : 250 : 597 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 40 : 639 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 145 : 530 : 16711680 : 0
+Mouse : 40 : 639 : RightButtonDown : 0 : 0 : 0
+Mouse : 40 : 639 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 82 : 639 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 187 : 530 : 16711680 : 0
+Mouse : 82 : 639 : RightButtonDown : 0 : 0 : 0
+Mouse : 82 : 639 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 124 : 639 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 229 : 530 : 16711680 : 0
+Mouse : 124 : 639 : RightButtonDown : 0 : 0 : 0
+Mouse : 124 : 639 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 166 : 639 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 271 : 530 : 16711680 : 0
+Mouse : 166 : 639 : RightButtonDown : 0 : 0 : 0
+Mouse : 166 : 639 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 208 : 639 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 313 : 530 : 16711680 : 0
+Mouse : 208 : 639 : RightButtonDown : 0 : 0 : 0
+Mouse : 208 : 639 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 250 : 639 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 355 : 530 : 16711680 : 0
+Mouse : 250 : 639 : RightButtonDown : 0 : 0 : 0
+Mouse : 250 : 639 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 40 : 681 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 145 : 572 : 16711680 : 0
+Mouse : 40 : 681 : RightButtonDown : 0 : 0 : 0
+Mouse : 40 : 681 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 82 : 681 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 187 : 572 : 16711680 : 0
+Mouse : 82 : 681 : RightButtonDown : 0 : 0 : 0
+Mouse : 82 : 681 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 124 : 681 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 229 : 572 : 16711680 : 0
+Mouse : 124 : 681 : RightButtonDown : 0 : 0 : 0
+Mouse : 124 : 681 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 166 : 681 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 271 : 572 : 16711680 : 0
+Mouse : 166 : 681 : RightButtonDown : 0 : 0 : 0
+Mouse : 166 : 681 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 208 : 681 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 313 : 572 : 16711680 : 0
+Mouse : 208 : 681 : RightButtonDown : 0 : 0 : 0
+Mouse : 208 : 681 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 250 : 681 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 355 : 572 : 16711680 : 0
+Mouse : 250 : 681 : RightButtonDown : 0 : 0 : 0
+Mouse : 250 : 681 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 40 : 723 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 145 : 614 : 16711680 : 0
+Mouse : 40 : 723 : RightButtonDown : 0 : 0 : 0
+Mouse : 40 : 723 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 82 : 723 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 187 : 614 : 16711680 : 0
+Mouse : 82 : 723 : RightButtonDown : 0 : 0 : 0
+Mouse : 82 : 723 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 124 : 723 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 229 : 614 : 16711680 : 0
+Mouse : 124 : 723 : RightButtonDown : 0 : 0 : 0
+Mouse : 124 : 723 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 166 : 723 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 271 : 614 : 16711680 : 0
+Mouse : 166 : 723 : RightButtonDown : 0 : 0 : 0
+Mouse : 166 : 723 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 208 : 723 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 313 : 614 : 16711680 : 0
+Mouse : 208 : 723 : RightButtonDown : 0 : 0 : 0
+Mouse : 208 : 723 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 250 : 723 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 355 : 614 : 16711680 : 0
+Mouse : 250 : 723 : RightButtonDown : 0 : 0 : 0
+Mouse : 250 : 723 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 40 : 765 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 145 : 656 : 16711680 : 0
+Mouse : 40 : 765 : RightButtonDown : 0 : 0 : 0
+Mouse : 40 : 765 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 82 : 765 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 187 : 656 : 16711680 : 0
+Mouse : 82 : 765 : RightButtonDown : 0 : 0 : 0
+Mouse : 82 : 765 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 124 : 765 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 229 : 656 : 16711680 : 0
+Mouse : 124 : 765 : RightButtonDown : 0 : 0 : 0
+Mouse : 124 : 765 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 166 : 765 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 271 : 656 : 16711680 : 0
+Mouse : 166 : 765 : RightButtonDown : 0 : 0 : 0
+Mouse : 166 : 765 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 208 : 765 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 313 : 656 : 16711680 : 0
+Mouse : 208 : 765 : RightButtonDown : 0 : 0 : 0
+Mouse : 208 : 765 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 250 : 765 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 355 : 656 : 16711680 : 0
+Mouse : 250 : 765 : RightButtonDown : 0 : 0 : 0
+Mouse : 250 : 765 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 40 : 807 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 145 : 698 : 16711680 : 0
+Mouse : 40 : 807 : RightButtonDown : 0 : 0 : 0
+Mouse : 40 : 807 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 82 : 807 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 187 : 698 : 16711680 : 0
+Mouse : 82 : 807 : RightButtonDown : 0 : 0 : 0
+Mouse : 82 : 807 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 124 : 807 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 229 : 698 : 16711680 : 0
+Mouse : 124 : 807 : RightButtonDown : 0 : 0 : 0
+Mouse : 124 : 807 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 166 : 807 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 271 : 698 : 16711680 : 0
+Mouse : 166 : 807 : RightButtonDown : 0 : 0 : 0
+Mouse : 166 : 807 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 208 : 807 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 313 : 698 : 16711680 : 0
+Mouse : 208 : 807 : RightButtonDown : 0 : 0 : 0
+Mouse : 208 : 807 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 250 : 807 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 355 : 698 : 16711680 : 0
+Mouse : 250 : 807 : RightButtonDown : 0 : 0 : 0
+Mouse : 250 : 807 : RightButtonUp : 0 : 0 : 0
+ENDIF
+GOTO : move
+LABEL : plataea
+Mouse : 40 : 345 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 152 : 408 : 16711680 : 0
+Mouse : 40 : 345 : RightButtonDown : 0 : 0 : 0
+Mouse : 40 : 345 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 82 : 345 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 194 : 408 : 16711680 : 0
+Mouse : 82 : 345 : RightButtonDown : 0 : 0 : 0
+Mouse : 82 : 345 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 124 : 345 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 236 : 408 : 16711680 : 0
+Mouse : 124 : 345 : RightButtonDown : 0 : 0 : 0
+Mouse : 124 : 345 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 166 : 345 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 278 : 408 : 16711680 : 0
+Mouse : 166 : 345 : RightButtonDown : 0 : 0 : 0
+Mouse : 166 : 345 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 208 : 345 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 320 : 408 : 16711680 : 0
+Mouse : 208 : 345 : RightButtonDown : 0 : 0 : 0
+Mouse : 208 : 345 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 250 : 345 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 362 : 408 : 16711680 : 0
+Mouse : 250 : 345 : RightButtonDown : 0 : 0 : 0
+Mouse : 250 : 345 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 40 : 387 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 152 : 450 : 16711680 : 0
+Mouse : 40 : 387 : RightButtonDown : 0 : 0 : 0
+Mouse : 40 : 387 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 82 : 387 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 194 : 450 : 16711680 : 0
+Mouse : 82 : 387 : RightButtonDown : 0 : 0 : 0
+Mouse : 82 : 387 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 124 : 387 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 236 : 450 : 16711680 : 0
+Mouse : 124 : 387 : RightButtonDown : 0 : 0 : 0
+Mouse : 124 : 387 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 166 : 387 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 278 : 450 : 16711680 : 0
+Mouse : 166 : 387 : RightButtonDown : 0 : 0 : 0
+Mouse : 166 : 387 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 208 : 387 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 320 : 450 : 16711680 : 0
+Mouse : 208 : 387 : RightButtonDown : 0 : 0 : 0
+Mouse : 208 : 387 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 250 : 387 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 362 : 450 : 16711680 : 0
+Mouse : 250 : 387 : RightButtonDown : 0 : 0 : 0
+Mouse : 250 : 387 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 40 : 429 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 152 : 492 : 16711680 : 0
+Mouse : 40 : 429 : RightButtonDown : 0 : 0 : 0
+Mouse : 40 : 429 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 82 : 429 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 194 : 492 : 16711680 : 0
+Mouse : 82 : 429 : RightButtonDown : 0 : 0 : 0
+Mouse : 82 : 429 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 124 : 429 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 236 : 492 : 16711680 : 0
+Mouse : 124 : 429 : RightButtonDown : 0 : 0 : 0
+Mouse : 124 : 429 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 166 : 429 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 278 : 492 : 16711680 : 0
+Mouse : 166 : 429 : RightButtonDown : 0 : 0 : 0
+Mouse : 166 : 429 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 208 : 429 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 320 : 492 : 16711680 : 0
+Mouse : 208 : 429 : RightButtonDown : 0 : 0 : 0
+Mouse : 208 : 429 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 250 : 429 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 362 : 492 : 16711680 : 0
+Mouse : 250 : 429 : RightButtonDown : 0 : 0 : 0
+Mouse : 250 : 429 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 40 : 471 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 152 : 534 : 16711680 : 0
+Mouse : 40 : 471 : RightButtonDown : 0 : 0 : 0
+Mouse : 40 : 471 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 82 : 471 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 194 : 534 : 16711680 : 0
+Mouse : 82 : 471 : RightButtonDown : 0 : 0 : 0
+Mouse : 82 : 471 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 124 : 471 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 236 : 534 : 16711680 : 0
+Mouse : 124 : 471 : RightButtonDown : 0 : 0 : 0
+Mouse : 124 : 471 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 166 : 471 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 278 : 534 : 16711680 : 0
+Mouse : 166 : 471 : RightButtonDown : 0 : 0 : 0
+Mouse : 166 : 471 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 208 : 471 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 320 : 534 : 16711680 : 0
+Mouse : 208 : 471 : RightButtonDown : 0 : 0 : 0
+Mouse : 208 : 471 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 250 : 471 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 362 : 534 : 16711680 : 0
+Mouse : 250 : 471 : RightButtonDown : 0 : 0 : 0
+Mouse : 250 : 471 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 40 : 513 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 152 : 404 : 16711680 : 0
+Mouse : 40 : 513 : RightButtonDown : 0 : 0 : 0
+Mouse : 40 : 513 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 82 : 513 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 194 : 404 : 16711680 : 0
+Mouse : 82 : 513 : RightButtonDown : 0 : 0 : 0
+Mouse : 82 : 513 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 124 : 513 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 236 : 404 : 16711680 : 0
+Mouse : 124 : 513 : RightButtonDown : 0 : 0 : 0
+Mouse : 124 : 513 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 166 : 513 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 278 : 404 : 16711680 : 0
+Mouse : 166 : 513 : RightButtonDown : 0 : 0 : 0
+Mouse : 166 : 513 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 208 : 513 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 320 : 404 : 16711680 : 0
+Mouse : 208 : 513 : RightButtonDown : 0 : 0 : 0
+Mouse : 208 : 513 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 250 : 513 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 362 : 404 : 16711680 : 0
+Mouse : 250 : 513 : RightButtonDown : 0 : 0 : 0
+Mouse : 250 : 513 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 40 : 555 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 152 : 446 : 16711680 : 0
+Mouse : 40 : 555 : RightButtonDown : 0 : 0 : 0
+Mouse : 40 : 555 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 82 : 555 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 194 : 446 : 16711680 : 0
+Mouse : 82 : 555 : RightButtonDown : 0 : 0 : 0
+Mouse : 82 : 555 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 124 : 555 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 236 : 446 : 16711680 : 0
+Mouse : 124 : 555 : RightButtonDown : 0 : 0 : 0
+Mouse : 124 : 555 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 166 : 555 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 278 : 446 : 16711680 : 0
+Mouse : 166 : 555 : RightButtonDown : 0 : 0 : 0
+Mouse : 166 : 555 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 208 : 555 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 320 : 446 : 16711680 : 0
+Mouse : 208 : 555 : RightButtonDown : 0 : 0 : 0
+Mouse : 208 : 555 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 250 : 555 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 362 : 446 : 16711680 : 0
+Mouse : 250 : 555 : RightButtonDown : 0 : 0 : 0
+Mouse : 250 : 555 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 40 : 597 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 152 : 488 : 16711680 : 0
+Mouse : 40 : 597 : RightButtonDown : 0 : 0 : 0
+Mouse : 40 : 597 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 82 : 597 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 194 : 488 : 16711680 : 0
+Mouse : 82 : 597 : RightButtonDown : 0 : 0 : 0
+Mouse : 82 : 597 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 124 : 597 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 236 : 488 : 16711680 : 0
+Mouse : 124 : 597 : RightButtonDown : 0 : 0 : 0
+Mouse : 124 : 597 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 166 : 597 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 278 : 488 : 16711680 : 0
+Mouse : 166 : 597 : RightButtonDown : 0 : 0 : 0
+Mouse : 166 : 597 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 208 : 597 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 320 : 488 : 16711680 : 0
+Mouse : 208 : 597 : RightButtonDown : 0 : 0 : 0
+Mouse : 208 : 597 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 250 : 597 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 362 : 488 : 16711680 : 0
+Mouse : 250 : 597 : RightButtonDown : 0 : 0 : 0
+Mouse : 250 : 597 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 40 : 639 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 152 : 530 : 16711680 : 0
+Mouse : 40 : 639 : RightButtonDown : 0 : 0 : 0
+Mouse : 40 : 639 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 82 : 639 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 194 : 530 : 16711680 : 0
+Mouse : 82 : 639 : RightButtonDown : 0 : 0 : 0
+Mouse : 82 : 639 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 124 : 639 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 236 : 530 : 16711680 : 0
+Mouse : 124 : 639 : RightButtonDown : 0 : 0 : 0
+Mouse : 124 : 639 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 166 : 639 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 278 : 530 : 16711680 : 0
+Mouse : 166 : 639 : RightButtonDown : 0 : 0 : 0
+Mouse : 166 : 639 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 208 : 639 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 320 : 530 : 16711680 : 0
+Mouse : 208 : 639 : RightButtonDown : 0 : 0 : 0
+Mouse : 208 : 639 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 250 : 639 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 362 : 530 : 16711680 : 0
+Mouse : 250 : 639 : RightButtonDown : 0 : 0 : 0
+Mouse : 250 : 639 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 40 : 681 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 152 : 572 : 16711680 : 0
+Mouse : 40 : 681 : RightButtonDown : 0 : 0 : 0
+Mouse : 40 : 681 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 82 : 681 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 194 : 572 : 16711680 : 0
+Mouse : 82 : 681 : RightButtonDown : 0 : 0 : 0
+Mouse : 82 : 681 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 124 : 681 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 236 : 572 : 16711680 : 0
+Mouse : 124 : 681 : RightButtonDown : 0 : 0 : 0
+Mouse : 124 : 681 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 166 : 681 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 278 : 572 : 16711680 : 0
+Mouse : 166 : 681 : RightButtonDown : 0 : 0 : 0
+Mouse : 166 : 681 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 208 : 681 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 320 : 572 : 16711680 : 0
+Mouse : 208 : 681 : RightButtonDown : 0 : 0 : 0
+Mouse : 208 : 681 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 250 : 681 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 362 : 572 : 16711680 : 0
+Mouse : 250 : 681 : RightButtonDown : 0 : 0 : 0
+Mouse : 250 : 681 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 40 : 723 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 152 : 614 : 16711680 : 0
+Mouse : 40 : 723 : RightButtonDown : 0 : 0 : 0
+Mouse : 40 : 723 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 82 : 723 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 194 : 614 : 16711680 : 0
+Mouse : 82 : 723 : RightButtonDown : 0 : 0 : 0
+Mouse : 82 : 723 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 124 : 723 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 236 : 614 : 16711680 : 0
+Mouse : 124 : 723 : RightButtonDown : 0 : 0 : 0
+Mouse : 124 : 723 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 166 : 723 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 278 : 614 : 16711680 : 0
+Mouse : 166 : 723 : RightButtonDown : 0 : 0 : 0
+Mouse : 166 : 723 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 208 : 723 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 320 : 614 : 16711680 : 0
+Mouse : 208 : 723 : RightButtonDown : 0 : 0 : 0
+Mouse : 208 : 723 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 250 : 723 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 362 : 614 : 16711680 : 0
+Mouse : 250 : 723 : RightButtonDown : 0 : 0 : 0
+Mouse : 250 : 723 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 40 : 765 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 152 : 656 : 16711680 : 0
+Mouse : 40 : 765 : RightButtonDown : 0 : 0 : 0
+Mouse : 40 : 765 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 82 : 765 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 194 : 656 : 16711680 : 0
+Mouse : 82 : 765 : RightButtonDown : 0 : 0 : 0
+Mouse : 82 : 765 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 124 : 765 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 236 : 656 : 16711680 : 0
+Mouse : 124 : 765 : RightButtonDown : 0 : 0 : 0
+Mouse : 124 : 765 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 166 : 765 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 278 : 656 : 16711680 : 0
+Mouse : 166 : 765 : RightButtonDown : 0 : 0 : 0
+Mouse : 166 : 765 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 208 : 765 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 320 : 656 : 16711680 : 0
+Mouse : 208 : 765 : RightButtonDown : 0 : 0 : 0
+Mouse : 208 : 765 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 250 : 765 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 362 : 656 : 16711680 : 0
+Mouse : 250 : 765 : RightButtonDown : 0 : 0 : 0
+Mouse : 250 : 765 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 40 : 807 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 152 : 698 : 16711680 : 0
+Mouse : 40 : 807 : RightButtonDown : 0 : 0 : 0
+Mouse : 40 : 807 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 82 : 807 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 194 : 698 : 16711680 : 0
+Mouse : 82 : 807 : RightButtonDown : 0 : 0 : 0
+Mouse : 82 : 807 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 124 : 807 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 236 : 698 : 16711680 : 0
+Mouse : 124 : 807 : RightButtonDown : 0 : 0 : 0
+Mouse : 124 : 807 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 166 : 807 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 278 : 698 : 16711680 : 0
+Mouse : 166 : 807 : RightButtonDown : 0 : 0 : 0
+Mouse : 166 : 807 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 208 : 807 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 320 : 698 : 16711680 : 0
+Mouse : 208 : 807 : RightButtonDown : 0 : 0 : 0
+Mouse : 208 : 807 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 250 : 807 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 362 : 698 : 16711680 : 0
+Mouse : 250 : 807 : RightButtonDown : 0 : 0 : 0
+Mouse : 250 : 807 : RightButtonUp : 0 : 0 : 0
+ENDIF
+GOTO : move
+LABEL : isthmus
+Mouse : 40 : 345 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 150 : 408 : 16711680 : 0
+Mouse : 40 : 345 : RightButtonDown : 0 : 0 : 0
+Mouse : 40 : 345 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 82 : 345 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 192 : 408 : 16711680 : 0
+Mouse : 82 : 345 : RightButtonDown : 0 : 0 : 0
+Mouse : 82 : 345 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 124 : 345 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 234 : 408 : 16711680 : 0
+Mouse : 124 : 345 : RightButtonDown : 0 : 0 : 0
+Mouse : 124 : 345 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 166 : 345 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 276 : 408 : 16711680 : 0
+Mouse : 166 : 345 : RightButtonDown : 0 : 0 : 0
+Mouse : 166 : 345 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 208 : 345 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 318 : 408 : 16711680 : 0
+Mouse : 208 : 345 : RightButtonDown : 0 : 0 : 0
+Mouse : 208 : 345 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 250 : 345 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 360 : 408 : 16711680 : 0
+Mouse : 250 : 345 : RightButtonDown : 0 : 0 : 0
+Mouse : 250 : 345 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 40 : 387 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 150 : 450 : 16711680 : 0
+Mouse : 40 : 387 : RightButtonDown : 0 : 0 : 0
+Mouse : 40 : 387 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 82 : 387 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 192 : 450 : 16711680 : 0
+Mouse : 82 : 387 : RightButtonDown : 0 : 0 : 0
+Mouse : 82 : 387 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 124 : 387 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 234 : 450 : 16711680 : 0
+Mouse : 124 : 387 : RightButtonDown : 0 : 0 : 0
+Mouse : 124 : 387 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 166 : 387 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 276 : 450 : 16711680 : 0
+Mouse : 166 : 387 : RightButtonDown : 0 : 0 : 0
+Mouse : 166 : 387 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 208 : 387 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 318 : 450 : 16711680 : 0
+Mouse : 208 : 387 : RightButtonDown : 0 : 0 : 0
+Mouse : 208 : 387 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 250 : 387 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 360 : 450 : 16711680 : 0
+Mouse : 250 : 387 : RightButtonDown : 0 : 0 : 0
+Mouse : 250 : 387 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 40 : 429 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 150 : 492 : 16711680 : 0
+Mouse : 40 : 429 : RightButtonDown : 0 : 0 : 0
+Mouse : 40 : 429 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 82 : 429 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 192 : 492 : 16711680 : 0
+Mouse : 82 : 429 : RightButtonDown : 0 : 0 : 0
+Mouse : 82 : 429 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 124 : 429 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 234 : 492 : 16711680 : 0
+Mouse : 124 : 429 : RightButtonDown : 0 : 0 : 0
+Mouse : 124 : 429 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 166 : 429 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 276 : 492 : 16711680 : 0
+Mouse : 166 : 429 : RightButtonDown : 0 : 0 : 0
+Mouse : 166 : 429 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 208 : 429 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 318 : 492 : 16711680 : 0
+Mouse : 208 : 429 : RightButtonDown : 0 : 0 : 0
+Mouse : 208 : 429 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 250 : 429 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 360 : 492 : 16711680 : 0
+Mouse : 250 : 429 : RightButtonDown : 0 : 0 : 0
+Mouse : 250 : 429 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 40 : 471 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 150 : 534 : 16711680 : 0
+Mouse : 40 : 471 : RightButtonDown : 0 : 0 : 0
+Mouse : 40 : 471 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 82 : 471 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 192 : 534 : 16711680 : 0
+Mouse : 82 : 471 : RightButtonDown : 0 : 0 : 0
+Mouse : 82 : 471 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 124 : 471 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 234 : 534 : 16711680 : 0
+Mouse : 124 : 471 : RightButtonDown : 0 : 0 : 0
+Mouse : 124 : 471 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 166 : 471 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 276 : 534 : 16711680 : 0
+Mouse : 166 : 471 : RightButtonDown : 0 : 0 : 0
+Mouse : 166 : 471 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 208 : 471 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 318 : 534 : 16711680 : 0
+Mouse : 208 : 471 : RightButtonDown : 0 : 0 : 0
+Mouse : 208 : 471 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 250 : 471 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 360 : 534 : 16711680 : 0
+Mouse : 250 : 471 : RightButtonDown : 0 : 0 : 0
+Mouse : 250 : 471 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 40 : 513 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 150 : 404 : 16711680 : 0
+Mouse : 40 : 513 : RightButtonDown : 0 : 0 : 0
+Mouse : 40 : 513 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 82 : 513 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 192 : 404 : 16711680 : 0
+Mouse : 82 : 513 : RightButtonDown : 0 : 0 : 0
+Mouse : 82 : 513 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 124 : 513 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 234 : 404 : 16711680 : 0
+Mouse : 124 : 513 : RightButtonDown : 0 : 0 : 0
+Mouse : 124 : 513 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 166 : 513 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 276 : 404 : 16711680 : 0
+Mouse : 166 : 513 : RightButtonDown : 0 : 0 : 0
+Mouse : 166 : 513 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 208 : 513 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 318 : 404 : 16711680 : 0
+Mouse : 208 : 513 : RightButtonDown : 0 : 0 : 0
+Mouse : 208 : 513 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 250 : 513 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 360 : 404 : 16711680 : 0
+Mouse : 250 : 513 : RightButtonDown : 0 : 0 : 0
+Mouse : 250 : 513 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 40 : 555 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 150 : 446 : 16711680 : 0
+Mouse : 40 : 555 : RightButtonDown : 0 : 0 : 0
+Mouse : 40 : 555 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 82 : 555 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 192 : 446 : 16711680 : 0
+Mouse : 82 : 555 : RightButtonDown : 0 : 0 : 0
+Mouse : 82 : 555 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 124 : 555 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 234 : 446 : 16711680 : 0
+Mouse : 124 : 555 : RightButtonDown : 0 : 0 : 0
+Mouse : 124 : 555 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 166 : 555 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 276 : 446 : 16711680 : 0
+Mouse : 166 : 555 : RightButtonDown : 0 : 0 : 0
+Mouse : 166 : 555 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 208 : 555 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 318 : 446 : 16711680 : 0
+Mouse : 208 : 555 : RightButtonDown : 0 : 0 : 0
+Mouse : 208 : 555 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 250 : 555 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 360 : 446 : 16711680 : 0
+Mouse : 250 : 555 : RightButtonDown : 0 : 0 : 0
+Mouse : 250 : 555 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 40 : 597 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 150 : 488 : 16711680 : 0
+Mouse : 40 : 597 : RightButtonDown : 0 : 0 : 0
+Mouse : 40 : 597 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 82 : 597 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 192 : 488 : 16711680 : 0
+Mouse : 82 : 597 : RightButtonDown : 0 : 0 : 0
+Mouse : 82 : 597 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 124 : 597 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 234 : 488 : 16711680 : 0
+Mouse : 124 : 597 : RightButtonDown : 0 : 0 : 0
+Mouse : 124 : 597 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 166 : 597 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 276 : 488 : 16711680 : 0
+Mouse : 166 : 597 : RightButtonDown : 0 : 0 : 0
+Mouse : 166 : 597 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 208 : 597 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 318 : 488 : 16711680 : 0
+Mouse : 208 : 597 : RightButtonDown : 0 : 0 : 0
+Mouse : 208 : 597 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 250 : 597 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 360 : 488 : 16711680 : 0
+Mouse : 250 : 597 : RightButtonDown : 0 : 0 : 0
+Mouse : 250 : 597 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 40 : 639 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 150 : 530 : 16711680 : 0
+Mouse : 40 : 639 : RightButtonDown : 0 : 0 : 0
+Mouse : 40 : 639 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 82 : 639 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 192 : 530 : 16711680 : 0
+Mouse : 82 : 639 : RightButtonDown : 0 : 0 : 0
+Mouse : 82 : 639 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 124 : 639 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 234 : 530 : 16711680 : 0
+Mouse : 124 : 639 : RightButtonDown : 0 : 0 : 0
+Mouse : 124 : 639 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 166 : 639 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 276 : 530 : 16711680 : 0
+Mouse : 166 : 639 : RightButtonDown : 0 : 0 : 0
+Mouse : 166 : 639 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 208 : 639 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 318 : 530 : 16711680 : 0
+Mouse : 208 : 639 : RightButtonDown : 0 : 0 : 0
+Mouse : 208 : 639 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 250 : 639 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 360 : 530 : 16711680 : 0
+Mouse : 250 : 639 : RightButtonDown : 0 : 0 : 0
+Mouse : 250 : 639 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 40 : 681 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 150 : 572 : 16711680 : 0
+Mouse : 40 : 681 : RightButtonDown : 0 : 0 : 0
+Mouse : 40 : 681 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 82 : 681 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 192 : 572 : 16711680 : 0
+Mouse : 82 : 681 : RightButtonDown : 0 : 0 : 0
+Mouse : 82 : 681 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 124 : 681 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 234 : 572 : 16711680 : 0
+Mouse : 124 : 681 : RightButtonDown : 0 : 0 : 0
+Mouse : 124 : 681 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 166 : 681 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 276 : 572 : 16711680 : 0
+Mouse : 166 : 681 : RightButtonDown : 0 : 0 : 0
+Mouse : 166 : 681 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 208 : 681 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 318 : 572 : 16711680 : 0
+Mouse : 208 : 681 : RightButtonDown : 0 : 0 : 0
+Mouse : 208 : 681 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 250 : 681 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 360 : 572 : 16711680 : 0
+Mouse : 250 : 681 : RightButtonDown : 0 : 0 : 0
+Mouse : 250 : 681 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 40 : 723 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 150 : 614 : 16711680 : 0
+Mouse : 40 : 723 : RightButtonDown : 0 : 0 : 0
+Mouse : 40 : 723 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 82 : 723 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 192 : 614 : 16711680 : 0
+Mouse : 82 : 723 : RightButtonDown : 0 : 0 : 0
+Mouse : 82 : 723 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 124 : 723 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 234 : 614 : 16711680 : 0
+Mouse : 124 : 723 : RightButtonDown : 0 : 0 : 0
+Mouse : 124 : 723 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 166 : 723 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 276 : 614 : 16711680 : 0
+Mouse : 166 : 723 : RightButtonDown : 0 : 0 : 0
+Mouse : 166 : 723 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 208 : 723 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 318 : 614 : 16711680 : 0
+Mouse : 208 : 723 : RightButtonDown : 0 : 0 : 0
+Mouse : 208 : 723 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 250 : 723 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 360 : 614 : 16711680 : 0
+Mouse : 250 : 723 : RightButtonDown : 0 : 0 : 0
+Mouse : 250 : 723 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 40 : 765 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 150 : 656 : 16711680 : 0
+Mouse : 40 : 765 : RightButtonDown : 0 : 0 : 0
+Mouse : 40 : 765 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 82 : 765 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 192 : 656 : 16711680 : 0
+Mouse : 82 : 765 : RightButtonDown : 0 : 0 : 0
+Mouse : 82 : 765 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 124 : 765 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 234 : 656 : 16711680 : 0
+Mouse : 124 : 765 : RightButtonDown : 0 : 0 : 0
+Mouse : 124 : 765 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 166 : 765 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 276 : 656 : 16711680 : 0
+Mouse : 166 : 765 : RightButtonDown : 0 : 0 : 0
+Mouse : 166 : 765 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 208 : 765 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 318 : 656 : 16711680 : 0
+Mouse : 208 : 765 : RightButtonDown : 0 : 0 : 0
+Mouse : 208 : 765 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 250 : 765 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 360 : 656 : 16711680 : 0
+Mouse : 250 : 765 : RightButtonDown : 0 : 0 : 0
+Mouse : 250 : 765 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 40 : 807 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 150 : 698 : 16711680 : 0
+Mouse : 40 : 807 : RightButtonDown : 0 : 0 : 0
+Mouse : 40 : 807 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 82 : 807 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 192 : 698 : 16711680 : 0
+Mouse : 82 : 807 : RightButtonDown : 0 : 0 : 0
+Mouse : 82 : 807 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 124 : 807 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 234 : 698 : 16711680 : 0
+Mouse : 124 : 807 : RightButtonDown : 0 : 0 : 0
+Mouse : 124 : 807 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 166 : 807 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 276 : 698 : 16711680 : 0
+Mouse : 166 : 807 : RightButtonDown : 0 : 0 : 0
+Mouse : 166 : 807 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 208 : 807 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 318 : 698 : 16711680 : 0
+Mouse : 208 : 807 : RightButtonDown : 0 : 0 : 0
+Mouse : 208 : 807 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 250 : 807 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 360 : 698 : 16711680 : 0
+Mouse : 250 : 807 : RightButtonDown : 0 : 0 : 0
+Mouse : 250 : 807 : RightButtonUp : 0 : 0 : 0
+ENDIF
+GOTO : move
+LABEL : argo
+Mouse : 40 : 345 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 104 : 408 : 16646144 : 0
+Mouse : 40 : 345 : RightButtonDown : 0 : 0 : 0
+Mouse : 40 : 345 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 82 : 345 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 146 : 408 : 16646144 : 0
+Mouse : 82 : 345 : RightButtonDown : 0 : 0 : 0
+Mouse : 82 : 345 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 124 : 345 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 188 : 408 : 16646144 : 0
+Mouse : 124 : 345 : RightButtonDown : 0 : 0 : 0
+Mouse : 124 : 345 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 166 : 345 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 230 : 408 : 16646144 : 0
+Mouse : 166 : 345 : RightButtonDown : 0 : 0 : 0
+Mouse : 166 : 345 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 208 : 345 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 272 : 408 : 16646144 : 0
+Mouse : 208 : 345 : RightButtonDown : 0 : 0 : 0
+Mouse : 208 : 345 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 250 : 345 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 314 : 408 : 16646144 : 0
+Mouse : 250 : 345 : RightButtonDown : 0 : 0 : 0
+Mouse : 250 : 345 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 40 : 387 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 104 : 450 : 16646144 : 0
+Mouse : 40 : 387 : RightButtonDown : 0 : 0 : 0
+Mouse : 40 : 387 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 82 : 387 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 146 : 450 : 16646144 : 0
+Mouse : 82 : 387 : RightButtonDown : 0 : 0 : 0
+Mouse : 82 : 387 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 124 : 387 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 188 : 450 : 16646144 : 0
+Mouse : 124 : 387 : RightButtonDown : 0 : 0 : 0
+Mouse : 124 : 387 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 166 : 387 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 230 : 450 : 16646144 : 0
+Mouse : 166 : 387 : RightButtonDown : 0 : 0 : 0
+Mouse : 166 : 387 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 208 : 387 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 272 : 450 : 16646144 : 0
+Mouse : 208 : 387 : RightButtonDown : 0 : 0 : 0
+Mouse : 208 : 387 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 250 : 387 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 314 : 450 : 16646144 : 0
+Mouse : 250 : 387 : RightButtonDown : 0 : 0 : 0
+Mouse : 250 : 387 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 40 : 429 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 104 : 492 : 16646144 : 0
+Mouse : 40 : 429 : RightButtonDown : 0 : 0 : 0
+Mouse : 40 : 429 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 82 : 429 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 146 : 492 : 16646144 : 0
+Mouse : 82 : 429 : RightButtonDown : 0 : 0 : 0
+Mouse : 82 : 429 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 124 : 429 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 188 : 492 : 16646144 : 0
+Mouse : 124 : 429 : RightButtonDown : 0 : 0 : 0
+Mouse : 124 : 429 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 166 : 429 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 230 : 492 : 16646144 : 0
+Mouse : 166 : 429 : RightButtonDown : 0 : 0 : 0
+Mouse : 166 : 429 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 208 : 429 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 272 : 492 : 16646144 : 0
+Mouse : 208 : 429 : RightButtonDown : 0 : 0 : 0
+Mouse : 208 : 429 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 250 : 429 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 314 : 492 : 16646144 : 0
+Mouse : 250 : 429 : RightButtonDown : 0 : 0 : 0
+Mouse : 250 : 429 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 40 : 471 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 104 : 534 : 16646144 : 0
+Mouse : 40 : 471 : RightButtonDown : 0 : 0 : 0
+Mouse : 40 : 471 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 82 : 471 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 146 : 534 : 16646144 : 0
+Mouse : 82 : 471 : RightButtonDown : 0 : 0 : 0
+Mouse : 82 : 471 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 124 : 471 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 188 : 534 : 16646144 : 0
+Mouse : 124 : 471 : RightButtonDown : 0 : 0 : 0
+Mouse : 124 : 471 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 166 : 471 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 230 : 534 : 16646144 : 0
+Mouse : 166 : 471 : RightButtonDown : 0 : 0 : 0
+Mouse : 166 : 471 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 208 : 471 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 272 : 534 : 16646144 : 0
+Mouse : 208 : 471 : RightButtonDown : 0 : 0 : 0
+Mouse : 208 : 471 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 250 : 471 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 314 : 534 : 16646144 : 0
+Mouse : 250 : 471 : RightButtonDown : 0 : 0 : 0
+Mouse : 250 : 471 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 40 : 513 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 104 : 404 : 16646144 : 0
+Mouse : 40 : 513 : RightButtonDown : 0 : 0 : 0
+Mouse : 40 : 513 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 82 : 513 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 146 : 404 : 16646144 : 0
+Mouse : 82 : 513 : RightButtonDown : 0 : 0 : 0
+Mouse : 82 : 513 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 124 : 513 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 188 : 404 : 16646144 : 0
+Mouse : 124 : 513 : RightButtonDown : 0 : 0 : 0
+Mouse : 124 : 513 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 166 : 513 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 230 : 404 : 16646144 : 0
+Mouse : 166 : 513 : RightButtonDown : 0 : 0 : 0
+Mouse : 166 : 513 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 208 : 513 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 272 : 404 : 16646144 : 0
+Mouse : 208 : 513 : RightButtonDown : 0 : 0 : 0
+Mouse : 208 : 513 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 250 : 513 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 314 : 404 : 16646144 : 0
+Mouse : 250 : 513 : RightButtonDown : 0 : 0 : 0
+Mouse : 250 : 513 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 40 : 555 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 104 : 446 : 16646144 : 0
+Mouse : 40 : 555 : RightButtonDown : 0 : 0 : 0
+Mouse : 40 : 555 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 82 : 555 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 146 : 446 : 16646144 : 0
+Mouse : 82 : 555 : RightButtonDown : 0 : 0 : 0
+Mouse : 82 : 555 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 124 : 555 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 188 : 446 : 16646144 : 0
+Mouse : 124 : 555 : RightButtonDown : 0 : 0 : 0
+Mouse : 124 : 555 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 166 : 555 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 230 : 446 : 16646144 : 0
+Mouse : 166 : 555 : RightButtonDown : 0 : 0 : 0
+Mouse : 166 : 555 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 208 : 555 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 272 : 446 : 16646144 : 0
+Mouse : 208 : 555 : RightButtonDown : 0 : 0 : 0
+Mouse : 208 : 555 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 250 : 555 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 314 : 446 : 16646144 : 0
+Mouse : 250 : 555 : RightButtonDown : 0 : 0 : 0
+Mouse : 250 : 555 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 40 : 597 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 104 : 488 : 16646144 : 0
+Mouse : 40 : 597 : RightButtonDown : 0 : 0 : 0
+Mouse : 40 : 597 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 82 : 597 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 146 : 488 : 16646144 : 0
+Mouse : 82 : 597 : RightButtonDown : 0 : 0 : 0
+Mouse : 82 : 597 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 124 : 597 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 188 : 488 : 16646144 : 0
+Mouse : 124 : 597 : RightButtonDown : 0 : 0 : 0
+Mouse : 124 : 597 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 166 : 597 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 230 : 488 : 16646144 : 0
+Mouse : 166 : 597 : RightButtonDown : 0 : 0 : 0
+Mouse : 166 : 597 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 208 : 597 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 272 : 488 : 16646144 : 0
+Mouse : 208 : 597 : RightButtonDown : 0 : 0 : 0
+Mouse : 208 : 597 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 250 : 597 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 314 : 488 : 16646144 : 0
+Mouse : 250 : 597 : RightButtonDown : 0 : 0 : 0
+Mouse : 250 : 597 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 40 : 639 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 104 : 530 : 16646144 : 0
+Mouse : 40 : 639 : RightButtonDown : 0 : 0 : 0
+Mouse : 40 : 639 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 82 : 639 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 146 : 530 : 16646144 : 0
+Mouse : 82 : 639 : RightButtonDown : 0 : 0 : 0
+Mouse : 82 : 639 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 124 : 639 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 188 : 530 : 16646144 : 0
+Mouse : 124 : 639 : RightButtonDown : 0 : 0 : 0
+Mouse : 124 : 639 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 166 : 639 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 230 : 530 : 16646144 : 0
+Mouse : 166 : 639 : RightButtonDown : 0 : 0 : 0
+Mouse : 166 : 639 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 208 : 639 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 272 : 530 : 16646144 : 0
+Mouse : 208 : 639 : RightButtonDown : 0 : 0 : 0
+Mouse : 208 : 639 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 250 : 639 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 314 : 530 : 16646144 : 0
+Mouse : 250 : 639 : RightButtonDown : 0 : 0 : 0
+Mouse : 250 : 639 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 40 : 681 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 104 : 572 : 16646144 : 0
+Mouse : 40 : 681 : RightButtonDown : 0 : 0 : 0
+Mouse : 40 : 681 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 82 : 681 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 146 : 572 : 16646144 : 0
+Mouse : 82 : 681 : RightButtonDown : 0 : 0 : 0
+Mouse : 82 : 681 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 124 : 681 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 188 : 572 : 16646144 : 0
+Mouse : 124 : 681 : RightButtonDown : 0 : 0 : 0
+Mouse : 124 : 681 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 166 : 681 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 230 : 572 : 16646144 : 0
+Mouse : 166 : 681 : RightButtonDown : 0 : 0 : 0
+Mouse : 166 : 681 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 208 : 681 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 272 : 572 : 16646144 : 0
+Mouse : 208 : 681 : RightButtonDown : 0 : 0 : 0
+Mouse : 208 : 681 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 250 : 681 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 314 : 572 : 16646144 : 0
+Mouse : 250 : 681 : RightButtonDown : 0 : 0 : 0
+Mouse : 250 : 681 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 40 : 723 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 104 : 614 : 16646144 : 0
+Mouse : 40 : 723 : RightButtonDown : 0 : 0 : 0
+Mouse : 40 : 723 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 82 : 723 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 146 : 614 : 16646144 : 0
+Mouse : 82 : 723 : RightButtonDown : 0 : 0 : 0
+Mouse : 82 : 723 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 124 : 723 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 188 : 614 : 16646144 : 0
+Mouse : 124 : 723 : RightButtonDown : 0 : 0 : 0
+Mouse : 124 : 723 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 166 : 723 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 230 : 614 : 16646144 : 0
+Mouse : 166 : 723 : RightButtonDown : 0 : 0 : 0
+Mouse : 166 : 723 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 208 : 723 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 272 : 614 : 16646144 : 0
+Mouse : 208 : 723 : RightButtonDown : 0 : 0 : 0
+Mouse : 208 : 723 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 250 : 723 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 314 : 614 : 16646144 : 0
+Mouse : 250 : 723 : RightButtonDown : 0 : 0 : 0
+Mouse : 250 : 723 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 40 : 765 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 104 : 656 : 16646144 : 0
+Mouse : 40 : 765 : RightButtonDown : 0 : 0 : 0
+Mouse : 40 : 765 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 82 : 765 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 146 : 656 : 16646144 : 0
+Mouse : 82 : 765 : RightButtonDown : 0 : 0 : 0
+Mouse : 82 : 765 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 124 : 765 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 188 : 656 : 16646144 : 0
+Mouse : 124 : 765 : RightButtonDown : 0 : 0 : 0
+Mouse : 124 : 765 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 166 : 765 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 230 : 656 : 16646144 : 0
+Mouse : 166 : 765 : RightButtonDown : 0 : 0 : 0
+Mouse : 166 : 765 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 208 : 765 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 272 : 656 : 16646144 : 0
+Mouse : 208 : 765 : RightButtonDown : 0 : 0 : 0
+Mouse : 208 : 765 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 250 : 765 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 314 : 656 : 16646144 : 0
+Mouse : 250 : 765 : RightButtonDown : 0 : 0 : 0
+Mouse : 250 : 765 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 40 : 807 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 104 : 698 : 16646144 : 0
+Mouse : 40 : 807 : RightButtonDown : 0 : 0 : 0
+Mouse : 40 : 807 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 82 : 807 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 146 : 698 : 16646144 : 0
+Mouse : 82 : 807 : RightButtonDown : 0 : 0 : 0
+Mouse : 82 : 807 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 124 : 807 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 188 : 698 : 16646144 : 0
+Mouse : 124 : 807 : RightButtonDown : 0 : 0 : 0
+Mouse : 124 : 807 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 166 : 807 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 230 : 698 : 16646144 : 0
+Mouse : 166 : 807 : RightButtonDown : 0 : 0 : 0
+Mouse : 166 : 807 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 208 : 807 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 272 : 698 : 16646144 : 0
+Mouse : 208 : 807 : RightButtonDown : 0 : 0 : 0
+Mouse : 208 : 807 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 250 : 807 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 314 : 698 : 16646144 : 0
+Mouse : 250 : 807 : RightButtonDown : 0 : 0 : 0
+Mouse : 250 : 807 : RightButtonUp : 0 : 0 : 0
+ENDIF
+GOTO : move
+LABEL : derv
+Mouse : 40 : 345 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 104 : 409 : 16711680 : 0
+Mouse : 40 : 345 : RightButtonDown : 0 : 0 : 0
+Mouse : 40 : 345 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 82 : 345 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 146 : 409 : 16711680 : 0
+Mouse : 82 : 345 : RightButtonDown : 0 : 0 : 0
+Mouse : 82 : 345 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 124 : 345 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 188 : 409 : 16711680 : 0
+Mouse : 124 : 345 : RightButtonDown : 0 : 0 : 0
+Mouse : 124 : 345 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 166 : 345 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 230 : 409 : 16711680 : 0
+Mouse : 166 : 345 : RightButtonDown : 0 : 0 : 0
+Mouse : 166 : 345 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 208 : 345 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 272 : 409 : 16711680 : 0
+Mouse : 208 : 345 : RightButtonDown : 0 : 0 : 0
+Mouse : 208 : 345 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 250 : 345 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 314 : 409 : 16711680 : 0
+Mouse : 250 : 345 : RightButtonDown : 0 : 0 : 0
+Mouse : 250 : 345 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 40 : 387 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 104 : 451 : 16711680 : 0
+Mouse : 40 : 387 : RightButtonDown : 0 : 0 : 0
+Mouse : 40 : 387 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 82 : 387 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 146 : 451 : 16711680 : 0
+Mouse : 82 : 387 : RightButtonDown : 0 : 0 : 0
+Mouse : 82 : 387 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 124 : 387 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 188 : 451 : 16711680 : 0
+Mouse : 124 : 387 : RightButtonDown : 0 : 0 : 0
+Mouse : 124 : 387 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 166 : 387 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 230 : 451 : 16711680 : 0
+Mouse : 166 : 387 : RightButtonDown : 0 : 0 : 0
+Mouse : 166 : 387 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 208 : 387 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 272 : 451 : 16711680 : 0
+Mouse : 208 : 387 : RightButtonDown : 0 : 0 : 0
+Mouse : 208 : 387 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 250 : 387 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 314 : 451 : 16711680 : 0
+Mouse : 250 : 387 : RightButtonDown : 0 : 0 : 0
+Mouse : 250 : 387 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 40 : 429 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 104 : 493 : 16711680 : 0
+Mouse : 40 : 429 : RightButtonDown : 0 : 0 : 0
+Mouse : 40 : 429 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 82 : 429 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 146 : 493 : 16711680 : 0
+Mouse : 82 : 429 : RightButtonDown : 0 : 0 : 0
+Mouse : 82 : 429 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 124 : 429 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 188 : 493 : 16711680 : 0
+Mouse : 124 : 429 : RightButtonDown : 0 : 0 : 0
+Mouse : 124 : 429 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 166 : 429 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 230 : 493 : 16711680 : 0
+Mouse : 166 : 429 : RightButtonDown : 0 : 0 : 0
+Mouse : 166 : 429 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 208 : 429 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 272 : 493 : 16711680 : 0
+Mouse : 208 : 429 : RightButtonDown : 0 : 0 : 0
+Mouse : 208 : 429 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 250 : 429 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 314 : 493 : 16711680 : 0
+Mouse : 250 : 429 : RightButtonDown : 0 : 0 : 0
+Mouse : 250 : 429 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 40 : 471 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 104 : 535 : 16711680 : 0
+Mouse : 40 : 471 : RightButtonDown : 0 : 0 : 0
+Mouse : 40 : 471 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 82 : 471 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 146 : 535 : 16711680 : 0
+Mouse : 82 : 471 : RightButtonDown : 0 : 0 : 0
+Mouse : 82 : 471 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 124 : 471 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 188 : 535 : 16711680 : 0
+Mouse : 124 : 471 : RightButtonDown : 0 : 0 : 0
+Mouse : 124 : 471 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 166 : 471 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 230 : 535 : 16711680 : 0
+Mouse : 166 : 471 : RightButtonDown : 0 : 0 : 0
+Mouse : 166 : 471 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 208 : 471 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 272 : 535 : 16711680 : 0
+Mouse : 208 : 471 : RightButtonDown : 0 : 0 : 0
+Mouse : 208 : 471 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 250 : 471 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 314 : 535 : 16711680 : 0
+Mouse : 250 : 471 : RightButtonDown : 0 : 0 : 0
+Mouse : 250 : 471 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 40 : 513 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 104 : 405 : 16711680 : 0
+Mouse : 40 : 513 : RightButtonDown : 0 : 0 : 0
+Mouse : 40 : 513 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 82 : 513 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 146 : 405 : 16711680 : 0
+Mouse : 82 : 513 : RightButtonDown : 0 : 0 : 0
+Mouse : 82 : 513 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 124 : 513 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 188 : 405 : 16711680 : 0
+Mouse : 124 : 513 : RightButtonDown : 0 : 0 : 0
+Mouse : 124 : 513 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 166 : 513 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 230 : 405 : 16711680 : 0
+Mouse : 166 : 513 : RightButtonDown : 0 : 0 : 0
+Mouse : 166 : 513 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 208 : 513 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 272 : 405 : 16711680 : 0
+Mouse : 208 : 513 : RightButtonDown : 0 : 0 : 0
+Mouse : 208 : 513 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 250 : 513 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 314 : 405 : 16711680 : 0
+Mouse : 250 : 513 : RightButtonDown : 0 : 0 : 0
+Mouse : 250 : 513 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 40 : 555 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 104 : 447 : 16711680 : 0
+Mouse : 40 : 555 : RightButtonDown : 0 : 0 : 0
+Mouse : 40 : 555 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 82 : 555 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 146 : 447 : 16711680 : 0
+Mouse : 82 : 555 : RightButtonDown : 0 : 0 : 0
+Mouse : 82 : 555 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 124 : 555 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 188 : 447 : 16711680 : 0
+Mouse : 124 : 555 : RightButtonDown : 0 : 0 : 0
+Mouse : 124 : 555 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 166 : 555 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 230 : 447 : 16711680 : 0
+Mouse : 166 : 555 : RightButtonDown : 0 : 0 : 0
+Mouse : 166 : 555 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 208 : 555 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 272 : 447 : 16711680 : 0
+Mouse : 208 : 555 : RightButtonDown : 0 : 0 : 0
+Mouse : 208 : 555 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 250 : 555 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 314 : 447 : 16711680 : 0
+Mouse : 250 : 555 : RightButtonDown : 0 : 0 : 0
+Mouse : 250 : 555 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 40 : 597 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 104 : 489 : 16711680 : 0
+Mouse : 40 : 597 : RightButtonDown : 0 : 0 : 0
+Mouse : 40 : 597 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 82 : 597 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 146 : 489 : 16711680 : 0
+Mouse : 82 : 597 : RightButtonDown : 0 : 0 : 0
+Mouse : 82 : 597 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 124 : 597 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 188 : 489 : 16711680 : 0
+Mouse : 124 : 597 : RightButtonDown : 0 : 0 : 0
+Mouse : 124 : 597 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 166 : 597 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 230 : 489 : 16711680 : 0
+Mouse : 166 : 597 : RightButtonDown : 0 : 0 : 0
+Mouse : 166 : 597 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 208 : 597 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 272 : 489 : 16711680 : 0
+Mouse : 208 : 597 : RightButtonDown : 0 : 0 : 0
+Mouse : 208 : 597 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 250 : 597 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 314 : 489 : 16711680 : 0
+Mouse : 250 : 597 : RightButtonDown : 0 : 0 : 0
+Mouse : 250 : 597 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 40 : 639 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 104 : 531 : 16711680 : 0
+Mouse : 40 : 639 : RightButtonDown : 0 : 0 : 0
+Mouse : 40 : 639 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 82 : 639 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 146 : 531 : 16711680 : 0
+Mouse : 82 : 639 : RightButtonDown : 0 : 0 : 0
+Mouse : 82 : 639 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 124 : 639 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 188 : 531 : 16711680 : 0
+Mouse : 124 : 639 : RightButtonDown : 0 : 0 : 0
+Mouse : 124 : 639 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 166 : 639 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 230 : 531 : 16711680 : 0
+Mouse : 166 : 639 : RightButtonDown : 0 : 0 : 0
+Mouse : 166 : 639 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 208 : 639 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 272 : 531 : 16711680 : 0
+Mouse : 208 : 639 : RightButtonDown : 0 : 0 : 0
+Mouse : 208 : 639 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 250 : 639 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 314 : 531 : 16711680 : 0
+Mouse : 250 : 639 : RightButtonDown : 0 : 0 : 0
+Mouse : 250 : 639 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 40 : 681 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 104 : 573 : 16711680 : 0
+Mouse : 40 : 681 : RightButtonDown : 0 : 0 : 0
+Mouse : 40 : 681 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 82 : 681 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 146 : 573 : 16711680 : 0
+Mouse : 82 : 681 : RightButtonDown : 0 : 0 : 0
+Mouse : 82 : 681 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 124 : 681 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 188 : 573 : 16711680 : 0
+Mouse : 124 : 681 : RightButtonDown : 0 : 0 : 0
+Mouse : 124 : 681 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 166 : 681 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 230 : 573 : 16711680 : 0
+Mouse : 166 : 681 : RightButtonDown : 0 : 0 : 0
+Mouse : 166 : 681 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 208 : 681 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 272 : 573 : 16711680 : 0
+Mouse : 208 : 681 : RightButtonDown : 0 : 0 : 0
+Mouse : 208 : 681 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 250 : 681 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 314 : 573 : 16711680 : 0
+Mouse : 250 : 681 : RightButtonDown : 0 : 0 : 0
+Mouse : 250 : 681 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 40 : 723 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 104 : 615 : 16711680 : 0
+Mouse : 40 : 723 : RightButtonDown : 0 : 0 : 0
+Mouse : 40 : 723 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 82 : 723 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 146 : 615 : 16711680 : 0
+Mouse : 82 : 723 : RightButtonDown : 0 : 0 : 0
+Mouse : 82 : 723 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 124 : 723 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 188 : 615 : 16711680 : 0
+Mouse : 124 : 723 : RightButtonDown : 0 : 0 : 0
+Mouse : 124 : 723 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 166 : 723 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 230 : 615 : 16711680 : 0
+Mouse : 166 : 723 : RightButtonDown : 0 : 0 : 0
+Mouse : 166 : 723 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 208 : 723 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 272 : 615 : 16711680 : 0
+Mouse : 208 : 723 : RightButtonDown : 0 : 0 : 0
+Mouse : 208 : 723 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 250 : 723 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 314 : 615 : 16711680 : 0
+Mouse : 250 : 723 : RightButtonDown : 0 : 0 : 0
+Mouse : 250 : 723 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 40 : 765 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 104 : 657 : 16711680 : 0
+Mouse : 40 : 765 : RightButtonDown : 0 : 0 : 0
+Mouse : 40 : 765 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 82 : 765 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 146 : 657 : 16711680 : 0
+Mouse : 82 : 765 : RightButtonDown : 0 : 0 : 0
+Mouse : 82 : 765 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 124 : 765 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 188 : 657 : 16711680 : 0
+Mouse : 124 : 765 : RightButtonDown : 0 : 0 : 0
+Mouse : 124 : 765 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 166 : 765 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 230 : 657 : 16711680 : 0
+Mouse : 166 : 765 : RightButtonDown : 0 : 0 : 0
+Mouse : 166 : 765 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 208 : 765 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 272 : 657 : 16711680 : 0
+Mouse : 208 : 765 : RightButtonDown : 0 : 0 : 0
+Mouse : 208 : 765 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 250 : 765 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 314 : 657 : 16711680 : 0
+Mouse : 250 : 765 : RightButtonDown : 0 : 0 : 0
+Mouse : 250 : 765 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 40 : 807 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 104 : 699 : 16711680 : 0
+Mouse : 40 : 807 : RightButtonDown : 0 : 0 : 0
+Mouse : 40 : 807 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 82 : 807 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 146 : 699 : 16711680 : 0
+Mouse : 82 : 807 : RightButtonDown : 0 : 0 : 0
+Mouse : 82 : 807 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 124 : 807 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 188 : 699 : 16711680 : 0
+Mouse : 124 : 807 : RightButtonDown : 0 : 0 : 0
+Mouse : 124 : 807 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 166 : 807 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 230 : 699 : 16711680 : 0
+Mouse : 166 : 807 : RightButtonDown : 0 : 0 : 0
+Mouse : 166 : 807 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 208 : 807 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 272 : 699 : 16711680 : 0
+Mouse : 208 : 807 : RightButtonDown : 0 : 0 : 0
+Mouse : 208 : 807 : RightButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 250 : 807 : Move : 0 : 0 : 0
+DELAY : 100
+IF PIXEL COLOR EQUALS : 314 : 699 : 16711680 : 0
+Mouse : 250 : 807 : RightButtonDown : 0 : 0 : 0
+Mouse : 250 : 807 : RightButtonUp : 0 : 0 : 0
+ENDIF
+GOTO : move
+LABEL : m
+IF IMAGE : Qk1+AwAAAAAAADYAAAAoAAAADwAAAA4AAAABACAAAAAAAAAAAADEDgAAxA4AAAAAAAAAAAAAUJ/A/zyRs/85hqX/Spe4/1qpy/9rut7/e8fn/3vH5/9aptH/SpbG/1Kl0P9jtt7/Y7be/1Kl0P9Kos7/PJGz/zyRs/9Kl7j/Spe4/1qpy/9rut7/e8fn/3vH5/9aptH/SpbG/1Kl0P9jtt7/Y7be/2O23v9Kos7/PJGz/ymCpf85hqX/Spe4/1qpy/9aqcv/a7fc/2u33P9aptH/SpbG/1Kl0P9SpdD/Y7be/1Kl0P9Kos7/OY6t/y5wnP8hXYT/OoCf/zqAn/86gJ//UpzA/2u21v9rttb/a7bW/0+hw/9aqs7/WqrO/0+hw/9Vn8D/GDR7/xg0e/8hXYT/OoCf/zqAn/86gJ//OoOq/2u21v9rttb/OoOq/0SXuP9El7j/T6HD/0+hw/9KlrX/GDR7/xg0e/86gJ//OoCf/zqAn/86gJ//a7bW/2u21v86g6r/OoOq/zmOrf9El7j/RJe4/0+hw/9rstb/LnCc/yNSjP8hXYT/OoCf/zqAn/9rx9b/a7bW/zqDqv8haZT/OoOq/0SXuP9El7j/RJe4/1qqzv9rstb/N4ml/yF5lP8xfZz/MX2c/2u2zv9rts7/OZK1/zmStf8uaYT/LmmE/0+cu/9Ei6f/T5y7/1quzv9rutb/N4ml/zeJpf8xfZz/WKO9/2u2zv9EkK3/OZK1/zR+nP8uaYT/KVVr/0SLp/9Ei6f/RIun/0+cu/9lsc7/Y6rG/2Oqxv9Yo73/a7bO/zF9nP8xfZz/OZK1/zR+nP8pVWv/LmmE/zl5lP85eZT/RIun/0+cu/9gp8X/Y6rG/2Oqxv9rts7/a7bO/2u2zv9Yo73/NH6c/zmStf8uaYT/LmmE/zl5lP85eZT/T5y7/0+cu/9gp8X/OYKc/zmCnP9Ei7D/T5y7/1quxv9arsb/WKXD/02XuP9Ciq3/Qoqt/1KSrf9Skq3/Wpq1/2Oivv9jor3/Spq9/0GOrf9Ei7D/RIuw/0SLsP9PnLv/Y7LO/2Oyzv9YpcP/TZe4/1qatf9amrX/Wpq1/1KSrf9YlbL/UqbO/0GOrf9Ei7D/T5y7/1quxv9PnLv/TZe4/1ilw/9jss7/WKXD/1qatf9amrX/Wpq1/1KSrf9dm7j/ : 1 : 10 : 0 : 758;574;250;164
+Mouse : 0 : 0 : LeftButtonDown : 0 : 1 : 0
+GOTO : drop
+ENDIF
+GOTO : start
+LABEL : drop
+IF IMAGE : Qk3uCwAAAAAAADYAAAAoAAAAHgAAABkAAAABACAAAAAAAAAAAADEDgAAxA4AAAAAAAAAAAAAMDAw/zc3N/85OTn/OTk5/zk5Of85OTn/OTk5/zo6Ov80NDT/NDQ0/z4+Pv8/Pz//QkJC/z8/P/84ODj/ODg4/0JCQv9DQ0P/Q0ND/0JCQv88PDz/MzMz/zo6Ov85OTn/Ojo6/zk5Of85OTn/OTk5/zg4OP8xMTH/MTEx/zMzM/85OTn/Ozs7/zk5Of85OTn/Ozs7/zw8PP83Nzf/NDQ0/zw8PP86Ojr/ODg4/zg4OP84ODj/ODg4/zg4OP84ODj/ODg4/0BAQP87Ozv/NTU1/zw8PP87Ozv/Ojo6/zc3N/86Ojr/OTk5/zQ0NP8xMTH/MTEx/zExMf8yMjL/NjY2/zw8PP85OTn/Ojo6/z09Pf80NDT/NDQ0/z09Pf88PDz/Ozs7/zs7O/84ODj/ODg4/zs7O/87Ozv/PT09/z09Pf85OTn/NTU1/z09Pf87Ozv/ODg4/zw8PP83Nzf/MTEx/zExMf8xMTH/MTEx/zMzM/84ODj/Ojo6/zs7O/88PDz/OTk5/zw8PP82Njb/NTU1/z09Pf88PDz/Ozs7/zs7O/84ODj/ODg4/z09Pf88PDz/PDw8/z09Pf85OTn/NjY2/zw8PP85OTn/PDw8/zw8PP86Ojr/OTk5/zIyMv8xMTH/MTEx/zk5Of88PDz/OTk5/zs7O/88PDz/PDw8/zg4OP84ODj/OTk5/zk5Of83Nzf/ODg4/zw8PP84ODj/ODg4/0BAQP87Ozv/Nzc3/zk5Of85OTn/Nzc3/zc3N/87Ozv/PDw8/zs7O/84ODj/Ozs7/zo6Ov8xMTH/MjIy/zQ0NP8yMjL/MzMz/zMzM/80NDT/NDQ0/zU1Nf83Nzf/Ozs7/zs7O/83Nzf/OTk5/zw8PP84ODj/ODg4/0BAQP89PT3/ODg4/zo6Ov88PDz/Nzc3/zU1Nf81NTX/NTU1/zMzM/8zMzP/MjIy/zQ0NP8yMjL/MjIy/zIyMv80NDT/PDw8/z8/P/9BQUH/QUFB/zc3N/88PDz/Pj4+/zw8PP85OTn/Ojo6/zw8PP84ODj/ODg4/0BAQP8+Pj7/OTk5/zs7O/89PT3/PDw8/zc3N/89PT3/Pj4+/0FBQf9AQED/NjY2/zIyMv8yMjL/MjIy/zMzM/8zMzP/PDw8/z8/P/9BQUH/RkZG/zk5Of84ODj/Ojo6/zo6Ov86Ojr/Ozs7/z09Pf84ODj/ODg4/0BAQP8/Pz//Ojo6/zo6Ov86Ojr/ODg4/zk5Of8/Pz//Pz8//0BAQP9CQkL/Nzc3/zIyMv8zMzP/MjIy/zIyMv80NDT/Ozs7/zg4OP86Ojr/RUVF/zk5Of83Nzf/OTk5/zo6Ov86Ojr/Ozs7/z09Pf84ODj/ODg4/0BAQP8/Pz//Ojo6/zo6Ov85OTn/ODg4/zk5Of8+Pj7/Ozs7/zg4OP9BQUH/NjY2/zIyMv8yMjL/NTU1/zc3N/83Nzf/Ozs7/zg4OP85OTn/RkZG/0FBQf9AQED/QkJC/0NDQ/9DQ0P/QkJC/z09Pf84ODj/ODg4/0FBQf9HR0f/Q0ND/0NDQ/9DQ0P/QUFB/0FBQf8+Pj7/Ozs7/zg4OP9BQUH/PT09/zc3N/83Nzf/PDw8/0FBQf9DQ0P/Pz8//zg4OP85OTn/Q0ND/0JCQv9BQUH/QUFB/0BAQP9AQED/Pz8//z8/P/84ODj/ODg4/0BAQP9AQED/QEBA/0BAQP9BQUH/QUFB/0JCQv9AQED/Ozs7/zg4OP9DQ0P/RERE/0NDQ/9DQ0P/Ozs7/zg4OP84ODj/ODg4/zg4OP84ODj/ODg4/zg4OP84ODj/ODg4/zg4OP84ODj/ODg4/zg4OP84ODj/ODg4/zg4OP84ODj/ODg4/zg4OP84ODj/ODg4/zg4OP84ODj/ODg4/zg4OP84ODj/ODg4/zg4OP9BQUH/Ojo6/zs7O/86Ojr/OTk5/zg4OP84ODj/OTk5/zk5Of85OTn/OTk5/zg4OP84ODj/ODg4/zg4OP84ODj/ODg4/zg4OP84ODj/ODg4/zg4OP85OTn/OTk5/zk5Of85OTn/ODg4/zg4OP85OTn/Ojo6/zs7O/89PT3/OTk5/zk5Of85OTn/Ojo6/zg4OP85OTn/PDw8/z09Pf89PT3/PDw8/zw8PP88PDz/PDw8/zw8PP84ODj/ODg4/z09Pf89PT3/PDw8/zw8PP88PDz/Pj4+/z09Pf87Ozv/Ozs7/zg4OP89PT3/OTk5/zk5Of85OTn/MzMz/zMzM/8zMzP/Ozs7/zg4OP85OTn/QkJC/zg4OP85OTn/Ojo6/zs7O/87Ozv/PDw8/z09Pf84ODj/ODg4/z8/P/87Ozv/Ozs7/zs7O/87Ozv/OTk5/zk5Of89PT3/Ozs7/zg4OP9AQED/Nzc3/zMzM/8zMzP/MjIy/zMzM/80NDT/Ozs7/zk5Of87Ozv/QEBA/zo6Ov83Nzf/OTk5/zo6Ov86Ojr/Ozs7/z09Pf84ODj/ODg4/0BAQP8/Pz//Ozs7/zo6Ov85OTn/Nzc3/zk5Of8+Pj7/Ozs7/zg4OP8+Pj7/NTU1/zIyMv8yMjL/MzMz/zIyMv8zMzP/Ozs7/z09Pf8/Pz//Pz8//zk5Of86Ojr/PDw8/zs7O/85OTn/Ojo6/zw8PP84ODj/ODg4/0BAQP8+Pj7/Ojo6/zs7O/88PDz/OTk5/zk5Of89PT3/PDw8/zw8PP88PDz/MzMz/zIyMv8zMzP/MjIy/zIyMv8zMzP/MzMz/zMzM/8zMzP/NDQ0/zc3N/86Ojr/PT09/zs7O/85OTn/Ojo6/zw8PP84ODj/ODg4/0BAQP89PT3/OTk5/zs7O/89PT3/Ozs7/zg4OP81NTX/NDQ0/zMzM/8zMzP/MzMz/zIyMv8yMjL/MjIy/zk5Of83Nzf/MzMz/zQ0NP82Njb/NjY2/zc3N/82Njb/Ojo6/zs7O/83Nzf/OTk5/zw8PP84ODj/ODg4/0BAQP88PDz/Nzc3/zk5Of88PDz/NjY2/zc3N/82Njb/NTU1/zY2Nv8zMzP/NTU1/zk5Of8yMjL/MTEx/zc3N/88PDz/Ojo6/zo6Ov89PT3/PT09/zk5Of83Nzf/Nzc3/zk5Of85OTn/OTk5/zw8PP84ODj/ODg4/0BAQP87Ozv/OTk5/zk5Of83Nzf/NjY2/zc3N/88PDz/PT09/zs7O/86Ojr/PDw8/zk5Of8xMTH/MzMz/zExMf8xMTH/Nzc3/zs7O/86Ojr/NjY2/z09Pf83Nzf/NTU1/0BAQP9DQ0P/RkZG/z4+Pv84ODj/ODg4/0NDQ/9JSUn/R0dH/0RERP86Ojr/NjY2/z09Pf83Nzf/Ojo6/zw8PP84ODj/MjIy/zIyMv8zMzP/MTEx/zIyMv8xMTH/ODg4/zk5Of82Njb/Ojo6/z09Pf83Nzf/NDQ0/z4+Pv88PDz/OTk5/zk5Of84ODj/ODg4/zk5Of85OTn/PDw8/0ZGRv85OTn/NTU1/z4+Pv87Ozv/Nzc3/zk5Of85OTn/MjIy/zExMf8xMTH/MTEx/zU1Nf85OTn/OTk5/zc3N/85OTn/Ozs7/zs7O/80NDT/NDQ0/zs7O/86Ojr/ODg4/zg4OP84ODj/ODg4/zg4OP84ODj/OTk5/z8/P/83Nzf/MzMz/zs7O/87Ozv/Ojo6/zc3N/85OTn/OTk5/zc3N/8xMTH/MTEx/zY2Nv84ODj/ODg4/zk5Of84ODj/Nzc3/zs7O/80NDT/MzMz/zs7O/85OTn/Ojo6/zk5Of85OTn/ODg4/zs7O/86Ojr/Ojo6/zw8PP83Nzf/MzMz/zo6Ov85OTn/ODg4/zk5Of84ODj/ODg4/zc3N/8xMTH/MTEx/zc3N/84ODj/ODg4/zk5Of8xMTH/MTEx/zs7O/82Njb/MzMz/zMzM/8zMzP/MjIy/zg4OP85OTn/ODg4/z4+Pv8yMjL/MzMz/zMzM/8zMzP/NDQ0/zs7O/80NDT/MjIy/zk5Of84ODj/ODg4/zk5Of8xMTH/ : 1 : 0 : 0 : 21;331;248;498
+DELAY : 100
+Mouse : 0 : 0 : LeftButtonUp : 0 : 1 : 0
+GOTO : m
+ENDIF
+LABEL : move
+LABEL : end

@@ -515,7 +515,7 @@ REPEAT : 100 : 0 : 0 : Enter the number of iterations: : 0 : 0
 IF PIXEL COLOR EQUALS : 428 : 597 : 2830130 : 0
 Mouse : 615 : 270 : LeftButtonDown : 0 : 0 : 0
 Mouse : 615 : 270 : LeftButtonUp : 0 : 0 : 0
-ENDIF											   
+ENDIF
 IF PIXEL COLOR EQUALS : 970 : 330 : 1576710 : 0
 Mouse : 955 : 339 : LeftButtonDown : 0 : 0 : 0
 Mouse : 955 : 339 : LeftButtonUp : 0 : 0 : 0
@@ -629,10 +629,10 @@ DELAY : 55
 Mouse : 350 : 280 : LeftButtonDown : 0 : 0 : 0
 Mouse : 350 : 280 : LeftButtonUp : 0 : 0 : 0
 REPEAT : 100 : 0 : 0 : Enter the number of iterations: : 0 : 0
-				IF PIXEL COLOR EQUALS : 428 : 597 : 2830130 : 0
+IF PIXEL COLOR EQUALS : 428 : 597 : 2830130 : 0
 Mouse : 615 : 270 : LeftButtonDown : 0 : 0 : 0
 Mouse : 615 : 270 : LeftButtonUp : 0 : 0 : 0
-ENDIF							   
+ENDIF
 Mouse : 96 : 336 : LeftButtonDown : 0 : 0 : 0
 Mouse : 96 : 336 : LeftButtonUp : 0 : 0 : 0
 DELAY : 1
@@ -975,6 +975,10 @@ IF PIXEL COLOR EQUALS : 469 : 424 : 16777215 : 0
 Mouse : 510 : 500 : LeftButtonDown : 0 : 0 : 0
 Mouse : 510 : 500 : LeftButtonUp : 0 : 0 : 0
 ENDIF
+IF PIXEL COLOR EQUALS : 573 : 445 : 16777215 : 0
+Mouse : 510 : 500 : LeftButtonDown : 0 : 0 : 0
+Mouse : 510 : 500 : LeftButtonUp : 0 : 0 : 0
+ENDIF
 IF PIXEL COLOR EQUALS : 566 : 448 : 7173481 : 0
 DELAY : 100
 GOTO : acc
@@ -984,15 +988,30 @@ Mouse : 698 : 715 : LeftButtonDown : 0 : 0 : 0
 Mouse : 698 : 715 : LeftButtonUp : 0 : 0 : 0
 ENDIF
 IF PIXEL COLOR EQUALS : 16 : 287 : 80476 : 0
-DELAY : 100
-Mouse : 510 : 665 : LeftButtonDown : 0 : 0 : 0
-Mouse : 510 : 665 : LeftButtonUp : 0 : 0 : 0
+GOTO : atlanta
 ELSE
+IF PIXEL COLOR EQUALS : 272 : 359 : 65280 : 0
+Mouse : 250 : 395 : LeftButtonDown : 0 : 0 : 0
+Mouse : 250 : 395 : LeftButtonUp : 0 : 0 : 0
+ENDIF
 DELAY : 100
 GOTO : enter
 ENDIF
 DELAY : 100
+LABEL : atlanta
+IF PIXEL COLOR EQUALS : 121 : 631 : 15778560 : 0
+DELAY : 100
+Mouse : 510 : 665 : LeftButtonDown : 0 : 0 : 0
+Mouse : 510 : 665 : LeftButtonUp : 0 : 0 : 0
 GOTO : start script
+ELSE
+Mouse : 545 : 500 : LeftButtonDown : 0 : 0 : 0
+Mouse : 545 : 500 : LeftButtonUp : 0 : 0 : 0
+Mouse : 920 : 805 : LeftButtonDown : 0 : 0 : 0
+Mouse : 920 : 805 : LeftButtonUp : 0 : 0 : 0
+DELAY : 1000
+GOTO : enter
+ENDIF
 LABEL : ring
 IF IMAGE : Qk2aAwAAAAAAADYAAAAoAAAAHwAAAAcAAAABACAAAAAAAAAAAADEDgAAxA4AAAAAAAAAAAAA/v////S+0P/7ikn////i//vt///0i0r/9IpJ//uLSv///+L/+eH0//SKSf/8vkr////0//nh9P/0ikn/9ItK//3SSf//////9NLi//SLSv//7bj//Pj///SKm//0i0r//+24//7////0vtD/9ItK//SKSf/8vkr////0//WLSv/1jEr/+otK///40P/8+P//9Yyc//WLSv/7i0r////i//ri9P/1i0r/9YtK///tuf///////////////////////f////WLuf/1i0r//+25//z4///1i5z//dNK///////10+L/9YtK//WLSv/1i0r//L9K////9P/1i0r//tNK////////////+uH0//aMSv/1i0r//IxK////4v/64vT/9YtK//aMSv/900r//v////W+0P/8jEr////i//zt///1i0r/9oxK///tuf//////////////////////+uL0//WLSv/2jEr/9YtK//2/Sv////T///jQ///////9+P//9oyc//aMSv/3jEv/9oxK//yMS////+L/++L0//aMSv/2jEv//IxK////4v/87f///tNL//7////3v9D/9oxK//aMS///7bn//fj///aMnP/2jEv//tNK///////20+L/9oxL//aMSv/9v0v////0///////30+L/9oxK//eMSv/2jEr/94xL//aMSv/8jEr////i//vi9P/2jEr/94xK//aMSv//7bn//v/////t4v/9+P//94yc//aMSv/3jEr//+25//34///2jJz/94xK//yMSv///+L/+uL0//eMSv/2jEr//b9L////9P////T/+NTi//2/S/////T/++L0//iNS//3jEv//I1L////4v/74vT/94xL//iNS//3jEr//cBL////9P//////++L0//iNS//3jEv/+I1L///tuf/9+P//94yc//iNS//9v0r////0//fT4v/4jUv/94xK//3AS/////T//+25/////////////fj///iMnP/+1Ev////////////////////////////9+P//+Iyc//uNS///+ND///////i/0P/4jUv/+I1L//iNS///7bn///////////////////////zt///4jUv//+Kc/////////////////w== : 1 : 20 : 0 : 
 Mouse : 0 : -100 : Click : 0 : 1 : 0

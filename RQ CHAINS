@@ -106,38 +106,36 @@ DELAY : 100
 GOTO : enter
 ENDIF
 IF CLIPBOARD EQUALS : 4 : 0 : 0
+Mouse : 429 : 405 : LeftButtonDown : 0 : 0 : 0
+Mouse : 429 : 405 : LeftButtonUp : 0 : 0 : 0
+Keyboard : R : KeyDown
+Keyboard : R : KeyUp
+Keyboard : Q : KeyDown
+Keyboard : Q : KeyUp
+Keyboard : X : KeyDown
+Keyboard : X : KeyUp
 Keyboard : Z : KeyDown
 Keyboard : Z : KeyUp
-Keyboard : E : KeyDown
-Keyboard : E : KeyUp
-Keyboard : A : KeyDown
-Keyboard : A : KeyUp
-Keyboard : L : KeyDown
-Keyboard : L : KeyUp
-Keyboard : D0 : KeyDown
-Keyboard : D0 : KeyUp
 Keyboard : D2 : KeyDown
 Keyboard : D2 : KeyUp
-Keyboard : D4 : KeyDown
-Keyboard : D4 : KeyUp
 Keyboard : Tab : KeyDown
 Keyboard : Tab : KeyUp
-Keyboard : D : KeyDown
-Keyboard : D : KeyUp
-Keyboard : H : KeyDown
-Keyboard : H : KeyUp
-Keyboard : Y : KeyDown
-Keyboard : Y : KeyUp
-Keyboard : L : KeyDown
-Keyboard : L : KeyUp
-Keyboard : O : KeyDown
-Keyboard : O : KeyUp
-Keyboard : L : KeyDown
-Keyboard : L : KeyUp
+Keyboard : D1 : KeyDown
+Keyboard : D1 : KeyUp
 Keyboard : D2 : KeyDown
 Keyboard : D2 : KeyUp
-Keyboard : D4 : KeyDown
-Keyboard : D4 : KeyUp
+Keyboard : D3 : KeyDown
+Keyboard : D3 : KeyUp
+Keyboard : D1 : KeyDown
+Keyboard : D1 : KeyUp
+Keyboard : D2 : KeyDown
+Keyboard : D2 : KeyUp
+Keyboard : D3 : KeyDown
+Keyboard : D3 : KeyUp
+Keyboard : A : KeyDown
+Keyboard : A : KeyUp
+Keyboard : A : KeyDown
+Keyboard : A : KeyUp
 Mouse : 515 : 565 : LeftButtonDown : 0 : 0 : 0
 Mouse : 515 : 565 : LeftButtonUp : 0 : 0 : 0
 DELAY : 100
@@ -156,8 +154,8 @@ Keyboard : O : KeyDown
 Keyboard : O : KeyUp
 Keyboard : B : KeyDown
 Keyboard : B : KeyUp
-Keyboard : D4 : KeyDown
-Keyboard : D4 : KeyUp
+Keyboard : D2 : KeyDown
+Keyboard : D2 : KeyUp
 Keyboard : Tab : KeyDown
 Keyboard : Tab : KeyUp
 Keyboard : D1 : KeyDown
@@ -291,255 +289,7 @@ Mouse : 515 : 565 : LeftButtonUp : 0 : 0 : 0
 DELAY : 100
 GOTO : enter
 ENDIF
-IF CLIPBOARD EQUALS : 9 : 0 : 0
-Keyboard : G : KeyDown
-Keyboard : G : KeyUp
-Keyboard : W : KeyDown
-Keyboard : W : KeyUp
-Keyboard : N : KeyDown
-Keyboard : N : KeyUp
-Keyboard : O : KeyDown
-Keyboard : O : KeyUp
-Keyboard : O : KeyDown
-Keyboard : O : KeyUp
-Keyboard : B : KeyDown
-Keyboard : B : KeyUp
-Keyboard : D1 : KeyDown
-Keyboard : D1 : KeyUp
-Keyboard : Tab : KeyDown
-Keyboard : Tab : KeyUp
-Keyboard : D1 : KeyDown
-Keyboard : D1 : KeyUp
-Keyboard : D2 : KeyDown
-Keyboard : D2 : KeyUp
-Keyboard : D3 : KeyDown
-Keyboard : D3 : KeyUp
-Keyboard : D1 : KeyDown
-Keyboard : D1 : KeyUp
-Keyboard : D2 : KeyDown
-Keyboard : D2 : KeyUp
-Keyboard : D3 : KeyDown
-Keyboard : D3 : KeyUp
-Mouse : 515 : 565 : LeftButtonDown : 0 : 0 : 0
-Mouse : 515 : 565 : LeftButtonUp : 0 : 0 : 0
-DELAY : 100
-GOTO : enter
-ENDIF
-IF CLIPBOARD EQUALS : 10 : 0 : 0
-Keyboard : K : KeyDown
-Keyboard : K : KeyUp
-Keyboard : I : KeyDown
-Keyboard : I : KeyUp
-Keyboard : L : KeyDown
-Keyboard : L : KeyUp
-Keyboard : L : KeyDown
-Keyboard : L : KeyUp
-Keyboard : E : KeyDown
-Keyboard : R : KeyDown
-Keyboard : R : KeyUp
-Keyboard : E : KeyUp
-Keyboard : D4 : KeyDown
-Keyboard : D4 : KeyUp
-Keyboard : T : KeyDown
-Keyboard : T : KeyUp
-Keyboard : D4 : KeyDown
-Keyboard : D4 : KeyUp
-Keyboard : Tab : KeyDown
-Keyboard : Tab : KeyUp
-Keyboard : K : KeyDown
-Keyboard : K : KeyUp
-Keyboard : I : KeyDown
-Keyboard : I : KeyUp
-Keyboard : L : KeyDown
-Keyboard : L : KeyUp
-Keyboard : L : KeyDown
-Keyboard : L : KeyUp
-Keyboard : E : KeyDown
-Keyboard : E : KeyUp
-Keyboard : R : KeyDown
-Keyboard : R : KeyUp
-Keyboard : D4 : KeyDown
-Keyboard : D4 : KeyUp
-Keyboard : T : KeyDown
-Keyboard : T : KeyUp
-Keyboard : D4 : KeyDown
-Keyboard : D4 : KeyUp
-Mouse : 515 : 565 : LeftButtonDown : 0 : 0 : 0
-Mouse : 515 : 565 : LeftButtonUp : 0 : 0 : 0
-DELAY : 100
-GOTO : enter
-ENDIF
-IF CLIPBOARD EQUALS : 11 : 0 : 0
-Keyboard : O : KeyDown
-Keyboard : O : KeyUp
-Keyboard : M : KeyDown
-Keyboard : M : KeyUp
-Keyboard : G : KeyDown
-Keyboard : G : KeyUp
-Keyboard : J : KeyDown
-Keyboard : J : KeyUp
-Keyboard : I : KeyDown
-Keyboard : I : KeyUp
-Keyboard : G : KeyDown
-Keyboard : G : KeyUp
-Keyboard : G : KeyDown
-Keyboard : G : KeyUp
-Keyboard : Tab : KeyDown
-Keyboard : Tab : KeyUp
-Keyboard : D : KeyDown
-Keyboard : D : KeyUp
-Keyboard : H : KeyDown
-Keyboard : H : KeyUp
-Keyboard : Y : KeyDown
-Keyboard : Y : KeyUp
-Keyboard : L : KeyDown
-Keyboard : L : KeyUp
-Keyboard : O : KeyDown
-Keyboard : O : KeyUp
-Keyboard : L : KeyDown
-Keyboard : L : KeyUp
-Keyboard : D2 : KeyDown
-Keyboard : D2 : KeyUp
-Keyboard : D4 : KeyDown
-Keyboard : D4 : KeyUp
-Mouse : 515 : 565 : LeftButtonDown : 0 : 0 : 0
-Mouse : 515 : 565 : LeftButtonUp : 0 : 0 : 0
-DELAY : 100
-GOTO : enter
-ENDIF
-IF CLIPBOARD EQUALS : 12 : 0 : 0
-Keyboard : C : KeyDown
-Keyboard : C : KeyUp
-Keyboard : H : KeyDown
-Keyboard : H : KeyUp
-Keyboard : O : KeyDown
-Keyboard : O : KeyUp
-Keyboard : E : KeyDown
-Keyboard : E : KeyUp
-Keyboard : M : KeyDown
-Keyboard : M : KeyUp
-Keyboard : D1 : KeyDown
-Keyboard : D1 : KeyUp
-Keyboard : N : KeyDown
-Keyboard : N : KeyUp
-Keyboard : U : KeyDown
-Keyboard : U : KeyUp
-Keyboard : H : KeyDown
-Keyboard : H : KeyUp
-Keyboard : O : KeyDown
-Keyboard : O : KeyUp
-Keyboard : N : KeyDown
-Keyboard : N : KeyUp
-Keyboard : Tab : KeyDown
-Keyboard : Tab : KeyUp
-Keyboard : D : KeyDown
-Keyboard : D : KeyUp
-Keyboard : H : KeyDown
-Keyboard : H : KeyUp
-Keyboard : Y : KeyDown
-Keyboard : Y : KeyUp
-Keyboard : L : KeyDown
-Keyboard : L : KeyUp
-Keyboard : O : KeyDown
-Keyboard : O : KeyUp
-Keyboard : L : KeyDown
-Keyboard : L : KeyUp
-Keyboard : D2 : KeyDown
-Keyboard : D2 : KeyUp
-Keyboard : D4 : KeyDown
-Keyboard : D4 : KeyUp
-Mouse : 515 : 565 : LeftButtonDown : 0 : 0 : 0
-Mouse : 515 : 565 : LeftButtonUp : 0 : 0 : 0
-DELAY : 100
-GOTO : enter
-ENDIF
-IF CLIPBOARD EQUALS : 13 : 0 : 0
-Keyboard : D : KeyDown
-Keyboard : D : KeyUp
-Keyboard : R : KeyDown
-Keyboard : R : KeyUp
-Keyboard : S : KeyDown
-Keyboard : S : KeyUp
-Keyboard : N : KeyDown
-Keyboard : N : KeyUp
-Keyboard : O : KeyDown
-Keyboard : O : KeyUp
-Keyboard : R : KeyDown
-Keyboard : R : KeyUp
-Keyboard : L : KeyDown
-Keyboard : L : KeyUp
-Keyboard : A : KeyDown
-Keyboard : A : KeyUp
-Keyboard : X : KeyDown
-Keyboard : X : KeyUp
-Keyboard : Tab : KeyDown
-Keyboard : Tab : KeyUp
-Keyboard : D : KeyDown
-Keyboard : D : KeyUp
-Keyboard : H : KeyDown
-Keyboard : H : KeyUp
-Keyboard : Y : KeyDown
-Keyboard : Y : KeyUp
-Keyboard : L : KeyDown
-Keyboard : L : KeyUp
-Keyboard : O : KeyDown
-Keyboard : O : KeyUp
-Keyboard : L : KeyDown
-Keyboard : L : KeyUp
-Keyboard : D2 : KeyDown
-Keyboard : D2 : KeyUp
-Keyboard : D4 : KeyDown
-Keyboard : D4 : KeyUp
-Mouse : 515 : 565 : LeftButtonDown : 0 : 0 : 0
-Mouse : 515 : 565 : LeftButtonUp : 0 : 0 : 0
-DELAY : 100
-GOTO : enter
-ENDIF
-IF CLIPBOARD EQUALS : 14 : 0 : 0
-Keyboard : H : KeyDown
-Keyboard : H : KeyUp
-Keyboard : A : KeyDown
-Keyboard : R : KeyDown
-Keyboard : A : KeyUp
-Keyboard : R : KeyUp
-Keyboard : P : KeyDown
-Keyboard : P : KeyUp
-Keyboard : U : KeyDown
-Keyboard : I : KeyDown
-Keyboard : U : KeyUp
-Keyboard : A : KeyDown
-Keyboard : I : KeyUp
-Keyboard : D2 : KeyDown
-Keyboard : D4 : KeyDown
-Keyboard : A : KeyUp
-Keyboard : D2 : KeyUp
-Keyboard : D4 : KeyUp
-Keyboard : Tab : KeyDown
-Keyboard : Tab : KeyUp
-Keyboard : D0 : KeyDown
-Keyboard : D1 : KeyDown
-Keyboard : D0 : KeyUp
-Keyboard : D2 : KeyDown
-Keyboard : D1 : KeyUp
-Keyboard : D2 : KeyUp
-Keyboard : D2 : KeyDown
-Keyboard : D2 : KeyUp
-Keyboard : D1 : KeyDown
-Keyboard : D3 : KeyDown
-Keyboard : D1 : KeyUp
-Keyboard : D3 : KeyUp
-Keyboard : D0 : KeyDown
-Keyboard : D0 : KeyUp
-Keyboard : D6 : KeyDown
-Keyboard : D3 : KeyDown
-Keyboard : D6 : KeyUp
-Keyboard : D3 : KeyUp
-Mouse : 515 : 565 : LeftButtonDown : 0 : 0 : 0
-Mouse : 515 : 565 : LeftButtonUp : 0 : 0 : 0
-DELAY : 100
-GOTO : enter
-ENDIF
-IF CLIPBOARD EQUALS : 100 : 0 : 2
+IF CLIPBOARD EQUALS : 5 : 0 : 2
 SET CLIPBOARD : 1 : 0 : Please enter the text to store in clipboard:
 GOTO : acc
 ENDIF
@@ -549,6 +299,10 @@ GOTO : acc
 ENDIF
 SET CLIPBOARD : 1 : 0 : Please enter the text to store in clipboard:
 GOTO : acc
+IF CLIPBOARD EQUALS : 100 : 0 : 2
+SET CLIPBOARD : 1 : 0 : Please enter the text to store in clipboard:
+GOTO : acc
+ENDIF
 LABEL : mdew
 IF WINDOW EXISTS : GodsWar Online : 0
 ELSE
@@ -613,8 +367,8 @@ ELSE
 GOTO : open gw
 ENDIF
 IF WINDOW EXISTS : Prompt : 0
-CLOSE WINDOW : Prompt : 0
 GOTO : open gw
+CLOSE WINDOW : Prompt : 0
 ENDIF
 IF PIXEL COLOR EQUALS : 906 : 416 : 3670001 : 0
 Mouse : 906 : 416 : LeftButtonDown : 0 : 0 : 0
@@ -680,7 +434,36 @@ ENDIF
 ENDREPEAT
 DELAY : 100
 GOTO : open bag
+LABEL : position
 LABEL : check quest sack
+IF PIXEL COLOR EQUALS : 987 : 186 : 10445617 : 1
+GOTO : locate
+ENDIF
+IF PIXEL COLOR EQUALS : 738 : 188 : 5029375 : 0
+Mouse : 738 : 188 : LeftButtonDown : 0 : 0 : 0
+Mouse : 738 : 188 : LeftButtonUp : 0 : 0 : 0
+ENDIF
+GOTO : moved
+LABEL : locate
+IF PIXEL COLOR EQUALS : 738 : 188 : 5029375 : 0
+Mouse : 496 : 617 : LeftButtonDown : 0 : 0 : 0
+Mouse : 496 : 617 : LeftButtonUp : 0 : 0 : 0
+DELAY : 200
+GOTO : moving
+ELSE
+Mouse : 960 : 260 : LeftButtonDown : 0 : 0 : 0
+Mouse : 960 : 260 : LeftButtonUp : 0 : 0 : 0
+DELAY : 200
+GOTO : locate
+ENDIF
+LABEL : moving
+DELAY : 50
+IF PIXEL COLOR EQUALS : 827 : 226 : 11445904 : 0
+DELAY : 100
+GOTO : moving
+ENDIF
+GOTO : position
+LABEL : moved
 IF PIXEL COLOR EQUALS : 698 : 813 : 9725357 : 0
 DELAY : 100
 GOTO : check stall
@@ -727,7 +510,7 @@ GOTO : open sack
 ENDIF
 IF PIXEL COLOR EQUALS : 360 : 553 : 263946 : 0
 DELAY : 100
-GOTO : start
+GOTO : move maps to top
 ENDIF
 DELAY : 100
 GOTO : check stall
@@ -759,7 +542,7 @@ DELAY : 100
 GOTO : open stall
 ELSE
 DELAY : 100
-GOTO : start
+GOTO : move maps to top
 ENDIF
 LABEL : open stall
 IF PIXEL COLOR EQUALS : 395 : 548 : 16580093 : 0
@@ -855,7 +638,7 @@ DELAY : 100
 GOTO : delete sack repeat
 ENDIF
 DELAY : 100
-GOTO : start
+GOTO : move maps to top
 LABEL : delete sack repeat
 IF PIXEL COLOR EQUALS : 428 : 597 : 2830130 : 0
 Mouse : 615 : 270 : LeftButtonDown : 0 : 0 : 0
@@ -997,11 +780,6 @@ ENDIF
 IF IMAGE : Qk12BQAAAAAAADYAAAAoAAAADgAAABgAAAABACAAAAAAAAAAAADEDgAAxA4AAAAAAAAAAAAAMTEx/zIyMv8vLy//KSkp/wICAf9BQD//BgcG/wkJCf86Ojr/AgIB/wAAAP8AAAD/G0BS/ylde/8xMTH/MTEx/y4uLv8pKSn/AgIB/0FAP/8GBwb/CQkJ/zo6Ov8DAgH/AAgI/wAICP8mUGD/OXGM/zExMf8zMzP/Li4u/ykpKf8CAgH/QUA//wYHBv8JCQn/Ojo6/wICAf8ACAj/AAgI/yZQYP85cYz/MTEx/zExMf8vLy//KSkp/wICAf9BQD//BgcH/wkJCf86Ojr/AwIB/wAICP8ACAj/JlBg/zlxjP8yMjL/MTEx/zExMf8pKSn/AwIB/0FAP/8GBwb/CQkJ/zo6Ov8DAgH/AAgI/wAICP8mUGD/OXGM/zIyMv8xMTH/MDAw/yoqKv8DAgH/QUA//wYHBv8JCQn/Ojo6/wMCAf8AAAD/EyY0/yZTaP85eZz/MzMz/zExMf8vLy//LCws/wICAf9BQD//BgcG/wkJCf86Ojr/AwIB/wAAAP8TJjT/OXmc/zl5nP8yMjL/MTEx/zAwMP8uLi7/AwIB/0FAP/8GBwb/CQkJ/zo6Ov8DAgH/AAAA/xMmNP85eZz/OXmc/zc3N/80NDT/Ly8v/zExMf8CAgH/QUA//wYHBv8JCQn/Ojo6/wMCAf8AAAD/EyY0/zl5nP85eZz/Q0ND/zs7O/8vLy//MTEx/wMCAf9BQD//BgcG/wkJCf86Ojr/AwIB/wAEEP8ABBD/MWN+/0qOtf9BQUH/OTk5/y8vL/8wMDD/AwIB/0FAP/8GBwb/CQkJ/zo6Ov8DAgH/AAQQ/wAEEP8xY37/So61/z09Pf82Njb/Ly8v/zAwMP8DAgH/QUA//wYHBv8JCQn/Ojo6/wMCAf8ABBD/AAQQ/zFjfv9KjrX/OTk5/zY2Nv8vLy//MTEx/wMCAf9BQD//BgcG/wkJCf86Ojr/AwIB/wAEEP8ABBD/MWN+/0qOtf8zMzP/MjIy/zExMf8xMTH/AwIB/0FAP/8GBwb/CQkJ/zo6Ov8DAgH/AAAI/wAACP85dZz/OXWc/zIyMv8xMTH/MTEx/y4uLv8CAQD/QUA//wYHBv8JCQn/Ojo6/wMCAf8AAAj/AAAI/zl1nP85dZz/MzMz/zIyMv8vLy//LCws/wICAf9BQD//BgcH/wkJCf86Ojr/AwIB/wAACP8TJTn/OXWc/zl1nP8yMjL/MjIy/zExMf8qKir/AgIB/0FAP/8GBwb/CQkJ/zo6Ov8DAgH/AAAI/xMlOf85dZz/OXWc/zIyMv8yMjL/Ly8v/ykpKf8DAgH/QUA//wYHBv8JCQn/Ojo6/wMCAf8IAAj/Jio3/2OGlP9jhpT/MTEx/zIyMv8tLS3/KSkp/wICAf9BQD//BgcG/wkJCf86Ojr/AwIB/wgACP8IAAj/RFxl/2OGlP8zMzP/MjIy/y0tLf8pKSn/AgIB/0FAP/8GBwb/CQkJ/zo6Ov8DAgH/CAAI/wgACP9EXGX/RFxl/zExMf8xMTH/LS0t/ykpKf8CAgH/QUA//wYHBv8JCQn/Ojo6/wMCAf8IAAj/CAAI/0RcZf9EXGX/MTEx/zIyMv8tLS3/KSkp/wICAP9BQD//BgcG/wkJCf86Ojr/AwIB/yEAEP8hABD/jHmE/4x5hP8xMTH/MjIy/y0tLf8pKSn/AgIB/0FAP/8GBwb/CQkJ/zo6Ov8DAgH/IQAQ/yEAEP+MeYT/jHmE/zExMf8yMjL/LS0t/ykpKf8CAgH/QUA//wYHBv8JCQn/Ojo6/wMCAf8hABD/IQAQ/4x5hP+MeYT/ : 0 : 20 : 0 : 21;329;249;500
 DELAY : 100
 GOTO : xyz
-ENDIF
-IF PIXEL FOUND : 3684408 : 0 : 1 : 593 : 776 : 719 : 986
-ELSE
-DELAY : 100
-GOTO : check full bag
 ENDIF
 IF IMAGE : Qk36AAAAAAAAADYAAAAoAAAABwAAAAcAAAABACAAAAAAAAAAAADEDgAAxA4AAAAAAAAAAAAAI1CM/yFdhP85fp//OX6f/2vH1v9rttb/OYGq/yF5lP8xfZz/MX2c/2u2zv9rts7/OZK1/zmStf83iKX/MX2c/1ikvf9rts7/RI+t/zmStf80f5z/Y6rG/1ikvf9rts7/MX2c/zF9nP85krX/NH+c/2Oqxv9rts7/a7bO/2u2zv9YpL3/NH+c/zmStf85gpz/RIqw/0+du/9arsb/Wq7G/1ilw/9Nl7j/Qo2t/0SKsP9EirD/RIqw/0+du/9jss7/Y7LO/w== : 0 : 10 : 1 : 21;329;39;417
 DELAY : 100
@@ -1433,7 +1211,7 @@ DELAY : 100
 GOTO : check full bag
 LABEL : dragx
 IF IMAGE : Qk12BQAAAAAAADYAAAAoAAAADgAAABgAAAABACAAAAAAAAAAAADEDgAAxA4AAAAAAAAAAAAAMTEx/zIyMv8vLy//KSkp/wICAf9BQD//BgcG/wkJCf86Ojr/AgIB/wAAAP8AAAD/G0BS/ylde/8xMTH/MTEx/y4uLv8pKSn/AgIB/0FAP/8GBwb/CQkJ/zo6Ov8DAgH/AAgI/wAICP8mUGD/OXGM/zExMf8zMzP/Li4u/ykpKf8CAgH/QUA//wYHBv8JCQn/Ojo6/wICAf8ACAj/AAgI/yZQYP85cYz/MTEx/zExMf8vLy//KSkp/wICAf9BQD//BgcH/wkJCf86Ojr/AwIB/wAICP8ACAj/JlBg/zlxjP8yMjL/MTEx/zExMf8pKSn/AwIB/0FAP/8GBwb/CQkJ/zo6Ov8DAgH/AAgI/wAICP8mUGD/OXGM/zIyMv8xMTH/MDAw/yoqKv8DAgH/QUA//wYHBv8JCQn/Ojo6/wMCAf8AAAD/EyY0/yZTaP85eZz/MzMz/zExMf8vLy//LCws/wICAf9BQD//BgcG/wkJCf86Ojr/AwIB/wAAAP8TJjT/OXmc/zl5nP8yMjL/MTEx/zAwMP8uLi7/AwIB/0FAP/8GBwb/CQkJ/zo6Ov8DAgH/AAAA/xMmNP85eZz/OXmc/zc3N/80NDT/Ly8v/zExMf8CAgH/QUA//wYHBv8JCQn/Ojo6/wMCAf8AAAD/EyY0/zl5nP85eZz/Q0ND/zs7O/8vLy//MTEx/wMCAf9BQD//BgcG/wkJCf86Ojr/AwIB/wAEEP8ABBD/MWN+/0qOtf9BQUH/OTk5/y8vL/8wMDD/AwIB/0FAP/8GBwb/CQkJ/zo6Ov8DAgH/AAQQ/wAEEP8xY37/So61/z09Pf82Njb/Ly8v/zAwMP8DAgH/QUA//wYHBv8JCQn/Ojo6/wMCAf8ABBD/AAQQ/zFjfv9KjrX/OTk5/zY2Nv8vLy//MTEx/wMCAf9BQD//BgcG/wkJCf86Ojr/AwIB/wAEEP8ABBD/MWN+/0qOtf8zMzP/MjIy/zExMf8xMTH/AwIB/0FAP/8GBwb/CQkJ/zo6Ov8DAgH/AAAI/wAACP85dZz/OXWc/zIyMv8xMTH/MTEx/y4uLv8CAQD/QUA//wYHBv8JCQn/Ojo6/wMCAf8AAAj/AAAI/zl1nP85dZz/MzMz/zIyMv8vLy//LCws/wICAf9BQD//BgcH/wkJCf86Ojr/AwIB/wAACP8TJTn/OXWc/zl1nP8yMjL/MjIy/zExMf8qKir/AgIB/0FAP/8GBwb/CQkJ/zo6Ov8DAgH/AAAI/xMlOf85dZz/OXWc/zIyMv8yMjL/Ly8v/ykpKf8DAgH/QUA//wYHBv8JCQn/Ojo6/wMCAf8IAAj/Jio3/2OGlP9jhpT/MTEx/zIyMv8tLS3/KSkp/wICAf9BQD//BgcG/wkJCf86Ojr/AwIB/wgACP8IAAj/RFxl/2OGlP8zMzP/MjIy/y0tLf8pKSn/AgIB/0FAP/8GBwb/CQkJ/zo6Ov8DAgH/CAAI/wgACP9EXGX/RFxl/zExMf8xMTH/LS0t/ykpKf8CAgH/QUA//wYHBv8JCQn/Ojo6/wMCAf8IAAj/CAAI/0RcZf9EXGX/MTEx/zIyMv8tLS3/KSkp/wICAP9BQD//BgcG/wkJCf86Ojr/AwIB/yEAEP8hABD/jHmE/4x5hP8xMTH/MjIy/y0tLf8pKSn/AgIB/0FAP/8GBwb/CQkJ/zo6Ov8DAgH/IQAQ/yEAEP+MeYT/jHmE/zExMf8yMjL/LS0t/ykpKf8CAgH/QUA//wYHBv8JCQn/Ojo6/wMCAf8hABD/IQAQ/4x5hP+MeYT/ : 0 : 20 : 1 : 
-GOTO : start
+GOTO : check full bag
 ENDIF
 IF IMAGE : Qk2WAAAAAAAAADYAAAAoAAAABgAAAAQAAAABACAAAAAAAAAAAADEDgAAxA4AAAAAAAAAAAAAODg4/zg4OP84ODj/ODg4/zg4OP84ODj/ODg4/zg4OP89PT3/PT09/zw8PP88PDz/ODg4/zg4OP8/Pz//Ozs7/zs7O/87Ozv/ODg4/zg4OP9AQED/Pz8//zs7O/86Ojr/ : 1 : 0 : 0 : 776;590;216;130
 DELAY : 60
@@ -1451,6 +1229,9 @@ GOTO : move maps to top
 ENDIF
 Mouse : C0 : C0 : LeftButtonUp : 0 : 0 : 0
 LABEL : check full bag
+IF IMAGE : Qk1GBAAAAAAAADYAAAAoAAAAFAAAAA0AAAABACAAAAAAAAAAAADEDgAAxA4AAAAAAAAAAAAASoql/zFtlP9Kor3/SqK9/0KRsP8ucpz/I1CM/y5ynP8jUIz/IV2E/zl+n/85fp//a8fW/2u21v85gar/IWmU/zmBqv9El7j/RJe4/0SXuP9Nk7X/OXmU/0qMqv9ao8D/Soyq/zeIpf83iKX/N4il/yF5lP8xfZz/MX2c/2u2zv9rts7/OZK1/zmStf8uaIT/LmiE/0+du/9Eiqf/T527/0KKrf85eZT/OXmU/0qMqv9ao8D/N4il/zeIpf83iKX/N4il/zF9nP9YpL3/a7bO/0SPrf85krX/NH+c/y5ohP8pVWv/RIqn/0SKp/9Eiqf/Qoqt/0qMqv85eZT/OXmU/1qjwP9jqsb/Y6rG/2Oqxv9jqsb/WKS9/2u2zv8xfZz/MX2c/zmStf80f5z/KVVr/y5ohP85eZT/OXmU/0SKp/9Nk7X/Soyq/1qjwP9rttb/a7bW/2Oqxv9jqsb/Y6rG/2Oqxv9rts7/a7bO/2u2zv9YpL3/NH+c/zmStf8uaIT/LmiE/zl5lP85eZT/T527/1qbvf9jrtP/Y67T/0KKrf9Ciq3/OYKc/zmCnP85gpz/OYKc/0SKsP9Pnbv/Wq7G/1quxv9YpcP/TZe4/0KKrf9Ciq3/UpKt/1KSrf9amrX/a67O/2Ou0/9SmsD/Qoqt/1KawP9Sps7/UqbO/0qbvf9Cja3/RIqw/0SKsP9EirD/T527/2Oyzv9jss7/WKXD/02XuP9amrX/Wpq1/1qatf9jpcb/UprA/1KawP9SmsD/Y67T/0qbvf9Sps7/UqbO/0KNrf9EirD/T527/1quxv9Pnbv/TZe4/1ilw/9jss7/WKXD/1qatf9amrX/Wpq1/2uuzv9jrtP/Y67T/3O+5/9jrtP/Spu9/0qbvf9Sps7/Qo2t/zl5pf9Pnbv/Wq7G/1quxv9Nl7j/WKXD/1ilw/9Ciq3/Y6K9/2uqxv9rqsb/a67W/3O21v97v97/hMfn/3u/3v9rqMj/a6jI/2uoyP9jnr3/Uo6l/2ulvf9rpb3/hMDW/3mtxv9rnrX/a561/3mtxv95sMj/ebDI/3mwyP9rrtb/c7bW/3u/3v+Ex+f/hMfn/3u+3v97vt7/e77e/3O00/+EwNb/hMDW/4TA1v+EwNb/hsDW/3mtxv9rnrX/a561/3mwyP95sMj/ebDI/2uu1v9rrs7/e7/e/3u/3v+Ex+f/e77e/3u+3v97vt7/e77e/5zX7/+c1+//nNfv/5zX7/+Uz+f/hsDW/4bA1v95rcb/ebDI/3mwyP+Ex+f/a67W/2uuzv9zttb/c7bW/3O21v97vt7/c7TT/2uoyP97vt7/nNfv/5zX7/+c1+//nNfv/5TP5/+Uz+f/hsDW/4bA1v+Ex+f/hMfn/3mwyP8= : 0 : 0 : 0 : 149;708;122;36
+GOTO : close
+ENDIF
 LABEL : start
 IF IMAGE : Qk32AwAAAAAAADYAAAAoAAAAKAAAAAYAAAABACAAAAAAAAAAAADEDgAAxA4AAAAAAAAAAAAA//////36+P/9+fb//fn2/////v/sybD/2ZZl/9mWZf/fp37///7+/9mXZv/ZlmX/2ZZl/9mWZf/gqID///79/9mWZf/ZlmX/4KiA///+/f/ZlmX/3J9y///////bm23/2ZZl/9mWZf/ZlmX/2ZZl/9mWZf/gqID///79/9mWZf/ZlmX/4KiA///+/f/ZlmX/2ZZl/9mWZf/ZlmX/3J9y//nv5//nvJ3/2ZZl/92gc/////7/4KmB/9mWZf/ZlmX/4KiA///+/f/ZlmX/2ZZl/9mWZf/ZlmX/4KiA///+/f/ZlmX/2ZZl/+CogP///v3/2ZZl/9+mff////////////////////////////js5P/ZlmX/4KiA///+/f/ZlmX/2ZZl/+CogP///v3/2ZZl/9mWZf/gqYD/9eLV//78+//tzbb/8tvK/9mWZf/nvqD/+vLs/9mWZf/ZlmX/2ZZl/+CogP///v3/2ZZl/9mWZf/ZlmX/2ZZl/+CogP///v7/251v/9mWZf/gqoL//v37/9mWZf/bm23///79/9yecP/ZlmX/2ZZl/+7Qu//15dj/2ZZl/+CogP///v7/25xu/9mWZf/gqoL//v37/9mWZf/ZlmX/+vLs/+/Svf/cn3L/4ayG//349f/amGf/893N/+7RvP/ZlmX/2ZZl/9mWZf/gqID///79/9mWZf/ZlmX/2ZZl/9mWZf/gqID///////Xi1f/cnnD/68es//nv6P/ZlmX/2ZZl//Layf/w18T/25tt/+Cqgv/89vH/6sSp/9mWZf/gqID///79//Ti1P/cnXD/68et//rw6f/ZlmX/2ZZl//z28f/nvJ3/2phn/9mWZv/79O//47KO//359//jsYz/2ZZl/9mWZf/////////////////////////////////ZlmX/4KiA///+/f/nu5z//Pby//z38//lt5X/2ZZl/9mWZf/bm23/8dnH//36+P/89/T/7tC6/9mXZ//ZlmX/4KiA//ry7P/owKP//Pf0//z38//luJf/2ZZl/9mWZf/jsIz/+Ovi//79/f/ZlmX/79O///fp3//8+PX/2phn/9mWZf/ZlmX/2ZZl/+CogP///v3/2ZZl/9mWZf/ZlmX/2ZZl/+CogP///v3/2ZZl/9mWZf/ZlmX/2ZZl/9mWZf/ZlmX/2ZZl/9mWZf/ZlmX/2ZZl/9mWZf/ZlmX/2ZZl/9mWZf/ZlmX/2ZZl/9mWZf/ZlmX/2ZZl/9mWZf/ZlmX/2ZZl/9mWZf/ZlmX/ : 0 : 50 : 1 : 925;81;41;6
 DELAY : 100

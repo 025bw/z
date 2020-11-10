@@ -1,0 +1,280 @@
+int getIntegerInput(char* prompt) {
+//loop while user input invalid
+while (1) {
+int number;
+char character;
+printf("%s", prompt);
+int read = scanf("%d%c", &number, &character);
+fpurge(stdin);
+//if input read was a number and enter character
+if (read == 2 && character == '\n') {
+return number;
+} else {
+printf("Invalid input! Please enter a number\n");
+}
+}
+}
+
+int getIntegerInputLimit(char* prompt, int min, int max) {
+//loop while user input invalid
+while (1) {
+int number;
+char character;
+printf("%s", prompt);
+int read = scanf("%d%c", &number, &character);
+fpurge(stdin);
+//if input read was a number and enter character
+if (read == 2 && character == '\n') {
+//if number was in range min and max
+if (number >= min && number <= max) {
+return number;
+} else {
+printf("Please enter from %d to %d!\n", min, max);
+}
+} else {
+printf("Invalid input! Please enter a number\n");
+}
+}
+}
+
+int getOptionMenu() {
+printf("=========== Array Manipulations ============\n");
+printf("1. Add a value\n");
+printf("2. Search a value\n");
+printf("3. Remove the first existence of a value\n");
+printf("4. Remove all existences of a value\n");
+printf("5. Print out the array\n");
+printf("6. Sort array in ascending order (preserved position)\n");
+printf("7. Sort array in descending order (preserved position)\n");
+printf("8. Quit\n");
+int option = getIntegerInputLimit("Please choose one option: ", 1, 8);
+printf("\n");
+return option;
+}
+
+void addValueToArray(int** pointerArray, int* size, int value) {
+//if array size is smaller than 100
+if (*size < 100) {
+int newSize = ++(*size);
+*pointerArray = realloc(*pointerArray, newSize * sizeof (int));
+(*pointerArray)[newSize - 1] = value;
+} else {
+printf("Array is full of 100 element, can't add more!\n");
+}
+}
+
+void addValueProgram(int** pointerArray, int* size) {
+int value = getIntegerInput("Enter a value to add: ");
+addValueToArray(pointerArray, size, value);
+printf("Successfully added %d to array!\n\n", value);
+}
+
+void displayArray(char* announcement, int* array, int size) {
+//if array is empty
+if (size == 0) {
+printf("There is no number available in the array!\n\n");
+} else {
+printf("%s\n", announcement);
+//access every element of array
+for (int i = 0; i < size; i++) {
+printf("%d ", array[i]);
+}
+printf("\n\n");
+}
+}
+
+int getIndexSearchValue(int* array, int size, int search) {
+int index = -1;
+//access from first to last element of array
+for (int i = 0; i < size; i++) {
+//if element is equal to search value
+if (array[i] == search) {
+index = i;
+break;
+}
+}
+return index;
+}
+
+void displayIndexFound(int index, int search) {
+//if return index is -1
+if (index == -1) {
+printf("Not found %d in array\n", search);
+} else {
+printf("Found %d at index: %d\n", search, index);
+}
+}
+
+void searchValueProgram(int* array, int size) {
+int search = getIntegerInput("Enter a value to search: ");
+int index = getIndexSearchValue(array, size, search);
+displayIndexFound(index, search);
+printf("\n");
+}
+
+void removeFirst(int** pointerArray, int* size, int value) {
+int* array = *pointerArray;
+//access from first to last element of array
+for (int i = 0; i < *size; i++) {
+//if element is equal to remove value
+if (array[i] == value) {
+//access from the current index to second last index of array
+for (int j = i; j < *size - 1; j++) {
+array[j] = array[j + 1];
+}
+array = realloc(array, --(*size) * sizeof (int));
+break;
+}
+}
+}
+
+void removeAll(int** pointerArray, int* size, int value) {
+int* array = *pointerArray;
+//access from first to last element of array
+for (int i = 0; i < *size; i++) {
+//if element is equal to remove value
+if (array[i] == value) {
+//access from the current index to second last index of array
+for (int j = i; j < *size - 1; j++) {
+array[j] = array[j + 1];
+}
+array = realloc(array, --(*size) * sizeof (int));
+i--;
+}
+}
+}
+
+void removeFirstOccurrenceProgram(int** pointerArray, int* size) {
+int value = getIntegerInput("Enter a value to remove first existence: ");
+int index = getIndexSearchValue(*pointerArray, *size, value);
+//if value is in array
+if (index != -1) {
+removeFirst(pointerArray, size, value);
+printf("Successfully deleted first occurrence of %d in array!\n\n", value);
+}else{
+printf("Not found %d in array!\n\n", value);
+}
+
+}
+
+void removeAllOccurrenceProgram(int** pointerArray, int* size) {
+int value = getIntegerInput("Enter a value to remove all existences: ");
+int index = getIndexSearchValue(*pointerArray, *size, value);
+//if value is in array
+if (index != -1) {
+removeAll(pointerArray, size, value);
+printf("Successfully deleted all occurrences of %d in array!\n\n", value);
+}else{
+printf("Not found %d in array!\n\n", value);
+}
+}
+
+int* getCopyArray(int* array, int size) {
+int* copyArray = (int*) malloc(size * sizeof (int));
+//loop through original array element
+for (int i = 0; i < size; i++) {
+copyArray[i] = array[i];
+}
+return copyArray;
+}
+
+void swapNumber(int* num1, int* num2) {
+int temp = *num1;
+*num1 = *num2;
+*num2 = temp;
+}
+
+void bubbleSortAscending(int* array, int size) {
+//loop from first index to second last index of array
+for (int i = 0; i < size - 1; i++) {
+int swapped = 0;
+//access from first index to index of second last index minus current index
+for (int j = 0; j < size - 1 - i; j++) {
+//if array element is greater than subsequent array element
+if (array[j] > array[j + 1]) {
+swapNumber(array + j, array + j + 1);
+swapped = 1;
+}
+}
+//if no two element is swapped in this loop
+if (swapped == 0) {
+break;
+}
+}
+}
+
+void bubbleSortDescending(int* array, int size) {
+//loop from first index to second last index of array
+for (int i = 0; i < size - 1; i++) {
+int swapped = 0;
+//access from first index to index of second last index minus current index
+for (int j = 0; j < size - 1 - i; j++) {
+//if array element is smaller than subsequent array element
+if (array[j] < array[j + 1]) {
+swapNumber(array + j, array + j + 1);
+swapped = 1;
+}
+}
+//if no two element is swapped in this loop
+if (swapped == 0) {
+break;
+}
+}
+}
+
+void sortAscendingProgram(int* array, int size) {
+int* copyArray = getCopyArray(array, size);
+bubbleSortAscending(copyArray, size);
+displayArray("The array after sorting in ascending order is:", copyArray, size); }
+
+void sortDescendingProgram(int* array, int size) {
+int* copyArray = getCopyArray(array, size);
+bubbleSortDescending(copyArray, size);
+displayArray("The array after sorting in descending order is:", copyArray, size); }
+
+int main(int argc, char** argv) {
+//create array to store integer value
+int* array = NULL;
+//initialize size of array
+int size = 0;
+//loop until user choose quit option
+while (1) {
+//allow user to enter one option
+int option = getOptionMenu();
+//switch between inputted option
+switch (option) {
+case 1:
+//allow user to add one value
+addValueProgram(&array, &size);
+break;
+case 2:
+//allow user to search for a value
+searchValueProgram(array, size);
+break;
+case 3:
+//allow user to enter a value and remove first occurrence 
+removeFirstOccurrenceProgram(&array, &size);
+break;
+case 4:
+//allow user to enter a value and remove all occurrences 
+removeAllOccurrenceProgram(&array, &size);
+break;
+case 5:
+//display array
+displayArray("The array is: ", array, size);
+break;
+case 6:
+//sort array ascending and then display the array
+sortAscendingProgram(array, size);
+break;
+case 7:
+//sort array descending and then display the array
+sortDescendingProgram(array, size);
+break;
+case 8:
+exit(0);
+break;
+}
+}
+return (EXIT_SUCCESS);
+}
